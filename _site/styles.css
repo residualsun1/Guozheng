@@ -1,0 +1,52 @@
+/* css styles */
+
+@font-face {
+  font-family: 'Source Han Serif CN';
+  src: local('Source Han Serif CN'), local('Source Han Serif SC'),
+       local('Source Han Serif TC'), local('Source Han Serif TW'),
+       local('Source Han Serif'), local('Noto Serif CJK SC'), local('Songti SC'), local('SimSong'),
+       url('https://cdn.jsdelivr.net/gh/residualsun1/infont/SourceHanSerifCN-Regular-from-yihui.woff2') format('woff2');
+}
+
+@font-face { 
+   font-family: 'FandolKai'; 
+   src: local('Kaiti'), local('Kaiti SC'), local('STKaiti'), local('楷体'), local('SimKai'), local('AR PL KaitiM GB'), local('DFKai-SB'), local('FandolKai'), 
+        url('https://cdn.jsdelivr.net/gh/residualsun1/infont/AR-PL-KaitiM-GB-from-yihui.woff2') format('woff2'); 
+ } 
+
+main, p {
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Ysabeau Office', 'Source Han Serif CN', serif;
+  font: normal 16px/1.5em; /*原来是1.05em，也没有normal*/
+  line-height: 2.00;
+  letter-spacing: 0.009em;
+}
+
+.main > p:first-of-type::first-line {
+  font-variant: small-caps;
+  letter-spacing: .05em;
+  font-size: 1.1em;
+}
+.main > p:first-of-type::first-letter {
+  font-size: 3em;
+  padding: .1em .1em 0 0;
+  float: left;
+  line-height: 1em;
+  font-family: cursive;
+
+/* mobile query up for screens up to ~576px wide */
+@media screen and (max-width: 576px) {
+
+  /* wrap lately section */
+  #lately .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* listings */
+  #blog, #lifestream, #literatures, #r {
+    flex-basis: 100% !important;
+  }
+  
+  toc {
+    display: flex;
+  }

@@ -1,0 +1,90 @@
+project:
+  type: website
+
+website:
+  favicon: img/logo.png
+  title: "Residualsun"
+  site-url: "https://residualsun.blog/"
+  page-navigation: true
+  back-to-top-navigation: true
+  # reader-mode: true
+  open-graph: true
+  sidebar:
+    style: floating
+    contents:
+      - section: Contents
+        contents: 
+          - auto: '*.qmd'
+       
+
+  navbar:
+    collapse-below: lg
+    title: Residualsun
+    site-url: "https://residualsun.blog/"
+    pinned: true
+    right:
+      - text: Posts
+        href: posts/index.qmd
+      - text: Daily
+        href: daily/index.qmd
+      - text: Reading
+        href: reading/index.qmd
+            
+      #- icon: github
+      #  href: https://github.com/residualsun1
+      #- icon: twitter
+      #  href: https://twitter.com/Residualsun1
+      
+  page-footer:
+    left: >-
+      powered by [Quarto](https://quarto.org)
+    right: © Copyright 2023 ❤️ Residualsun
+      
+format:
+  html:
+    theme: 
+      light: [Cosmo, rwds.scss] # https://bootswatch.com/5/minty/_variables.scss
+      dark: [Cyborg, rwds-dark.scss]
+    css: styles.css
+    grid:
+      sidebar-width: 250px
+      body-width: 750px
+      margin-width: 250px
+    header-includes: |
+      <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Oxygen+Mono&family=Ysabeau+Office&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/key-buttons.min.js" defer></script>
+      <link href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/key-buttons.min.css" rel="stylesheet">
+    smooth-scroll: true
+    #link-external-icon: false
+    #link-external-newwindow: true
+    code-fold: true
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    #toc-depth: 3
+    #toc-title: 目录
+    toc-location: right
+    table-of-contents: true
+    #anchor-sections: true
+    # code settings
+    #monofont: 'JetBrains Mono'
+    code-link: true
+    code-summary: '&#8984;+C' # https://symbl.cc/en/collections/special-symbols/
+    code-line-numbers: false
+    code-overflow: wrap
+    linestretch: 1.5
+    
+execute: 
+  freeze: auto
+  
+editor: source #在Rstudio中总是使用源代码模式。改为visual则是预览模式。
+
+comments:
+  giscus:
+    repo: residualsun1/Guozheng
+mainfont: 'Ysabeau Office'
+    
+incremental: true
+
+#lang: en

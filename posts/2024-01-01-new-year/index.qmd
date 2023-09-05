@@ -1,0 +1,14 @@
+---
+title: "New year"
+author: "Guozheng Huang"
+date: "2024-01-01"
+categorise: ["Daily"]
+toc: true
+image: "https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/cover/2024-01-01.jpg"
+---
+
+---
+
+Hello, 2024.
+
+I have written a simple introduce about the ceremony of *greeting the Gods* in Xibu this morning. Its content encouraged Fantuan and Zhuang to visit Grandpa Feizhen and Grandma Tan this afternoon.

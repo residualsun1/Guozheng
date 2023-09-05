@@ -1,0 +1,112 @@
+---
+title: "Guozheng Huang"
+#subtitle: "Residualsun"
+image: "img/avatar.jpg"
+image-alt: "Residualsun"
+back-to-top-navigation: false
+
+listing: 
+- id: posts
+  contents: "../posts/*/**/index.qmd"
+  sort: "date desc"
+  type: grid
+  #grid-columns: 3 #这个是规定行数的。
+  #max-items: 3 #这个是设置展示多少帖子出来的。
+  page-size: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, image]
+  #image-height: "200"
+- id: reading
+  contents: "../reading/*/**/index.qmd"
+  sort: "date desc"
+  type: grid
+  #grid-columns: 3 #这个是规定行数的。
+  #max-items: 3 #这个是设置展示多少帖子出来的。
+  page-size: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, image]
+  #image-height: "200"
+#- id: daily
+#  contents: 
+#    - "../daily/*/**/index.qmd"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, image]
+#  max-items: 1
+#  image-height: "200"
+about:
+  template: jolla
+  image-shape: round
+  image-width: 12em
+  id: hero-heading
+page-layout: article
+toc: false
+sidebar: false
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+  
+comments: false
+---
+
+![](hi.gif){width="7%"}Hello, this is Guozheng Huang's English blog. I am an ordinary Chinese junior student who likes to listen to *Jay Chou* and *My Little Airport* when I am idle, *Linkin Park* when I am depressed, and *Leslie Cheung* when I am nostalgic.
+
+I am learning English writing now and committed to being a long-termist.
+
+<!--
+::: {.panel-tabset align="left"}
+## Interests
+
+-   Writing
+-   Reading
+-   Talking
+
+## Education
+
+-   **B.S.** \| Sociology \| [2021 - 2025]{#date style="color:darkgrey;"}
+
+-->
+
+<!--
+## Experience
+
+-   **Postdoctoral Fellow**
+
+    The Chinese University of Hong Kong
+
+    [Dec 2022 - June 2023]{style="color:darkgrey;"}
+
+-   **Associate Researcher**
+
+    Stanford Research Institute (SRI)
+
+    [June 2021 - Jan 2022]{style="color:darkgrey;"}
+    
+:::
+-->
+
+## Recent posts
+
+::: {#posts}
+:::
+
+<a href="../posts/index.html"><button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+
+<br>
+
+## Recent reading
+
+::: {#reading}
+:::
+
+<a href="../reading/index.html"><button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>

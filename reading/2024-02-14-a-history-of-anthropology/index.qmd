@@ -1,0 +1,513 @@
+---
+title: "A History of Anthropology"
+author: "Guozheng Huang"
+date: "2024-02-14"
+categories: [A History of Anthropology]
+image: "https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/cover/2024-02-14-a.jpg"
+---
+
+## 02-14
+
+Even though a preface in this book also cost my half an hour.
+
+In preface, the author proposed niche of the book:
+
+> "This is an ambitious book, but not a **pretentious** ones. **It is ambitious in that it tries, within the space of relatively few pages, to make sense of the diverse history of anthropology**."
+
+It is a little hard to say, while I must admit that what encouraged me to write down above sentence was the seemingly uncomplicated, but actually easily understood meaning. The reason why I recorded it was I would like to get the hang of the framework of the sentence. As what you can see, "……in that it tries, within the space of……, to make sense of……"
+
+The author was prudential[^note1].
+
+[^note1]: cautious
+
+> "Our priorities, **omissions** and interpretations are bound to be **contested**, since there can be no single authoritative history of anything, least of all a **sprawling**, dynamic and **disputed** like anthropology. Sill, the book is **unpretentious**, since our aim throughout has been to offer a **sober** and balanced account of the historical growth of anthropology as a discipline, not to propose a **radical** re-interpretation of it."
+
+Uh, a shameful news: the bolded words are all my unfamiliar[^note2] and unspelled words.
+
+[^note2]: It occurred to me "strange" at first.
+
+I haven't read any scholarly literature and textbook on the history of anthropology. According to the author, "The scholarly literature is often specialised, and existing textbooks on anthropological history are either more **theoretically** **oriented** or more committed to one or a few professional traditions."
+
+> "Although we may not always have succeeded, we have **strived to** **give an impression** of the **parallel**, **convergent** and **interdependent** developments of all major traditions in social and cultural anthropology."
+
+How can we translate above sentence? It seems that Deepl can't also work.
+
+> "尽管我们不一定总能成功，但我们一直在努力让人们了解社会和文化人类学所有主要传统的平行、趋同和相互依存的发展。"
+
+This Chinese translation is weird.
+
+> "The book is **chronologically** ordered. Beginning with the 'proto-anthropology' from ancient Greece to Enlightenment, it continues with the creation of academic anthropology and the growth of classic sociology during the nineteenth century. The third chapter concentrates on the four men who, by general **consensus**, are considered the founding fathers of twentieth-century anthropology, and the fourth chapter indicates how their work was continued, and diversified, by their students. The fifth and sixth chapters both deal with the same period-from 1946 to about 1968, but concentrate on different trends: Chapter 5 discusses the **theoretical** **controversies** surrounding concepts of society and social integration, while Chapter 6 covers concepts of culture and symbolic meaning. In Chapter 7, the **intellectual** and political **unheavals** of the 1960s and 1970s are presented, with emphasis on the impulses emanating from Marxism and feminism. Chapter 8 deals with the 1980s, concentrating on the postmodernist movement and its close cousin, postcolonialism, two critical trends, which seriously challenged the discipline's self-confidence; while the ninth and final chapter presents a few of the major post-postmodern trends that emerged during the 1990s"
+
+Okay, we can briefly summarize the timeline.
+
+Nineteenth century(from ancient Greece to Enlightenment):1,2--Twentieth century, four men:3, four men's students:4, 1946-1968:5,6, 1960s-1970s:7, 1980s:8, 1990s:9,10
+
+It's worth noting that the author didn't consider the history of anthropology to be a linear tale of progress. The reason is that some 'modern' **controversies**, for example, have occupied scholars since the Enlightenment and even earlier. And there has been a steady, cumulative growth in konwledge and understanding within the subject, not least with regard to method. Moreover, "as anthropology responds to changes in the outside world, its substantial focus changes accordingly".
+
+## 02-15
+
+I come back to practice my English through reading and recording anthropological origin again. This is the first chapter, "Proto-Anthropology".
+
+> "Opinions are divided on this issue."
+
+The reason why I want to record this sentence is that I would like to use it in my writing.
+
+Some stories concerning some people who are around us or far away from us were written down, nevertheless, they were **criticised** as **inaccurate** or **ethnocentric(or flatly racist)**
+
+> "In this broad sense, we start an anthropological **enquiry** the moment a foreigner moves into the neighbouring flat."
+
+This is the first time I have seen "In this broad sense", and I always misunderstand the meaning of "enquiry".
+
+> "……others again would argue that anthropological research in its present-day sense only **commenced** after the First World War."
+
+> "**It is beyond doubt**, however, that anthropology, considered as the science of hunmanity, originated in the region we commonly refer to as 'the West', **notably** in four 'Western' countries: France, Britain, the USA and Germany. **Historically speaking**, this is the European discipline, and its **practitioners**, like those of all European sciences, **occasionally** like to trace its roots back to the ancient Greeks."
+
+Actually, I always pay attention to adverb in articles. For example, "notably" means especially or most importantly. "occasionally" means sometimes but not often.
+
+> "……we today believe that 'the ancient Greeks' **differed quite radically** from ourselves."
+
+Yep, I just want to record  "radically" or "quite radically". "radically" means completely or extremely.
+
+> "……free citizens regarded manul labour as **degrading**."
+
+"degrading" is an interesting adjective, it means causing people to feel that they have no value.
+
+> "……democracy(which was also 'invented' by the Greeks) was probably more similar to the the competitive *potlatch* feasts of the Kwakiutl(Chapter 4), than to the **institutions** described in modern **constitutions**(Finley 1973; P.Anderson 1974)."
+>
+> "……民主(也是希腊人“发明”的)可能更类似于夸库特尔人(Chapter 4)的竞争性夸富宴，而不是现代宪法中描述的制度(Finley 1973; P.Anderson 1974)。"
+
+okay, I would like to translate it in Chinese, because I can't still understand its meaning……
+
+## 02-16
+
+Encountering a challenge when I click into the next page.
+
+> "Going back to the Greeks is thus a long journey, and we **peer into** their world through cracked and smoky glass."
+
+The Chinese meaning of "peer", "cracked", "smoky" and "glass" is strange for me. "peer into" is similar to "stare".
+
+Okay, the next one is a long and difficult sentence.
+
+> "We **catch glimpses of** little city-states surrounded by traditional Iron Age **farmland** where family and **kinship** formed the main social units, connected to the outside world through a network of **maritime** trade relationships between urban settlements along the Mediterranean and Black Sea coasts. "
+
+In above sentence, "where" played an important role in my understanding. Deepls translated it as "在那里" in English.
+
+To my shame, I have no idea on an easy sentence because of some words.
+
+> "The trade in **luxury** goods and the free labour **entailed** by slavery brought considerable wealth to the cities."
+
+Damn it.
+
+> "……the citizens of polis, **with their distaste for** manual work, had at their **disposal** a large **surplus**, which they used, among other things, to wage war, and to build temples, stadiums, baths and other public buildings, where male citizens could meet and engage in philosophical **disputes** and speculations about how the world was put togrther."
+
+Herodotus(希罗多德) wrote some detailed travel **narratives**. All right, I just want to record the word "narrative", its meaning are <u>"a story or description of a series of events"(即中文中的故事或叙述)</u> and <u>"a particular way of explaining or understanding events"(中文中的陈述)</u>.
+
+> "In these narratives, **far removed as they are from our present world**[^note3], we recognise a problem that has **pursued** anthropology, in various **guises**, up to this day: how should we relate to 'the Others'? Are they basically like ourselves, or basically different?"
+
+[^note3]: "In these narratives, far removed as they are from our present world" can be translated as "在这些远离我们当今世界的叙事中"。
+
+The author think Herodotus and most, if not all, anthropological theory has tried to strike a balance between these positions. But Herodotus was sometimes a prejudiced and **ethnocentric** '**civilised** man', who **disdains** everything foreign. However, Herodotus didn't agree with some statements that different peoples have different values because they **are morally deficient**.
+
+> "Herodotus' descriptions of language, dress, political and **judicial** institutions, crafts and economics are highly readable today."
+
+Familiar "institution", it appeared in the end of [02-15](https://residualsun.blog/reading/2024-02-14-a-history-of-anthropology/#section-1), original sentence is "*……democracy(which was also ‘invented’ by the Greeks) was probably more similar to the the competitive potlatch feasts of the Kwakiutl(Chapter 4), than to the institutions described in modern constitutions(Finley 1973; P.Anderson 1974)*." Institution has at least two meanings, one of it is "<u>a custom or tradition that has existed for a long time and is accepted as an important part of a particular society(制度，习俗)</u>", and the other one is "<u>a large and important organization, such as a university or bank(机构)</u>". "Constitution" seems have similar structure with it, whcih means "宪法" in Chinese.
+
+> "Many Greeks tested their **wits** against a philosophical **paradox** that touches directly on the problem of how we should relate to 'the Others'."
+
+## 02-17
+
+> "The **Sophists** of **Athens** are sometimes described as the first philosophical relativists in the European tradition(several almost **contemporary** thinkers in Asia, such as Gautama Buddha, Confucius and Lao-Tze, were concerned with similar questions)"
+
+The theme within this chapter is backing to the roots about anthropology, so we can find many words which are in the same theme such as city-states, citizen, sophist, Athens, Persians, Herodotus, Socrates, Plato and Aristotle.
+
+> "In Plato's(427-347 bce) **dialogues** Protagoras and Gorgias, Socrates argues with the Sophists."
+
+I can hardly ever understand the next sentence.
+
+> "We may picture them in **dignified** **intellectual** battle, surrounded by colourful temples and **solemn** public buildings, with their slaves **scarcely** visible in the shadows between the **columns**."
+
+It turns out that "picture" means "image", and "dignified" is similar to "solemn"!
+
+> "Other citizens stand as **spectators**, while Socrates' faith in a universal reason, capable of **ascertaining** universal truths, **is confronted by** the relativist view that truth will always vary with experience and what we would today call culture. "
+
+This is a long difficult sentence…… 
+
+> "Plato's dialogues do not deal directly with cultural differences. But they **bear witness to the fact that** cross-cultural **encounters** were part of everday life in the city-states."
+
+Keep in mind that "bear witness to the fact that".
+
+> "Airstotle(384-322 BCE) also **indulged in** **sophisticated** **speculations** about the nature of humanity"
+
+> "In anthropology and elsewhere, such a universalistic style of thought, which seeks to establish similarities rather than differences between groups of people, **play a prominent role** to this day. **Furthermore**, it seems clear that anthropology has **vacillated** up through history between a universalistic and a relativistic **stance**, and that central figures in the discipline are also often said to **lean** either towards one position or the other."
+
+From now then on, I can replace "play an important role" with "play a prominent role". Figures in this sentence means "protagonist".
+
+## 02-18
+
+> "Conditions were perhaps particularly favourable for the development of systematic science."
+
+Remember a concrete useful method from a sentence. Sth. be adj for sth.
+
+> "But **in the ensuing** centuries well, 'civilised' activities, science and philosophy were **cultivated** all around the Mediterranran."
+
+"in the ensuing" could be used to connect the structure between word and word. "civilised" appear many times, while I still haven't remembered it. The last word, "cultivate" seems to be similar to "form"/"development".
+
+> "……and impressed on <u>its population</u> <u>a culture</u> **deriving** from Greek ideals"
+
+impress on sb./sth. sb./sth. A fantastic framework. 
+
+> "In this complex, multinational society, it is not surprising to find that the Greek interest in 'the Other' **was also carried on**"
+
+What attract me is "be carried on".
+
+> "Thus, the geographer Strabo(*c*.63-64BCE-*c*.CE21) wrote several **voluminous** **tomes** about strange peoples and distant places, which sparkle with curiosity and the joy of discovery. "
+
+"voluminous tomes" can be a wonderful together.
+
+> "Gone were the **affluent** citizens of the cities of **Antiquity**, who could **indulge** in science and philosophy, thanks to their income from trade and slave labour. Gone, indeed, was the entire city culture, the very **glue** that held the Roman Empire together as an(albeit loosely)" integrated state."
+
+We can peer into a structure through above sentence——Gone be sth./sb. That can mean something disappeared.
+
+> "In its palce, countless local European peoples **manifested** themselves, carriers of Germanic, Slavic, Finno-Ugric and Celtic traditions thar were as ancient as those of pre-urban Greece."
+
+Antiquity is a noun, and ancient is an adjective.
+
+> "Politically, Europe fell apart into hundreds of **chiefdoms**, cities and **autonomous** local **enclaves**, which were only integrated into large units with the growth of the modern state, from the sixteenth century **onwards**"
+
+> "Under the aegis of Church, international networks of monks and clergymen arose and flourished, connecting the pockets of learning **in which** the philosophy and scientific traditions of Antiquity survived.[^note4] "
+
+[^note4]: 在教会的支持下，由修道士和神职人员组成的国际网络兴起并蓬勃发展，将古代哲学和科学传统赖以生存的小块学术区域连接起来。
+
+"in which" in above sentence could be used to decorate "connecting the pockets of learning" with "the philosophy and scientific traditions of Antiquity survived"
+
+> "Europeans like to see themselves as **linear** **descendants** of Antiquity, but throughout the Middle Ages, Europe was economic, political and scientific **periphery**."
+
+> "Following the rise of **Islam** in the seventh century, the **Arabs** **conquered** **territories** from Spain to India and, for at least the next seven centuries, the economic, political and intellectual centres of the Mediterranean world lay in **sophisticated** *metropolises* such as Baghdad and Cordoba, not in the ruins of Rome or Athens, nor in **glorified** villages such as London or Paris."
+
+"intellectual" appears many times in this chapter, I remember. 
+
+## 02-19
+
+> "He developed one of the first non-religious social theories, and **anticipated** Emile Durkheim's ideas about social solidarity (Chapter 2), which are today considered a **cornerstone** of sociology and anthropology"
+
+I regard "anticipate" as "against" at first…… 
+
+> "**In line with** Durkheim and the first anthropologists who utilised his theories, Khaldun stresses the importance of kinship and religion in creating and maintaining a sense of solidarity and mutual commitment among the members of a group."
+
+"In line with" means sb and sb are in the same condition. I
+
+> "His theory of difference between **pastoral** **nomads** and city-states may, **with the wisdom of hindsight**, be said to have **been centuries ahead of time**."
+
+Interesting, "with the wisdom of hindsight" is an idiom.
+
+> "**In spite of** the cultural **hegemony** of the Arab world, there are a few European writings from the late **medieval** period, which may be considered **precursors** of latter-day anthropology. Most famous is Marco Polo's (1245-1323) **account** of his **expedition** to China, where he **allegedly** spent 17 years."
+
+"account" also means a written or spoken description of an events.
+
+> "Then, **with the advent of** **mercantilist** economies and the **contemporaneous** **Renaissance** in the sciences and arts, the small, but rich European cities of the late Middle Ages began to develop rapidly, and the earliest signs of a capitalist class emerged."
+
+## 02-20
+
+> "……the travels of this period fed the imaginations of Europeans with vivid descriptions of places whose very existence they had been unaware of."
+
+Sth feed the imagination of sb with sth
+
+> "Many of the early **travelogues** from the New World were full of **factual** errors and saturated with Christian **piety** and cultural prejudices"
+
+Travelogues could be regarded as [travel narrative](http://localhost:4350/reading/2024-02-14-a-history-of-anthropology/#section-2). 
+
+> "Native Americans are, as a rule, represented as **distorted** or, frequently, **inverted** reflections of Europeans: they are godless, **promiscuous**, naked, have no authority or laws; they are even **cannibals**!"
+
+"promiscuous" means "(of a person) having a lot of different sexual partners or sexual relationships, or (of sexual habits) involving a lot of different partners". Occasionally, I believe many people are a little promiscuous.
+
+> "Against this background, Vespucci argues effectively for the virtues of **absolutist** **monarchy** and **papal** power, but his ethnographic descriptions are **virtually** useless as clues to native life at the time of the **Conquest**."
+
+The structure of "virtue" is similar to "virtually". But they have different meaning. The former is a good moral quality, the latter is almost and using a computer to do or see something . 
+
+> "In most of the books, a more or less **explicit** **contrast** is drawn between the Others(who are either 'noble **savages**' or 'barbarians') and the existing order in Europe(which is either challenged or defended)"
+
+"savages" has the same meaning with "barbarians".
+
+## 02-21
+
+> "As we shall see in later chapters, the **legacy** of these early, morally ambiguous accounts still weighs on **contemporary** anthropology, and to this day, anthrpologists **are often accused of** distorting the reality of the peoples they write about - in the colonies, in the Third World, among **ethnic minorities** or in **marginal areas**."
+
+Here, "accounts" means a written or spoken description of a event. And "contemporary" has been shown up in books so far, how can I remember it? marginal is similar to margin in HTML, haha. 
+
+---
+
+> "And, as in Vespucci's case, these descriptions **are often denounced as** telling us more about the anthropologist's own background than about the people under study."
+
+"denounce" is similar to "accuse". be accused of doing / be denounced as doing. 
+
+I denounce promiscuous behavior, and she was denounced on her promiscuous behavior.
+
+---
+
+> "The conquest of America contributed to a **veritable** revolution among European **intellectuals**."
+
+"intellectual" has been appeared much times like "contemporary". It has two meaning, one of it is about smart and celver, and the other one is a very educated person.
+
+---
+
+> "Not only did it **provoke** thought about cultural differences, it soon became clear that an entire continent had been discovered which was not even mentioned in the **Bible**!"
+
+"provoke" would be a more than useful verb, which refers to "to cause a reaction, especially negative one". Bible is a holy book of the Christian religion.
+
+---
+
+> "This potentially **blasphemous** insight stimulated the **ongoing** **secularisation** of European intellectual life, the liberation of science from the authority of the Church, and the **relativisation** of concepts of morality and personhood."
+
+"blasphemous" means considered offensive to God or religion. I can't find "secularisation" in Cambridge Dictionary but "secular" which is an adjective, and there is "secularization" in research results in bing. 
+
+1. [Secularization: Definition and Examples - ThoughtCo](https://www.thoughtco.com/secularization-definition-3026575): It is a pretty article, I would like to record a section from it:
+
+> "Secularization is a cultural transition in which religious values are gradually replaced with nonreligious values. In the process, religious figureheads such as church leaders lose their authority and influence over society.
+>
+> In the field of sociology, the term is used to describe societies that have become or are becoming modernized—meaning that features of society such as the government, the economy, and schools are more distinct, or less influenced by religion.
+>
+> Individuals within a society may still practice a religion, but it is on an individual basis. Decisions about spiritual matters are personal, family, or culturally based, but religion itself does not have a large impact on society as a whole."
+
+2. [Secularization - Sociology - Oxford Bibliographies](https://www.oxfordbibliographies.com/display/document/obo-9780199756384/obo-9780199756384-0073.xml)
+
+---
+
+> "During the Middle Ages, philosophers assumed that God had created the world **once and for all** and given its **inhabitants** their particular natures, which they had since **retained**."
+
+"once and for all" is an idiom, means completely and finally[note5].
+
+[note5]: 一劳永逸
+
+---
+
+> "This **in turn** led to **embryonic** notions of progress and development, which **heralded** a radical break with the **static** worldview of the Middle Ages, and in the later history of anthropology, notions of development and progress have at times played an important role."
+
+"embryonic" refers to "starting to develop". "herald" means "to be a sign that something important, and often good, is starting to happen, or to make something publicly known, especially by celebrating or praising it." To my surprise, "static" means "staying in one place without moving, or not changing for a long time."
+
+---
+
+> "Among the most striking expressions of this new-found, subjective freedom, are the *Essais*  (1580) of the French philosopher Michel de Montaigne (1533-1592). **With an open-mindedness and in a personal style that were unheard of at the time**, Montaigne **speculates** about numerous issues large and small. Unlike nearly all his contemporaries, Montaigne, in his writings about remote peoples, appears as what we today would call a cultural relativist. In the essay 'Of Cannibals', he even concludes that if he had been born and raised in a cannibal tribe, he would in all likelihood himself have eaten human flesh."
+
+"With an open-mindedness and in a personal style that were unheard of at the time" can be used in some sentences. *Essais* is a book which have been read by my friends.
+
+---
+
+## 02-22
+
+> "Montaigne **invoked** le bon sauvage, 'the noble savage', an idea of the assumed **inherent** goodness of stateless peoples, which is another part of the common **heritage** of anthropology."
+
+"invoke" has similar meaning with "quote". "inherent" means existing as a natural or basic part of something. Actually, I remember one of the features of anthropologist is Anarchism, which was mentioned by David Graeber.
+
+> "However, the clear-cut 'Cartesian dualism' that is often criticised by anthropologists is a **caricature** of Descartes'thought. Descartes distinguished two kinds of substance: that of thought and mind, which had no **spatial** dimensions, and that of the spatially organised world. The latter could be **partitioned up**, measured and **made subject to** the laws of mathematics so its true properties might be revealed, the former could not."
+
+make subject to……
+
+> "Descartes' philosophical system is **derived** from this **axiomatic** truth"
+
+*derive from something* means get something from something else. *axiomatic* means obviously true and therefore not needing to be proved.
+
+---
+
+## 02-23
+
+I come back to make up reading plan this day.
+
+> "He asserted that the individual was the measure of all things."
+
+*assert* is different from *think* and 'argue', however, similar to *claim* and *maintain*, it means "to say that something is certainly true".
+
+Making a summary about sb. say something: think, believe, assert, claim.
+
+Do you have inborn intellect?
+
+> "When sense impressions put their mark on the blank slate, the intellect combined them with other sense impressions to form ideas about the world that become points of **departure** for **abstraction** and **generalisation**"
+
+> "All over Europe, kings and prices **were confronted by** the demands of an increasingly **restive** and powerful **liberal** **bourgeoisie** demands that the Ruler be bound by law to respect the rights of individuals to property, personal security and rational public debate. "
+
+*be confronted by* means to face, meet, or deal with a difficult situation or person. *restive* means unwilling to be controlled or be patient. *liberal* is not in line with *free*,  the former is conceret, such as beliefs, behavior, society, "giving or given in a generous way". It can also means not exact, without attention to or interest in detail.
+
+*bourgeoisie* is a classic word, which refers to (in Marxism) the part of society, including employers and people who run large companies, that has most of the money and takes advantage of ordinary workers.
+
+---
+
+## 02-24
+
+> "As in Descartes, the '**primitives**' are a minor concern withth this larger argument. They remain a category of **contrast**. 'Children, idiots, savages, and **illiterate** people' are 'of all others the least **corrupted** by custom, or borrowed opinion', writes Locke."
+
+*illiterate* means unable to read and write. *primitive* can be found in anthropological books many times, it relate to human society at a very early stage of development, with people living in a simple way without machines or a writing system. To be honest, *corrupt* makes someone or something become dishonest or immoral.
+
+> "This brief review of the prehistory of anthropology has suggested that a number of issues that would later **attain** **prominence** in the discipline had been the subject of **extensive** debate since Antiquity."
+
+*prominence* means the state of being easily seen or ell known. *extensive* means cobering a large area and having a great range.
+
+> "In spite of these **continuities**, we maintain that anthropology as a science only appeared at a later stage, though it is true that its birth was a more gradual process than is sometimes assumed."
+
+continue, continuity. *maintain* means express firmly your belief that something is true.
+
+> "The discipline is a product, not merely of a series of **singular** thoughts such as those we have mentioned above, but of wide-ranging changes in European culture and society, that in time would lead to the formation of capitalism, individualism, secularised science, patriotic nationalism and cultural reflexivity."
+
+*singular* represents noticeable, unusual or strange.
+
+---
+
+## 02-25
+
+> "First, we have seen that the encounter with 'the Other' stimulated European intellectuals to see society as an **entity** **undergoing** change and growth, from relatively simple, small scale communities, to large, complex nations."
+
+*entity* is a word which has complicated meaning, something that exists apart from the other things, having its own independent existence.
+
+> "But the idea of development or progress **was not confined to** notions of social change."
+
+I just have no idea about *be confined to*. Now, dictionary could tell us it means limit an activity, person, or problem in some way.
+
+> "The individual, too, could develop, through education and career, by **refining** his personality and finding his 'true self'."
+
+Wow! *confine* has similar structure with *refine*. The latter means improve an idea, method, system, etc. by making small changes.
+
+> "And without an **explicit** **discourse** about these ideas, a subject such as anthropology could never arise."
+
+I always forget the meaning of *explicit* and *discourse*. The former means clear and exact, and showing or talking about sex or violence in a very detailed way. *discourse* means communication in speech or writing.
+
+> "The key word was *enlightenment* (*Aufklärung, lumières*), literally **shedding** light on matters that had so far been left in the dark."
+
+shed means produce something such as tears, blood, light, etc.
+
+---
+
+## 02-26
+
+> "Private letters and diaries **evolved** into newspapers and novels, and although **censorship** was still common in most places in Europe, the new media soon gained greater freedom and wider **circulation**."
+
+*evolve* means develop gradually, *censorship* means the act of censoring books, films, etc. If you still don't understand the meaning of it, you can think about *1984*. It aims to control thoughts of citizens. *circulation* means the process in which something such as information, money, or goods passed from one person to another. And, the movement of blood around the body.
+
+> "The bourgeoisie sought to free itself from the power of Church and **nobility**, and to establish in their stead a secular democracy."
+
+*nobility* means the people of the highest social rank in a society, considered as a group.
+
+> "Traditional religious beliefs were increasingly **denounced** as **superstitions** - **roadblocks** on the way to a better society, governed by reason."
+
+*denounce* has been appeared in [02-21](http://localhost:3836/reading/2024-02-14-a-history-of-anthropology/index.html#section-7). It is similar to *accuse*, which means criticize something or someone strongly and publicly. *superstition* can be translated as "迷信" in Chinese. *roadblocks* is "路障/拦路虎".
+
+> "Descartes' purely theoretical attempt to prove the universal truth of mathematics was becoming a practical issue of **incalculable** **relevance**."
+
+**incalculable* means extremely large and therefore unable to be measured.
+
+> "All these expectations **culminated** in the French Revolution, which attempted to realise the dream of a perfectly rational social order in practice, but was quickly **superseded** by its irrational opposite: the revolution **devoured** its children."
+
+*culminate* means if an event or series of events culminates in something, it ends with it, having developed until it reaches this point. *supersede* means replace something, especially something older or more old-fashioned. *devour* means  eat something eagerly and in large amounts or destroy something completely.  
+
+> "Vico proposed a universal **scheme** of social development, in which all societies passed through four phases, with particular, well-defined characteristics."
+
+The meaning of *scheme* is not complicated, which is an officially organized plan or system.
+
+> "The first stage was a 'bestial conditional' without morality or art, followed by an 'Age of Gods', of nature **worship** and **rudimentary** social structure."
+
+*worship* means the act of worshipping God or a god, often through praying or singing. *rudimentary* means simple and not very well developed situation, or basic.
+
+> "Then came the 'Age of Heroes', with widespread social **unrest** due to great social inequality, and finally the 'Age of Man', when class differences disappeared and equality **reigned**."
+
+*unrest* means disagreements or fighting between different groups of people. *reign* means to be the main feeling or quality in a situation or person[^note5].
+
+[^note5]: 主宰、起支配作用、盛行
+
+We can find a sentence method -- something reign supreme in one's heart.
+
+> "This **epoch**, however, was in its turn threatened by **internal** corruption and **degeneration** to 'bestiality'."
+
+*epoch* is similar to *age*, while means a long period of time, especially one in which there are new developments and great change in detailed. *internal* means existing or happening inside a person, object, organization, place, or country. *degeneration* means something gets worse, the process by which something gets worse.
+
+---
+
+## 02-27
+
+> "Here, for the first time, we see a theory of social development that not only **contrasts** **barbarism** and civilisation, but specifies a number of **transitional** stages."
+
+*contrast* is useful, it means compare two things in order to find the differences between them. The civilisation is the opposite of barbarism.
+
+> "Societies do not necessarily develop linearly towards constantly improved conditions, but go through cycles of degeneration and growth."
+
+I agree with it. And I can conclude that the individual is the same.
+
+> "Montesquieu pictures the legal system as an aspect of the wider social system, **intimately**  **entwined** with many other aspects of the larger whole (politics, economy, kinship, **demography**, religion, and so on) - a view that has led many to describe him as a proto-functionalist."
+
+*intimately* means 1. closely in a personal sexual way 2. in a very detailed way. *entwine* means twist something together or around something(verb) or closely connected or unable to be separated(adj).
+
+> "According to Montesquieu, **polygamy, cannibalism, paganism**, slavery and other barbarous customs could be explained by the functions they fulfilled withth society as a whole."
+
+*polygamy* means the fact or custom of being married to more than one person at the same time. *cannibalism* means the practice of a person who eats human flesh, or the behaviour of an animal that eats others of its own type. *paganism* means a religion that worships many gods, especially a religion that existed before the main world religions.
+
+> "He here **exploits** the 'strangeness' of cultural difference to **parody** France at the time of Louis XIV."
+
+*exploit* means to use something in a way that helps you[^note6]. *parody* means to copy the style of someone or something in a humorous way.
+
+> "Even today it remains **controversial**, since Montesquieu has been accused of being a proto-Orientalist (Said 1978, 1993), who **unduly** emphasised the **exoticism** of the Persians."
+
+*controversial* means causing disagreement or discussion. *unduly* means more than is necessary, acceptable, or reasonable. *exoticism* means the quality of being unusual and exciting because of coming (or seeming to come) from far away, especially a tropical country.
+
+[^note6]: 利用
+
+---
+
+## 02-28
+
+> "Diderot's Encyclopedie was published in 1751-72, and included articles by **illustrious** intellectuals like Rousseau, Voltaire and Montesquieu."
+
+*illustrious* means famous, well respected, and admired.
+
+> "It was a **liberal** and wide-ranging, not to say a revolutionary work, which was **censored** in many parts of Europe for its criticism of Church."
+
+*liberal* is not similar to free at all. It means respecting and allowing many different types of beliefs or behaviour. We can say a liberal society/ attitude. *censor* means to remove anything offensive from books, films, etc., or to remove parts considered unsuitable from private letters, especially ones sent during war or from a prison.
+
+> "One of its youngest contributors, Marquis de Condorcet (1743-1794), who was to die prematurely in a Jacobin jail, wrote systematic comparisons between different social systems, and tried to development a **synthesis** of mathematics and social science that would allow him to **formulate[^note7]** objective laws of social development."
+
+*synthesis* means the mixing of different ideas, influences, or things to make a whole that is different, or new. 
+
+[^note7]: 制定、规划、构想
+
+> "Rousseau argued that development was not **progressive**, but **degenerative**, and that the source of **decline** was society itself."
+
+Ok, I ignored that *progress* has two meanings, one of it is developing and happening gradually, and the other one is what I thought at first. *degeneration* has appeared ever before, it means the process by which something gets worse. When *decline* being a noun, it means when something becomes less in amount, importance, quality, or strength.
+
+> "Starting from an **initial**, innocent state of nature, where each individual lived by himself **in harmony with** his surroundings, people went on to found institutions of marriage and kinship, and settled in small, sedentary groups."
+
+I always find *initial* in CSS, it means "最初的". *in harmony with* means 
+
+> "Enentually, these groups grew in complexity, and invented **priests** and chiefs, kings, and princes, private property, police and **magistrates**, until the free and good soul of man was crushed under the weight of society."
+
+> "All human **vices** were the product of society's increasing demands on the individual, particularly the increasing social inequality that development **entailed**."
+
+*vice* means a moral fault or weakness in someone's character. *entail* means to make something necessary, or to involve something.
+
+> "'Man was born free, but is everywhere in chains', he declares in *Du contral social* (1762; *On the Social Contract*, 1978)"
+
+人生而自由，却处处身负枷锁。
+
+> "An individual, says Rousseau, is free if he follows a law he has set for himself, and society can freely follow a law that was **collectively** adopted."
+
+*collectively* means as a group。
+
+---
+
+## 02-29
+
+> "More generally, Rousseau's **elevation** of '**primitives**' at the expense of Europe's corrupted civilisation was an important **precursor** of anthropological cultural relativism, although for Rousseau, as for so many others, the 'primitives' were primarilya mirror image of his own society, a viewpoint that hardly stimulated empirical investigations of real (primitive or modern) societies."
+
+> "While Enlightenment thinkers saw society as a law-bound association of reasoning citizens, Romanticism cultivated the creative, emotional individual, and the warm-blooded community of feeling - the nation."
+
+> "Romanticism is often said to displace the Enlightenment during the years of reaction after the French Revolution. But it may be more accurate, as Gellner (1991) suggests, to see the two movements as **parallel** flows, at times **diverging** or competing, at times **intersecting** and **binding** together. This is especially ture of anthropology, which seeks not only to understand cultural wholes (a Romantic project), but also to **dissect**, analyse and compare them (an enterprise of the Enlightenment). "
+
+---
+
+## 03-01
+
+> "In the eighteenth century, when France and England were strong, **centralised** states, Germany was little more than a **diffuse** **linguistic** area, embracing a medieval **patchwork** of independent **principalities**, free cities and multi-ethnic landscapes that it would take another hundred years to **forge** into a unified nation state."
+
+You can memory *centralise* with *centralised state*[^note8]. *diffuse linguistic* area means some palce doesn't have mutual language. 
+
+
+
+[^note8]: 中央集权国家
+
+References
+
+1. Crossman, Ashley. (2021, September 8). What Is Secularization? Retrieved from https://www.thoughtco.com/secularization-definition-3026575

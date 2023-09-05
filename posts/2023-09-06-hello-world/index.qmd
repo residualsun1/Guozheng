@@ -1,0 +1,15 @@
+---
+title: "Hello world"
+author: "Guozheng Huang"
+date: "2023-09-06"
+categories: [blog]
+description: "Welcome:-)"
+---
+
+<br>
+
+Hello, my first English blog;-)
+
+</br>
+
+![](https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/cover/2023-09-06.jpg)

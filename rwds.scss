@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css2?family=Maven+Pro:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:wght@300;400;500&family=JetBrains+Mono';
+
+/*-- scss:defaults --*/
+// colors
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$darkteal: white;
+$lightwhite: #c0c0c0;
+$gray: #64605f;
+
+
+/*-- scss:rules --*/
+pre code {
+  display: block;
+  border: 1px solid $darkteal;
+  box-shadow: 5px 5px 5px $lightwhite;
+  padding: 1em;
+  overflow-x: auto;
+  line-height: 1.75;
+}
+
+//code {
+//  display: block;
+//  border: 1px solid $darkteal;
+//  box-shadow: 5px 5px 5px $lightwhite;
+//  padding: 1em;
+//  overflow-x: auto;
+//  line-height: 1.75;
+//}
+
+h1, h2, h3 {
+  color: black; 
+  font-family: "Ysabeau Office", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+p { // main font family of post content
+  font-family: 'Ysabeau Office', sans-serif;
+  color: black;
+}
+
+.blockquote {
+  margin: 1em 0;
+  padding: 0 2em;
+}
+
+blockquote:not(:hover) {
+  border-left-color: transparent;
+}
+
+.single blockquote {
+  background: none;
+  border-left-width: 3px;
+  padding: 0 2em;
+}
+
+.blockquote p {
+  color: /*#424c50*/#696969;
+  font-family: "Ysabeau Office", 'Source Han Serif CN', serif;
+}
+
+$link-color: blue;
+
+
+// Code blocks
+//$code-block-bg-alpha: -.7;

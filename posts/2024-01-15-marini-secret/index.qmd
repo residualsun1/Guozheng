@@ -1,0 +1,48 @@
+---
+title: "Seeking Eternity: Marini and his secret"
+author: "Guozheng Huang"
+date: "2024-01-15"
+categories: [Quora, Word Learning]
+image: "https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/cover/2024-01-15.png"
+---
+
+::: callout-note
+Words Today: **corpse**, **formula**, *Petrifier*, *reversibility*, **tissues**, **deceased**, **elastic**, **petrified**, **medallion**, **macabre**, **furnishings**, **scorn**, **sinister**
+:::
+
+A post concerning "Which scientist never revealed the secret of his discovery?" in Quora attracted my attention tonight. A user named Davide Fiore answered the question with Efisio Marini, an Italian scientist who got the hang of a method to preserve corpses through petrifing and restoring it.
+
+![](https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/img/2024-01-15-marini-petrifier.jpg){fig-align="center"}
+
+Efisio Marini(1835-1900) was born in a wealthy family and graduated in medicine and natural sciences. He was employed as an assistant at the natrual histroy museum. That was not his ideal jod, while allowing him to immerse himself in palaeontology research.
+
+![Efisio Marini](https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/img/2024-01-15-marini.jpg){fig-align="center" height="30%"}
+
+Marini believed fossil was the most perfect state, which means *"la vittoria contro la degradazione e la conquista dell’eternità"*[^English] And he was dying to turn the fossil into what it was at the beginning.
+
+![](https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/img/2024-01-15-cartoon.jpg){fig-align="center"}
+
+In 1865, Marini collected blood from wounds of Garibaldi and petrified it to make a medallion which had been sent to Garibaldi in the end.
+
+In 1867, Marini petrified and then restored the natural appearance and consistency of an Egyptian's foot in front of Napoleon III's eyes, which impressed the emperor so much.
+
+![](https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/img/2024-01-15-foot.jpg){fig-align="center"}
+
+Marini even gave away a tea table consists of blood, bile, brain, liver, lymphaden and lungs which were petrified naturually.
+
+He became famous abroad, while being scorned by his countrymen who could not receive sinister aspects in his work. Pepole gossiped and taunted him  on the wall, contributing to distrub his life.
+
+> “UNU TONTU CHE SA PERDA SU CHI SALIDI IS PIPPIUS, CIRCADA DE SPILIDI IS BIUS NENDI CHI IMPERDADA IS MORTUS, MA CUM TOTUS IS CONFORTUS ADI FATTU CUNCURRUMBEDDU."
+
+Finally, Marini left his country and took his mysterious secret of "petrifier" formula to the grave in Naples. 
+
+[^English]: Overcoming degradation and conquering eternity.
+
+---
+
+Reference:
+
+[Which scientist never revealed the secret of his discovery?](https://qr.ae/pKlZgY)
+
+[Efisio Marini, il pietrificatore](https://percorsidisardegna.wordpress.com/2011/02/16/efisio-marini-il-pietrificatore-2/)
+

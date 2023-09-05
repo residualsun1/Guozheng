@@ -1,0 +1,16 @@
+{
+  "hash": "758be1211b9a2b941e7a651ce50af48e",
+  "result": {
+    "markdown": "library(rmarkdown)\nlibrary(fs)\n\n# 设置 Quarto 项目的根目录\nquarto_project_path <- \"D:/04_Rrender/Quarto/Guozheng\"\n\n# 设置输出目录为 _site 文件夹\noutput_path <- file.path(quarto_project_path, \"_site\")\n\n# 递归查找所有 .qmd 文件\nqmd_files <- dir_ls(quarto_project_path, recurse = TRUE, regexp = \"\\\\.qmd$\")\n\n# 循环遍历并渲染每个 .qmd 文件，指定输出路径为 _site 文件夹\nfor (qmd_file in qmd_files) {\n  render(qmd_file, output_dir = output_path)\n}",
+    "supporting": [
+      "render_all_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

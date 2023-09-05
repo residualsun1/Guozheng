@@ -1,0 +1,30 @@
+---
+title: | 
+  <center>A rose for little king</center>
+description: |
+  <br>
+  <center>
+  This is a home for my English writing practice<br>
+  Welcome!
+  </center>
+  <br>
+listing: 
+  contents: 
+    - "**/index.qmd"
+    #- "**/index.markdown"
+    #- "**/index.md"
+  sort: "date desc"
+  type: default
+  categories: cloud
+  page-size: 9
+comments: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, author, categories, date, image]
+#  image-align: right
+#toc: false
+#format: 
+#  html: 
+#    page-layout: full
+title-block-banner: true
+---

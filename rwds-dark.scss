@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css2?family=Maven+Pro:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:wght@300;400;500&family=JetBrains+Mono:ital@0;1';
+
+/*-- scss:defaults --*/
+$darkteal: white;
+$lightwhite: #c0c0c0;
+$gray: #64605f;
+ 
+/*-- scss:rules --*/
+#quarto-content {
+  color: $lightwhite;
+  background-color: black;
+}
+
+h1, h2, h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.blockquote {
+  margin: 1em 0;
+  padding: 0 2em;
+  color: #999999;
+}
+
+blockquote:not(:hover) {
+  border-left-color: transparent;
+}
+
+.single blockquote {
+  background: none;
+  border-left-width: 3px;
+  padding: 0 2em;
+}
+
+.blockquote p {
+  color: #999999;
+}
+
+.listing-date {
+  color: $lightwhite;
+}
+
+.listing-author{
+  color: $lightwhite;
+}
+
+// Code blocks
+div.sourceCode, div.sourceCode pre.sourceCode {
+  background-color: #133337;
+}
+
+pre code {
+  display: block;
+  border: 1px solid $darkteal;
+  box-shadow: 5px 5px 5px $darkteal;
+  padding: 1em;
+  overflow-x: auto;
+  line-height: 1.75;
+}
+
+/*-- scss:rules --*/
+h1, h2, h3 {
+  //color: #333333; 
+  font-family: "Ysabeau Office", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+p { // main font family of post content
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #d3d7d4;
+}
+

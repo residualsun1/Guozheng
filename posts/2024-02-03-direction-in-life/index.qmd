@@ -1,0 +1,27 @@
+---
+title: "Direction in Life"
+author: "Guozheng Huang"
+date: "2024-02-03"
+categories: [daily]
+image: "https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/cover/2024-02-03.jpeg"
+---
+
+My friend called me in WeChat last night. He said he just wanted to be a "couch potato"[^f1] rather than do anything now.
+
+[^f1]: a lazy and inactive person, especially refers to one who spends a great deal of time watching television. [https://www.merriam-webster.com/dictionary/couch%20potato](https://www.merriam-webster.com/dictionary/couch%20potato)
+
+To be honest, I was a little cheered up and had some sympathy for him. May you would think it is weird--actually this is what I perceive it now. He was not satisfied with his life, it seems that there was something to do, while he couldn't. For example, he wanted to do game development while he couldn't continue doing it.
+
+The problem is complex. He said he wanted to do something--just no staying at home which prevent him from complishing studing. I was cheered up because I am doing something and especially it is about my major. But I know I am also encounting difficulties like everyone, differences between us are my chance. I possess a chance assess to field work. That's why I have sympathy for him--I am in trouble while I am resisting it at the same time.
+
+I dind't know how to comfort him, instead I made him disappointed. 
+
+Alexey provied some advice on his blog.
+
+> [How to do what you love](https://paulgraham.com/love.html) by Paul Graham:
+>
+> Another test you can use is: always produce. For example, if you have a day job you don't take seriously because you plan to be a novelist, are you producing? Are you writing pages of fiction, however bad? As long as you are producing, you'll know you're not merely using the hazy vision of the grand novel you plan to write one day as an opiate. The view of it will be obstructed by the all too palpably flawed one you're actually writing.
+>
+> "Always produce" is also a heuristic for finding the work you love.If you subject yourself to that constraint, it will automatically push you away from things you think you're supposed to work on, toward things you actually like. "Always produce" will discover your life's work the way water, with the aid of gravity, finds the hole in your roof.
+
+What do I think of it? I agree with it at all. Keep writing Chinese blog has been my own "Always produce". I have no idea what to do in my future, while keeping it gives a wave of hope to me. I like doing it, even if I eager to do nothing sometimes. However, I believe we would be freshed if we can overcome "nothing is meaningful", "why not be a couch potato" during "always produce". 

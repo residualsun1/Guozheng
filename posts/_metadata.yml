@@ -1,0 +1,21 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+
+number-sections: true
+number-depth: 3
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+execute: 
+  freeze: false
+
+title-block:
+  style: center
+
+toc: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+sidebar: false
+
+toc-location: left

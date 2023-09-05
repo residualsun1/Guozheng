@@ -1,0 +1,67 @@
+---
+title: Lost time
+description: | 
+  <br>
+  <center>
+  Remeber me
+  </center>
+  <br>
+listing: 
+  contents: 
+    - "**/index.qmd"
+    - "**/index.markdown"
+    - "**/index.md"
+  sort: "date desc"
+  type: default
+  categories: cloud
+  sort-ui: false
+  filter-ui: false
+  fields: [title, author, categories, date, image]
+  image-align: right
+  page-size: 3
+toc: true
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+
+comments: false
+---
+
+<style>
+h1, h2 {
+  text-align: center;
+}
+</style>
+
+## 2024
+
+### 01-01
+
+In 2024, I still like *散步之年* sung by my little airport. 
+
+<audio controls>
+    <source src="https://cdn.jsdelivr.net/gh/residualsun1/blog-static/audio/散步之年-live.mp3" type="audio/mpeg">
+</audio>    
+
+This is the live version.
+
+### 01-02
+
+I often feel nostalgic when I look through my pictures and miss the past.
+
+### 01-07
+
+> "When you see a sunset, a flower waiting to bloom; when you help someone, or receive kindness from others; when you have an epiphany, a discovery, you ask, what is the meaning behind all this? Perhaps this is the most effective way to "kill" potential "meaning". I think "meaning" is hard to describe, like a puppy's tail, when you deliberately go after it, it disappears in front of your eyes; when you do not care about it, focusing on a moment, a matter, then it will be followed by a hidden, existed in your every move."
+
+### 02-26
+
+If I fell in love, I can make sure **love would reign supreme in my heart**.
+
+### 02-28
+
+The individual do not necessarily develop linearly towards constantly improved conditions, but go through cycles of degeneration and growth.
+
+It is a thought-provoking[^note1] sentence, isn't it?
+
+[^note1]: 发人深省

@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+/resources/
+/.luarc.json
+.quarto
+
+/.quarto/
+README.html
+.Renviron
+env/
+/env/
