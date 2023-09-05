@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Less is more",
+    "section": "",
+    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nHello world\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nGuozheng\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n\nClick to my Chinese blog here."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Me",
+    "section": "",
+    "text": "This is Guozheng Huang’s(you can also call me Residualsun) blog.\nI buildt my first blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th.\nDuring the theme within my first blog doesn’t support multilanguages, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html#basic-information",
+    "href": "about.html#basic-information",
+    "title": "Me",
+    "section": "",
+    "text": "This is Guozheng Huang’s(you can also call me Residualsun) blog.\nI buildt my first blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th.\nDuring the theme within my first blog doesn’t support multilanguages, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown."
+  },
+  {
+    "objectID": "about.html#eaducation",
+    "href": "about.html#eaducation",
+    "title": "Me",
+    "section": "Eaducation",
+    "text": "Eaducation\nGuangzhou University | 2021 - 2025"
+  },
+  {
+    "objectID": "about.html#career",
+    "href": "about.html#career",
+    "title": "Me",
+    "section": "Career",
+    "text": "Career\nSociology"
+  },
+  {
+    "objectID": "posts/2023/09-06/index.html",
+    "href": "posts/2023/09-06/index.html",
+    "title": "Hello, world",
+    "section": "",
+    "text": "Hello, my first English blog."
+  },
+  {
+    "objectID": "posts/2023/09/09-06-hello-world/index.html",
+    "href": "posts/2023/09/09-06-hello-world/index.html",
+    "title": "Hello world",
+    "section": "",
+    "text": "Hello, my first English blog;-)"
+  }
+]
