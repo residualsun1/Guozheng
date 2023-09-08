@@ -10,6 +10,7 @@ listing:
   filter-ui: [title, date]
 page-layout: full
 title-block-banner: true
+comments: false
 ---
 
 You can review the following documents for additional information:
