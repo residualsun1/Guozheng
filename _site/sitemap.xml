@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://residualsun.netlify.app/index.html</loc>
-    <lastmod>2023-09-08T14:51:17.110Z</lastmod>
+    <lastmod>2023-09-08T15:02:00.936Z</lastmod>
   </url>
   <url>
     <loc>https://residualsun.netlify.app/posts/2023/09/09-06-hello-world/index.html</loc>
@@ -11,5 +11,9 @@
   <url>
     <loc>https://residualsun.netlify.app/posts/post-with-code/index.html</loc>
     <lastmod>2023-09-08T14:52:07.805Z</lastmod>
+  </url>
+  <url>
+    <loc>https://residualsun.netlify.app/posts/welcome/index.html</loc>
+    <lastmod>2023-09-08T15:02:03.751Z</lastmod>
   </url>
 </urlset>
