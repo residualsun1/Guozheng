@@ -7,4 +7,3 @@ image: "image.jpg"
 ---
 
 Hello, my first English blog;-)
-
