@@ -5,13 +5,16 @@ website:
   title: "Guozheng's English blog"
   site-url: "https://residualsun.blog/"
   page-navigation: true
+  page-footer: 
+    left: Powered by [Quarto](https://quarto.org/)
+    right: © Copyright 2023 ❤️ 残日留痕
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/residualsun1/
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/Residualsun1
 format:
   html:
     theme: litera
