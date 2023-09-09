@@ -4,6 +4,7 @@ project:
 website:
   title: "Guozheng's English blog"
   site-url: "https://residualsun.blog/"
+  page-navigation: true
   navbar:
     right:
       - about.qmd
