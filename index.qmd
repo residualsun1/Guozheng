@@ -1,21 +1,21 @@
 ---
 title: "Less is more"
 listing:
-  id: sample-listings
-  contents: posts
+  contents: posts/**/*.qmd
   sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: [title, date]
-  filter-ui: [title, date]
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 comments: false
+toc: true
 ---
 
-You can review the following documents for additional information:
+## Recent posts
 
-::: {#sample-listings}
+::: {#posts}
 :::
 
 Click to my Chinese blog [here](https://guozheng.rbind.io).

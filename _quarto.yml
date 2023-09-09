@@ -13,9 +13,7 @@ website:
       - about.qmd
       
       - text: Posts
-        menu: 
-          - text: All posts
-            href: posts/index.qmd
+        href: posts/index.qmd
             
       - text: link
         href: link.qmd
