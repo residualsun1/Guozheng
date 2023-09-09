@@ -61,5 +61,12 @@
     "title": "Hello world",
     "section": "",
     "text": "Hello, my first English blog;-)"
+  },
+  {
+    "objectID": "link.html",
+    "href": "link.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\nThese are some blogs I always visist.\nBea Milz: Inspiring me to bulid my English blog with Quarto\nyihui: The first blog I read\nCryus Yip: Living for himself\nLiechi: Be like a lighthouse with his thinking\n\n\nForum\nThese are forums I always visist.\nCapital Of Statistics: The largest Chinese R forum\nGithub: A new world for me"
   }
 ]

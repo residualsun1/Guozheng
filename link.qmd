@@ -1,0 +1,25 @@
+---
+titile: "Link"
+comments: false
+---
+
+# Blog
+
+These are some blogs I always visist.
+
+[Bea Milz](https://beamilz.com/): Inspiring me to bulid my English blog with Quarto
+
+[yihui](yihui.org): The first blog I read
+
+[Cryus Yip](https://cyrusyip.org/en/): Living for himself
+
+[Liechi](liechi.org): Be like a lighthouse with his thinking
+
+# Forum
+
+These are forums I always visist.
+
+[Capital Of Statistics](https://cosx.org/): The largest Chinese R forum
+
+[Github](https://github.com): A new world for me
+
