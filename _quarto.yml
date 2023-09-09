@@ -17,6 +17,9 @@ website:
             
       - text: link
         href: link.qmd
+      
+      - text: Chinese
+        href: https://guozheng.rbind.io
             
       - icon: github
         href: https://github.com/residualsun1/
