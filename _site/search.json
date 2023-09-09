@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Less is more",
     "section": "",
-    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nHello world\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nGuozheng\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n\nClick to my Chinese blog here."
+    "text": "You can review the following documents for additional information:\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPosts\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nHello world\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 6, 2023\n\n\nGuozheng\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 2, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n\nClick to my Chinese blog here."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -68,5 +68,12 @@
     "title": "Blog",
     "section": "",
     "text": "Blog\nThese are some blogs I always visist.\nBea Milz: Inspiring me to bulid my English blog with Quarto\nyihui: The first blog I read\nCryus Yip: Living for himself\nLiechi: Be like a lighthouse with his thinking\n\n\nForum\nThese are forums I always visist.\nCapital Of Statistics: The largest Chinese R forum\nGithub: A new world for me"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\nSep 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nSep 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nSep 2, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
