@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Guozheng's English blog"
-  site-url: "https://residualsun.netlify.app/"
+  site-url: "https://residualsun.blog/"
   navbar:
     right:
       - about.qmd
