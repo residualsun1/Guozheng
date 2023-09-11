@@ -9,11 +9,11 @@ toc: true
 
 Ahead of my blog, there has been a [blog](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/) which was written by [Bea Milz](https://beamilz.com/) descripe how to create a blog belong to someone.
 
-This blog was inspired by it and contributes to record the process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.
+This blog was inspired by it and contributes to record the learning process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.
 
 Let's begin!
 
-# Work with Quarto
+# 1.Prerequisites
 
 ## Install
 
@@ -29,9 +29,13 @@ You should have all of the softwares blew.
 5.  [GitHub Desktop](https://desktop.github.com/)
 :::
 
-# Work with Rstudio
+And you should have a GitHub account and I assume you could get the basic hang of it.
+
+# 2.Work with Rstudio
 
 You could read [the documentation](https://quarto.org/docs/websites/website-blog.html) offered by Quarto any time. It has standard steps to create a blog.
+
+## 2.1.Create
 
 Actually, quarto could be within Rstudio when downloading finish. Then we should open our Rstudio and click the `file` and then in `New Project`.
 
@@ -49,8 +53,20 @@ Click it and then you would see such an interface.
 
 ![](img/new-project-4.png){fig-align="center" width="80%"}
 
-`Directory name`means place where you want floder of blog to be stored.`Create project as subdirectory of`means place where you want all of the floders concerning blog to be saved. Generally, I save it in D drive.
-
 ::: callout-note
-You can name your own folder of blog.
+`Directory name` means place where you want floder of blog to be stored.`Create project as subdirectory of` means place where you want all of the floders concerning blog to be saved. Generally, I save it in D drive.
 :::
+
+This is a demo.
+
+![](img/new-project-5.png){fig-align="center" width="80%"}
+
+`index.pmd` and `_quarto.yaml` are crucial files.They control arrangement and appearance of your blog. We will discuss it in details later.
+
+## 2.2.Preview
+
+Stay in this interface and click `Render` in `index` file, you would preview your own blog in right window.
+
+![](img/new-project-6.png){fig-align="center" width="80%"}
+
+At this point, you have basically created a simple blog.
