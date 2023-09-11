@@ -3,8 +3,8 @@ title: "Posts"
 listing:
   - id: posts
     contents: "**/*/index.qmd"
-    type: grid
-    fields: [image, date, title, subtitle]
+    type: default
+    fields: [image, date, title, subtitle, author, reading-time]
     sort: "date desc"
     categories: cloud
     sort-ui: true

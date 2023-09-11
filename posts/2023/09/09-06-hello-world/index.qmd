@@ -1,6 +1,7 @@
 ---
 title: "Hello world"
-author: "Guozheng"
+subtitle: "Welcome:-)"
+author: "Guozheng Huang"
 date: "2023-09-06"
 categories: [news, code, analysis]
 image: "image.jpg"
