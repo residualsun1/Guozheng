@@ -96,17 +96,20 @@ div.quarto-post .thumbnail img {
 
 a{
   color: var(--bs-blue);
+  font-family: 'Times New Roman';
 }
 
 b, strong {
     color: var(--bs-blue);
     font-weight: bolder;
+    font-family: 'Times New Roman';
 }
 
 div.quarto-post .listing-categories .listing-category {
     color: var(--bs-blue);
     border: solid 1px var(--bs-gray-400);
     font-size: .8em;
+    font-family: 'Times New Roman';
 }
 
 
