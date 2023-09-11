@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -192,10 +192,8 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 Posts
 </h5>
-<div class="card-text listing-description">
-
-
-
+<div class="listing-reading-time card-text text-muted">
+1 min
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -216,8 +214,19 @@ Posts
 <h5 class="no-anchor card-title listing-title">
 Hello world
 </h5>
-<div class="card-text listing-description">
-Hello, my first English blog;-)
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -241,8 +250,19 @@ Sep 6, 2023
 <h5 class="no-anchor card-title listing-title">
 Post With Code
 </h5>
-<div class="card-text listing-description">
-This is a post with executable code.
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -264,8 +284,13 @@ Sep 5, 2023
 <h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
 </h5>
-<div class="card-text listing-description">
-This is the first post in a Quarto blog. Welcome!
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">

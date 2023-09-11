@@ -5,6 +5,7 @@ listing:
   contents: posts
   sort: "date desc"
   type: grid
+  fields: [image, date, title, subtitle, categories, author, reading-time]
   categories: false
   sort-ui: false
   filter-ui: false
