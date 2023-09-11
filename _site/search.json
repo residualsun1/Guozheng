@@ -74,7 +74,7 @@
     "href": "posts/index.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCreate my own blog\n\n\nLearn how to build blog with Quarto and Desktop\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n2023-09-05\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n2023-09-02\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCreate my own blog\n\n\nLearn how to build blog with Quarto and Desktop\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n2023-09-05\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n2023-09-02\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#recent-posts",
@@ -88,14 +88,14 @@
     "href": "posts/2023/09/09-11-build-blog/index.html",
     "title": "Create my own blog",
     "section": "",
-    "text": "Ahead of my blog, there has been a blog which was written by Bea Milz descripe how to create a blog belong to someone.\nThis blog was inspired by it and contributes to record the process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.\nLet’s begin!"
+    "text": "Ahead of my blog, there has been a blog which was written by Bea Milz descripe how to create a blog belong to someone.\nThis blog was inspired by it and contributes to record the learning process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.\nLet’s begin!"
   },
   {
     "objectID": "posts/2023/09/09-11-build-blog/index.html#install",
     "href": "posts/2023/09/09-11-build-blog/index.html#install",
     "title": "Create my own blog",
     "section": "Install",
-    "text": "Install\nYou should have all of the softwares blew.\n\n\n\n\n\n\nImportant\n\n\n\n\nR\nRstudio\nQuarto\nGit\nGitHub Desktop"
+    "text": "Install\nYou should have all of the softwares blew.\n\n\n\n\n\n\nImportant\n\n\n\n\nR\nRstudio\nQuarto\nGit\nGitHub Desktop\n\n\n\nAnd you should have a GitHub account and I assume you could get the basic hang of it."
   },
   {
     "objectID": "posts/2023/09/09-11-build-blog/index.html#work-with-rstudio",
@@ -103,5 +103,19 @@
     "title": "Hello world",
     "section": "work with Rstudio",
     "text": "work with Rstudio\nMay you could read the documentation offered by Quarto. It has standard steps to create a blog."
+  },
+  {
+    "objectID": "posts/2023/09/09-11-build-blog/index.html#create",
+    "href": "posts/2023/09/09-11-build-blog/index.html#create",
+    "title": "Create my own blog",
+    "section": "2.1.Create",
+    "text": "2.1.Create\nActually, quarto could be within Rstudio when downloading finish. Then we should open our Rstudio and click the file and then in New Project.\n\n\n\n\n\nChoose New directory.\n\n\n\n\n\nScroll down until you find Quarto Blog\n\n\n\n\n\nClick it and then you would see such an interface.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nDirectory name means place where you want floder of blog to be stored.Create project as subdirectory of means place where you want all of the floders concerning blog to be saved. Generally, I save it in D drive.\n\n\nThis is a demo.\n\n\n\n\n\nindex.pmd and _quarto.yaml are crucial files.They control arrangement and appearance of your blog. We will discuss it in details later."
+  },
+  {
+    "objectID": "posts/2023/09/09-11-build-blog/index.html#preview",
+    "href": "posts/2023/09/09-11-build-blog/index.html#preview",
+    "title": "Create my own blog",
+    "section": "2.2.Preview",
+    "text": "2.2.Preview\nStay in this interface and click Render in index file, you would preview your own blog in right window.\n\n\n\n\n\nAt this point, you have basically created a simple blog."
   }
 ]

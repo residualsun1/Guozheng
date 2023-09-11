@@ -157,11 +157,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#work-with-quarto" id="toc-work-with-quarto" class="nav-link active" data-scroll-target="#work-with-quarto">Work with Quarto</a>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">1.Prerequisites</a>
   <ul class="collapse">
   <li><a href="#install" id="toc-install" class="nav-link" data-scroll-target="#install">Install</a></li>
   </ul></li>
-  <li><a href="#work-with-rstudio" id="toc-work-with-rstudio" class="nav-link" data-scroll-target="#work-with-rstudio">Work with Rstudio</a></li>
+  <li><a href="#work-with-rstudio" id="toc-work-with-rstudio" class="nav-link" data-scroll-target="#work-with-rstudio">2.Work with Rstudio</a>
+  <ul class="collapse">
+  <li><a href="#create" id="toc-create" class="nav-link" data-scroll-target="#create">2.1.Create</a></li>
+  <li><a href="#preview" id="toc-preview" class="nav-link" data-scroll-target="#preview">2.2.Preview</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -172,10 +176,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Ahead of my blog, there has been a <a href="https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/">blog</a> which was written by <a href="https://beamilz.com/">Bea Milz</a> descripe how to create a blog belong to someone.</p>
-<p>This blog was inspired by it and contributes to record the process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.</p>
+<p>This blog was inspired by it and contributes to record the learning process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.</p>
 <p>Let’s begin!</p>
-<section id="work-with-quarto" class="level1">
-<h1>Work with Quarto</h1>
+<section id="prerequisites" class="level1">
+<h1>1.Prerequisites</h1>
 <section id="install" class="level2">
 <h2 class="anchored" data-anchor-id="install">Install</h2>
 <p>You should have all of the softwares blew.</p>
@@ -198,11 +202,14 @@ Important
 </ol>
 </div>
 </div>
+<p>And you should have a GitHub account and I assume you could get the basic hang of it.</p>
 </section>
 </section>
 <section id="work-with-rstudio" class="level1">
-<h1>Work with Rstudio</h1>
+<h1>2.Work with Rstudio</h1>
 <p>You could read <a href="https://quarto.org/docs/websites/website-blog.html">the documentation</a> offered by Quarto any time. It has standard steps to create a blog.</p>
+<section id="create" class="level2">
+<h2 class="anchored" data-anchor-id="create">2.1.Create</h2>
 <p>Actually, quarto could be within Rstudio when downloading finish. Then we should open our Rstudio and click the <code>file</code> and then in <code>New Project</code>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -227,7 +234,6 @@ Important
 <p><img src="img/new-project-4.png" class="img-fluid figure-img" style="width:80.0%"></p>
 </figure>
 </div>
-<p><code>Directory name</code>means place where you want floder of blog to be stored.<code>Create project as subdirectory of</code>means place where you want all of the floders concerning blog to be saved. Generally, I save it in D drive.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -238,11 +244,29 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can name your own folder of blog.</p>
+<p><code>Directory name</code> means place where you want floder of blog to be stored.<code>Create project as subdirectory of</code> means place where you want all of the floders concerning blog to be saved. Generally, I save it in D drive.</p>
 </div>
 </div>
+<p>This is a demo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-project-5.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+<p><code>index.pmd</code> and <code>_quarto.yaml</code> are crucial files.They control arrangement and appearance of your blog. We will discuss it in details later.</p>
+</section>
+<section id="preview" class="level2">
+<h2 class="anchored" data-anchor-id="preview">2.2.Preview</h2>
+<p>Stay in this interface and click <code>Render</code> in <code>index</code> file, you would preview your own blog in right window.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/new-project-6.png" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+<p>At this point, you have basically created a simple blog.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
