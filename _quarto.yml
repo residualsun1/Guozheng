@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Guozheng's English blog"
+  title: "Guozheng"
   site-url: "https://residualsun.blog/"
   page-navigation: true
   page-footer: 
