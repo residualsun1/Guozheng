@@ -9,14 +9,14 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-  #- id: movie
-  #  contents: movie/**/*/index.qmd
-  #  sort: "date desc"
-  #  type: grid
-  #  fields: [image, date, title, subtitle]
-  #  categories: false
-  #  sort-ui: false
-  #  filter-ui: false
+  - id: movie
+    contents: movie/**/*/index.qmd
+    sort: "date desc"
+    type: grid
+    fields: [image, date, title, subtitle]
+    categories: false
+    sort-ui: false
+    filter-ui: false
 date-format: iso
 page-layout: full
 title-block-banner: false
@@ -31,4 +31,9 @@ toc: true
 
 <a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
 
+## Recent movies
 
+::: {#movie}
+:::
+
+ <button type="button" class="btn btn-primary float-end btn-sm">See all</button>
