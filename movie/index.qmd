@@ -1,21 +1,21 @@
 ---
-title: "Guozheng"
-comments: false
+title: "Movie is another extension of life"
 listing:
     id: movie
     contents: "**/*/index.qmd"
-    sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, author, reading-time]
-    categories: true
+    sort: "date desc"
+    categories: cloud
     sort-ui: true
     filter-ui: true
+    page-size: 36
 date-format: iso     
 page-layout: full
 title-block-banner: false
+comments: false
+toc: true
 ---
-
-Movies
 
 ::: {#movie}
 :::

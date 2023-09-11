@@ -1,7 +1,7 @@
 ---
 title: "Posts"
 listing:
-  - id: posts
+    id: posts
     contents: "**/*/index.qmd"
     type: default
     fields: [image, date, title, subtitle, author, reading-time]
