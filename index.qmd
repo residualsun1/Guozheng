@@ -9,7 +9,7 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-date-format: short
+date-format: iso
 page-layout: full
 title-block-banner: false
 comments: false
