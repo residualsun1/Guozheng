@@ -1,7 +1,8 @@
 /* css styles */
 
 main, p{
-  font-size: 1.1rem !important;
+  font-size: 1.15rem !important;
+  font-family: 'Times New Roman';
 }
 
 .callout.callout-style-default .callout-body {
@@ -10,7 +11,7 @@ main, p{
 }
 
 :root {
-    --bs-blue: gray;
+    --bs-blue: grey;
     --bs-primary: #eb6864;
 }
 
@@ -21,7 +22,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud{
-    font-family: 'News Cycle';
+    font-family: 'Times New Roman';
 
 }
 
