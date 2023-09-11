@@ -1,5 +1,5 @@
 ---
-title: "Movie is another extension of life"
+title: "Guozheng"
 comments: false
 listing:
     id: movie
@@ -14,6 +14,8 @@ date-format: iso
 page-layout: full
 title-block-banner: false
 ---
+
+Movies
 
 ::: {#movie}
 :::
