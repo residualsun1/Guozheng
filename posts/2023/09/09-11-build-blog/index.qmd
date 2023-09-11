@@ -17,7 +17,7 @@ Let's begin!
 
 ## Install
 
-You should have blew softwares.
+You should have all of the softwares blew.
 
 ::: {.callout-note icon="false"}
 ## Important
@@ -36,3 +36,21 @@ You could read [the documentation](https://quarto.org/docs/websites/website-blog
 Actually, quarto could be within Rstudio when downloading finish. Then we should open our Rstudio and click the `file` and then in `New Project`.
 
 ![](img/new-project.png){fig-align="center" width="80%"}
+
+Choose `New directory`.
+
+![](img/new-project-2.png){fig-align="center" width="80%"}
+
+Scroll down until you find `Quarto Blog`
+
+![](img/new-project-3.png){fig-align="center" width="80%"}
+
+Click it and then you would see such an interface.
+
+![](img/new-project-4.png){fig-align="center" width="80%"}
+
+`Directory name`means place where you want floder of blog to be stored.`Create project as subdirectory of`means place where you want all of the floders concerning blog to be saved. Generally, I save it in D drive.
+
+::: callout-note
+You can name your own folder of blog.
+:::
