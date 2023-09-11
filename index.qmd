@@ -5,10 +5,11 @@ listing:
   contents: posts/**/*/index.qmd
   sort: "date desc"
   type: grid
-  fields: [image, date, title, subtitle, categories, author, reading-time]
+  fields: [image, date, title]
   categories: false
   sort-ui: false
   filter-ui: false
+date-format: short
 page-layout: full
 title-block-banner: false
 comments: false
