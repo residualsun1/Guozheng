@@ -65,8 +65,28 @@ This is a demo.
 
 ## 2.2.Preview
 
-Stay in this interface and click `Render` in `index` file, you would preview your own blog in right window.
+Stay in this interface and click `Render` in `index.qmd` file, you would preview your own blog in right window.
 
 ![](img/new-project-6.png){fig-align="center" width="80%"}
 
 At this point, you have basically created a simple blog.
+
+# 3.Modified blog
+
+Rather than creating a GitHub account(as what I have said formly), I would like to modify and decorate the blog firstly. What attracts me most in this process is exploring the funtion of `index.qmd` and `_quarto.yaml` file.
+
+::: callout-note
+Cause I still explore how to use Quarto, this section may contain something wrong and would be sometimes updated.
+
+Welcome to point out my fault and problem in comments;-).
+:::
+
+## 3.1.「index.qmd」
+
+![](img/index-1.png){fig-align="center" width="80%"}
+
+OK, let's look at this interface.I will introduce default setting and then supply something necessary.
+
+![](img/index-1.png)
+
+## 3.2.「_quarto.yaml」

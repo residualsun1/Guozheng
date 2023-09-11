@@ -116,6 +116,20 @@
     "href": "posts/2023/09/09-11-build-blog/index.html#preview",
     "title": "Create my own blog",
     "section": "2.2.Preview",
-    "text": "2.2.Preview\nStay in this interface and click Render in index file, you would preview your own blog in right window.\n\n\n\n\n\nAt this point, you have basically created a simple blog."
+    "text": "2.2.Preview\nStay in this interface and click Render in index.qmd file, you would preview your own blog in right window.\n\n\n\n\n\nAt this point, you have basically created a simple blog."
+  },
+  {
+    "objectID": "posts/2023/09/09-11-build-blog/index.html#index.qmd",
+    "href": "posts/2023/09/09-11-build-blog/index.html#index.qmd",
+    "title": "Create my own blog",
+    "section": "3.1.「index.qmd」",
+    "text": "3.1.「index.qmd」\n\n\n\n\n\nOK, let’s look at this interface.I will introduce default setting and then supply something necessary."
+  },
+  {
+    "objectID": "posts/2023/09/09-11-build-blog/index.html#quarto.yaml",
+    "href": "posts/2023/09/09-11-build-blog/index.html#quarto.yaml",
+    "title": "Create my own blog",
+    "section": "3.2.「_quarto.yaml」",
+    "text": "3.2.「_quarto.yaml」"
   }
 ]
