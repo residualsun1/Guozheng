@@ -35,3 +35,4 @@ You could read [the documentation](https://quarto.org/docs/websites/website-blog
 
 Actually, quarto could be within Rstudio when downloading finish. Then we should open our Rstudio and click the `file` and then in `New Project`.
 
+![](img/new-project.png){fig-align="center" width="80%"}
