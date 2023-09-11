@@ -2,7 +2,7 @@
 title: "Movie is another extension of life"
 listing:
   - id: movie
-    contents: "**/*/index.qmd"
+    contents: "*/*.qmd"
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, author, reading-time]
