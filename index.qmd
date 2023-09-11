@@ -2,7 +2,7 @@
 title: "Guozheng"
 listing:
   id: posts
-  contents: posts
+  contents: posts/**/*.qmd
   sort: "date desc"
   type: grid
   fields: [image, date, title, subtitle, categories, author, reading-time]

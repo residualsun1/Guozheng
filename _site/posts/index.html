@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
+    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -174,18 +174,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div id="posts">
-
-</div>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing-1">
+<div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-1-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing-1'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -243,7 +236,7 @@ Sep 5, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1693584000000" data-listing-file-modified-sort="1694185312986" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1693584000000" data-listing-file-modified-sort="1694398343999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="welcome\thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -264,7 +257,12 @@ Sep 2, 2023
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
