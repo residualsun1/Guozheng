@@ -74,7 +74,7 @@
     "href": "posts/index.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nHello world\n\n\nLearn how to build blog with Quarto and Desktop\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n2023-09-05\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n2023-09-02\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCreate my own blog\n\n\nLearn how to build blog with Quarto and Desktop\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n2023-09-05\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n2023-09-02\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#recent-posts",
@@ -86,14 +86,14 @@
   {
     "objectID": "posts/2023/09/09-11-build-blog/index.html",
     "href": "posts/2023/09/09-11-build-blog/index.html",
-    "title": "Hello world",
+    "title": "Create my own blog",
     "section": "",
     "text": "Ahead of my blog, there has been a blog which was written by Bea Milz descripe how to create a blog belong to someone.\nThis blog was inspired by it and contributes to record the process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.\nLet’s begin!"
   },
   {
     "objectID": "posts/2023/09/09-11-build-blog/index.html#install",
     "href": "posts/2023/09/09-11-build-blog/index.html#install",
-    "title": "Hello world",
+    "title": "Create my own blog",
     "section": "Install",
     "text": "Install\nYou should have blew softwares.\n\n\n\n\n\n\nImportant\n\n\n\n\nR\nRstudio\nQuarto\nGit\nGitHub Desktop"
   },

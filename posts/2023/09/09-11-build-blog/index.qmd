@@ -1,5 +1,5 @@
 ---
-title: "Hello world"
+title: "Create my own blog"
 subtitle: "Learn how to build blog with Quarto and Desktop"
 author: "Guozheng Huang"
 date: "2023-09-11"
@@ -22,11 +22,11 @@ You should have blew softwares.
 ::: {.callout-note icon="false"}
 ## Important
 
-1. [R](https://www.r-project.org/)
-2. [Rstudio](https://posit.co/products/open-source/rstudio/)
-3. [Quarto](https://quarto.org/)
-4. [Git](https://git-scm.com/)
-5. [GitHub Desktop](https://desktop.github.com/)
+1.  [R](https://www.r-project.org/)
+2.  [Rstudio](https://posit.co/products/open-source/rstudio/)
+3.  [Quarto](https://quarto.org/)
+4.  [Git](https://git-scm.com/)
+5.  [GitHub Desktop](https://desktop.github.com/)
 :::
 
 # Work with Rstudio
