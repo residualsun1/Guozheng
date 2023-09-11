@@ -1,5 +1,5 @@
 ---
-title: "Less is more"
+title: "Guozheng"
 listing:
   id: posts
   contents: posts
