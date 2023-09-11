@@ -74,7 +74,7 @@
     "href": "posts/index.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCreate my own blog\n\n\nLearn how to build blog with Quarto and Desktop\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n2023-09-05\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n2023-09-02\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nCreate my own blog\n\n\nLearn how to build blog with Quarto and Desktop\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n2023-09-05\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n2023-09-02\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#recent-posts",
@@ -123,7 +123,7 @@
     "href": "posts/2023/09/09-11-build-blog/index.html#index.qmd",
     "title": "Create my own blog",
     "section": "3.1.「index.qmd」",
-    "text": "3.1.「index.qmd」\n\n\n\n\n\nOK, let’s look at this interface.I will introduce default setting and then supply something necessary."
+    "text": "3.1.「index.qmd」\n\n\n\n\n\nOK, let’s look at this interface.I will introduce default setting and then supply something necessary.\nIn Quarto blog, index.qmd would be always used. We can divide it into two uses. One is set for your blog homepage, the other is set for your single article.\n\n3.1.1.For homepage\ntitle determine your homepage name. listing includes a series of settings for your decoration in homepage.\nI change the title into my name, and it presents as blew.\n\n\n\n\n\n\n\n3.1.2.For single article\nQuarto needs a lot of 「index.qmd」 file, it is really different from blogdown. When you want to write a article, it is necessary to add a new 「index.qmd」file. For convenience,"
   },
   {
     "objectID": "posts/2023/09/09-11-build-blog/index.html#quarto.yaml",

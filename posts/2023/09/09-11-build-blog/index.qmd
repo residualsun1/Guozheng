@@ -87,6 +87,18 @@ Welcome to point out my fault and problem in comments;-).
 
 OK, let's look at this interface.I will introduce default setting and then supply something necessary.
 
-![](img/index-1.png)
+In Quarto blog, `index.qmd` would be always used. We can divide it into two uses. One is set for your blog homepage, the other is set for your single article.
 
-## 3.2.「_quarto.yaml」
+### 3.1.1.For homepage
+
+`title` determine your homepage name. `listing` includes a series of settings for your decoration in homepage.
+
+I change the title into my name, and it presents as blew.
+
+![](img/index-2.png){fig-align="center" width="80%"}
+
+### 3.1.2.For single article
+
+Quarto needs a lot of 「index.qmd」 file, it is really different from `blogdown`. When you want to write a article, it is necessary to add a new 「index.qmd」file. For convenience,  
+
+## 3.2.「\_quarto.yaml」
