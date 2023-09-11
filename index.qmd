@@ -11,13 +11,12 @@ listing:
     filter-ui: false
   - id: movie
     contents: movie/**/*/index.qmd
+    sort: "date desc"
     type: grid
     fields: [image, date, title, subtitle]
-    sort: "date desc"
-    #categories: cloud
+    categories: false
     sort-ui: false
     filter-ui: false
-    page-size: 3  
 date-format: iso
 page-layout: full
 title-block-banner: false
