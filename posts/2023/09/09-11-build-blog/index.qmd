@@ -1,0 +1,37 @@
+---
+title: "Hello world"
+subtitle: "Learn how to build blog with Quarto and Desktop"
+author: "Guozheng Huang"
+date: "2023-09-11"
+categories: [blog]
+toc: true
+---
+
+Ahead of my blog, there has been a [blog](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/) which was written by [Bea Milz](https://beamilz.com/) descripe how to create a blog belong to someone.
+
+This blog was inspired by it and contributes to record the process for myself. May it would help someone who tries to create a blog with GitHub Desktop rather than Git.
+
+Let's begin!
+
+# Work with Quarto
+
+## Install
+
+You should have blew softwares.
+
+::: {.callout-note icon="false"}
+## Important
+
+1. [R](https://www.r-project.org/)
+2. [Rstudio](https://posit.co/products/open-source/rstudio/)
+3. [Quarto](https://quarto.org/)
+4. [Git](https://git-scm.com/)
+5. [GitHub Desktop](https://desktop.github.com/)
+:::
+
+# Work with Rstudio
+
+You could read [the documentation](https://quarto.org/docs/websites/website-blog.html) offered by Quarto any time. It has standard steps to create a blog.
+
+Actually, quarto could be within Rstudio when downloading finish. Then we should open our Rstudio and click the `file` and then in `New Project`.
+
