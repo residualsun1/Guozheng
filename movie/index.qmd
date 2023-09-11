@@ -2,11 +2,12 @@
 title: "Movie is another extension of life"
 comments: false
 listing:
+    id: movie
     contents: "**/*/index.qmd"
     sort: "date desc"
     type: default
     fields: [image, date, title, subtitle, author, reading-time]
-    categories: cloud
+    categories: true
     sort-ui: true
     filter-ui: true
 date-format: iso     
@@ -14,3 +15,6 @@ page-layout: full
 title-block-banner: false
 toc: true
 ---
+
+::: {#movie}
+:::
