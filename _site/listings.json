@@ -5,7 +5,8 @@
       "/posts/2023/09/09-11-build-blog/index.html",
       "/posts/2023/09/09-06-hello-world/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/movie/2023/09/09-10-before-sunset/index.html"
     ]
   },
   {
@@ -15,6 +16,20 @@
       "/posts/2023/09/09-06-hello-world/index.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/movie.html",
+    "items": []
+  },
+  {
+    "listing": "/movie/movie.html",
+    "items": []
+  },
+  {
+    "listing": "/movie/index.html",
+    "items": [
+      "/movie/2023/09/09-10-before-sunset/index.html"
     ]
   }
 ]

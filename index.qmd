@@ -1,14 +1,23 @@
 ---
 title: "Guozheng"
 listing:
-  id: posts
-  contents: posts/**/*/index.qmd
-  sort: "date desc"
-  type: grid
-  fields: [image, date, title]
-  categories: false
-  sort-ui: false
-  filter-ui: false
+  - id: posts
+    contents: posts/**/*/index.qmd
+    sort: "date desc"
+    type: grid
+    fields: [image, date, title]
+    categories: false
+    sort-ui: false
+    filter-ui: false
+  - id: movie
+    contents: movie/**/*/index.qmd
+    type: grid
+    fields: [image, date, title, subtitle]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3  
 date-format: iso
 page-layout: full
 title-block-banner: false
@@ -22,3 +31,10 @@ toc: true
 :::
 
 <a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+
+## Recent movies
+
+::: {#movie}
+:::
+
+<a href="../movie/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>

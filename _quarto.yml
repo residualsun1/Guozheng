@@ -15,6 +15,9 @@ website:
       - text: Posts
         href: posts/index.qmd
             
+      - text: Movie
+        href: movie/index.qmd
+            
       - text: link
         href: link.qmd
       
