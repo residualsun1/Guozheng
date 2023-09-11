@@ -6,6 +6,7 @@
       "/posts/2023/09/09-06-hello-world/index.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html",
+      "/movie/2023/09/09-11-before-midnight/index.html",
       "/movie/2023/09/09-10-before-sunrise/index.html",
       "/movie/2023/09/09-10-before-sunset/index.html"
     ]
@@ -30,6 +31,7 @@
   {
     "listing": "/movie/index.html",
     "items": [
+      "/movie/2023/09/09-11-before-midnight/index.html",
       "/movie/2023/09/09-10-before-sunrise/index.html",
       "/movie/2023/09/09-10-before-sunset/index.html"
     ]

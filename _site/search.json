@@ -151,7 +151,7 @@
     "href": "index.html#recent-movies",
     "title": "Guozheng",
     "section": "Recent movies",
-    "text": "Recent movies\n\n\n\n\n\n\n\n\n\n\nBefore sunrise (1995)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunset (2004)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Recent movies\n\n\n\n\n\n\n\n\n\n\nBefore Midnight (2013)\n\n\n\n2023-09-11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunrise (1995)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunset (2004)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
     "objectID": "movie/movie.html",
@@ -172,7 +172,7 @@
     "href": "movie/index.html",
     "title": "Movie is another extension of life",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nBefore sunrise (1995)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunset (2004)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nBefore Midnight (2013)\n\n\n\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunrise (1995)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunset (2004)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "movie/index.html#recent-movies",
@@ -199,6 +199,13 @@
     "objectID": "movie/2023/09/09-10-before-sunrise/index.html",
     "href": "movie/2023/09/09-10-before-sunrise/index.html",
     "title": "Before sunrise (1995)",
+    "section": "",
+    "text": "I have seen this movie on 10th September."
+  },
+  {
+    "objectID": "movie/2023/09/09-11-before-midnight/index.html",
+    "href": "movie/2023/09/09-11-before-midnight/index.html",
+    "title": "Before Midnight (2013)",
     "section": "",
     "text": "I have seen this movie on 10th September."
   }
