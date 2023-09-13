@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023/09/09-13-it-is-my-life/index.html",
       "/posts/2023/09/09-11-build-blog/index.html",
       "/posts/2023/09/09-06-hello-world/index.html",
       "/posts/post-with-code/index.html",
@@ -14,6 +15,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/2023/09/09-13-it-is-my-life/index.html",
       "/posts/2023/09/09-11-build-blog/index.html",
       "/posts/2023/09/09-06-hello-world/index.html",
       "/posts/post-with-code/index.html",
