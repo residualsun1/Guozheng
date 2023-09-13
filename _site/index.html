@@ -72,7 +72,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -276,7 +277,7 @@ Hello world
 <a href="./posts/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -294,7 +295,7 @@ Post With Code
 <div class="g-col-1" data-index="4" data-categories="news" data-listing-date-sort="1693584000000" data-listing-file-modified-sort="1694444242671" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="posts\welcome\thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
@@ -312,6 +313,9 @@ Welcome To My Blog
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="posts-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
 </section>
