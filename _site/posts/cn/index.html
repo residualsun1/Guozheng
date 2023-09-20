@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
@@ -209,6 +209,9 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -235,6 +238,12 @@ ul.task-list li input[type="checkbox"] {
 <a href="../../posts/cn/2023/09/09-20-multi-languages/index.html">
 <div class="listing-date">
 Sep 20, 2023
+</div>
+<div class="listing-author">
+黄国政
+</div>
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
