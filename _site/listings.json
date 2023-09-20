@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/cn/2023/09/09-20-multi-languages/index.html",
+      "/posts/cn/2023/09/09-20-praise-and-reflect/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",
       "/posts/en/2023/09/09-06-hello-world/index.html",
@@ -15,6 +16,7 @@
     "listing": "/posts/index.html",
     "items": [
       "/posts/cn/2023/09/09-20-multi-languages/index.html",
+      "/posts/cn/2023/09/09-20-praise-and-reflect/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",
       "/posts/en/2023/09/09-06-hello-world/index.html"
@@ -55,7 +57,8 @@
   {
     "listing": "/posts/cn/index.html",
     "items": [
-      "/posts/cn/2023/09/09-20-multi-languages/index.html"
+      "/posts/cn/2023/09/09-20-multi-languages/index.html",
+      "/posts/cn/2023/09/09-20-praise-and-reflect/index.html"
     ]
   }
 ]

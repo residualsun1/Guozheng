@@ -4,6 +4,7 @@ subtitle: "英文+中文"
 author: "黄国政"
 date: "2023-09-20"
 categories: [博客]
+image: "image.jpg"
 ---
 
 开启中英文双语设置。
