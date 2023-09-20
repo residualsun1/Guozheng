@@ -93,6 +93,62 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts-en .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts-en'] = new List('listing-posts-en', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts-cn .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts-cn'] = new List('listing-posts-cn', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-movie .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -147,10 +203,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">Me</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html" rel="" target="">
- <span class="menu-text">Posts</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-post" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Post</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-post">    
+        <li>
+    <a class="dropdown-item" href="./posts/index.html" rel="" target="">
+ <span class="dropdown-text">All posts</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/en/index.html" rel="" target="">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/cn/index.html" rel="" target="">
+ <span class="dropdown-text">中文</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./movie/index.html" rel="" target="">
  <span class="menu-text">Movie</span></a>
@@ -190,6 +261,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#recent-posts" id="toc-recent-posts" class="nav-link active" data-scroll-target="#recent-posts">Recent posts</a></li>
+  <li><a href="#english-posts" id="toc-english-posts" class="nav-link" data-scroll-target="#english-posts">English Posts</a></li>
+  <li><a href="#中文博客" id="toc-中文博客" class="nav-link" data-scroll-target="#中文博客">中文博客</a></li>
   <li><a href="#recent-movies" id="toc-recent-movies" class="nav-link" data-scroll-target="#recent-movies">Recent movies</a></li>
   </ul>
 </nav>
@@ -218,11 +291,52 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="recent-posts">Recent posts</h2>
 <div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="blog" data-listing-date-sort="1694534400000" data-listing-file-modified-sort="1694567456688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<a href="./posts/2023/09/09-13-it-is-my-life/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1695179940319" data-listing-reading-time-sort="1">
+<a href="./posts/cn/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+黄国政
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1695179889864" data-listing-reading-time-sort="1">
+<a href="./posts/en/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts\en\2023\09\09-13-it-is-my-life\image.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Guozheng
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="博客" data-listing-date-sort="1695139200000" data-listing-file-modified-sort="1695180379705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/cn/2023/09/09-20-multi-languages/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+博客多语言折腾
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2023-09-20
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="blog" data-listing-date-sort="1694534400000" data-listing-file-modified-sort="1695178577956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/en/2023/09/09-13-it-is-my-life/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2023/09/09-13-it-is-my-life/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/en/2023/09/09-13-it-is-my-life/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -237,10 +351,10 @@ For my life
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="blog" data-listing-date-sort="1694361600000" data-listing-file-modified-sort="1694422994620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./posts/2023/09/09-11-build-blog/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-categories="blog" data-listing-date-sort="1694361600000" data-listing-file-modified-sort="1695178560490" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/en/2023/09/09-11-build-blog/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2023\09\09-11-build-blog\img\new-project.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="posts\en\2023\09\09-11-build-blog\img\new-project.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Create my own blog
@@ -254,11 +368,11 @@ Create my own blog
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-date-sort="1693929600000" data-listing-file-modified-sort="1695116824081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/2023/09/09-06-hello-world/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="5" data-categories="news,code,analysis" data-listing-date-sort="1693929600000" data-listing-file-modified-sort="1695178536679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/en/2023/09/09-06-hello-world/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2023/09/09-06-hello-world/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/en/2023/09/09-06-hello-world/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -267,42 +381,6 @@ Hello world
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 2023-09-06
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="news,code,analysis" data-listing-date-sort="1693843200000" data-listing-file-modified-sort="1694444225957" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/post-with-code/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post With Code
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-2023-09-05
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="news" data-listing-date-sort="1693584000000" data-listing-file-modified-sort="1694444242671" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/welcome/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="posts\welcome\thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Welcome To My Blog
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-2023-09-02
 </div>
 </div>
 </div>
@@ -318,6 +396,114 @@ No matching items
 </nav>
 </div>
 <p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
+</section>
+<section id="english-posts" class="level2">
+<h2 class="anchored" data-anchor-id="english-posts">English Posts</h2>
+<div id="listing-posts-en" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="blog" data-listing-date-sort="1694534400000" data-listing-file-modified-sort="1695178577956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/en/2023/09/09-13-it-is-my-life/index.html"> <img src="./posts/en/2023/09/09-13-it-is-my-life/image.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/en/2023/09/09-13-it-is-my-life/index.html">
+<h3 class="no-anchor listing-title">
+For my life
+</h3>
+<div class="listing-subtitle">
+I am diving into my own life
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/en/2023/09/09-13-it-is-my-life/index.html">
+<div class="listing-date">
+2023-09-13
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="blog" data-listing-date-sort="1694361600000" data-listing-file-modified-sort="1695178560490" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/en/2023/09/09-11-build-blog/index.html"> <p class="card-img-top"><img src="posts\en\2023\09\09-11-build-blog\img\new-project.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/en/2023/09/09-11-build-blog/index.html">
+<h3 class="no-anchor listing-title">
+Create my own blog
+</h3>
+<div class="listing-subtitle">
+Learn how to build blog with Quarto and Desktop
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/en/2023/09/09-11-build-blog/index.html">
+<div class="listing-date">
+2023-09-11
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="news,code,analysis" data-listing-date-sort="1693929600000" data-listing-file-modified-sort="1695178536679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/en/2023/09/09-06-hello-world/index.html"> <img src="./posts/en/2023/09/09-06-hello-world/image.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/en/2023/09/09-06-hello-world/index.html">
+<h3 class="no-anchor listing-title">
+Hello world
+</h3>
+<div class="listing-subtitle">
+Welcome:-)
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/en/2023/09/09-06-hello-world/index.html">
+<div class="listing-date">
+2023-09-06
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="中文博客" class="level2">
+<h2 class="anchored" data-anchor-id="中文博客">中文博客</h2>
+<div id="listing-posts-cn" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="博客" data-listing-date-sort="1695139200000" data-listing-file-modified-sort="1695180379705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/cn/2023/09/09-20-multi-languages/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/cn/2023/09/09-20-multi-languages/index.html">
+<h3 class="no-anchor listing-title">
+博客多语言折腾
+</h3>
+<div class="listing-subtitle">
+英文+中文
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/cn/2023/09/09-20-multi-languages/index.html">
+<div class="listing-date">
+2023-09-20
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
 <section id="recent-movies" class="level2">
 <h2 class="anchored" data-anchor-id="recent-movies">Recent movies</h2>

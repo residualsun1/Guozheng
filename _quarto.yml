@@ -11,9 +11,14 @@ website:
   navbar:
     right:
       - about.qmd
-      
-      - text: Posts
-        href: posts/index.qmd
+      - text: Post #增加一个父级选项，和about并列
+        menu:
+          - text: All posts #原来的Posts变成子级选项
+            href: posts/index.qmd
+          - text: English
+            href: posts/en/index.qmd
+          - text: 中文
+            href: posts/cn/index.qmd
             
       - text: Movie
         href: movie/index.qmd

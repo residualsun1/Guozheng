@@ -1,21 +1,21 @@
 ---
-title: "All Posts"
+title: "黄国政"
 listing:
-  - id: posts
+  - id: posts-cn
     contents: "**/*/index.qmd"
     type: default
-    fields: [image, date, title, subtitle, author, reading-time]
+    fields: [image, date, title]  
     sort: "date desc"
-    categories: cloud
+    # categories: cloud
     sort-ui: true
     filter-ui: true
-    page-size: 36
-date-format: iso     
+    page-size: 10
 page-layout: full
 title-block-banner: false
 comments: false
-toc: true
 ---
 
-::: {#posts}
+## 中文博客
+
+::: {#posts-cn}
 :::

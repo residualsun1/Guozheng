@@ -10,6 +10,24 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 3
+  - id: posts-en
+    contents: en/**/*/index.qmd
+    type: default
+    fields: [image, date, title]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+  - id: posts-cn
+    contents: cn/**/*/index.qmd
+    type: default
+    fields: [image, date, title]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
   - id: movie
     contents: movie/**/*/index.qmd
     sort: "date desc"
@@ -32,6 +50,16 @@ toc: true
 :::
 
 <a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+
+## English Posts
+
+::: {#posts-en}
+:::
+
+## 中文博客
+
+::: {#posts-cn}
+:::
 
 ## Recent movies
 

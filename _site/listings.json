@@ -2,11 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2023/09/09-13-it-is-my-life/index.html",
-      "/posts/2023/09/09-11-build-blog/index.html",
-      "/posts/2023/09/09-06-hello-world/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
+      "/posts/cn/index.html",
+      "/posts/en/index.html",
+      "/posts/cn/2023/09/09-20-multi-languages/index.html",
+      "/posts/en/2023/09/09-13-it-is-my-life/index.html",
+      "/posts/en/2023/09/09-11-build-blog/index.html",
+      "/posts/en/2023/09/09-06-hello-world/index.html",
       "/movie/2023/09/09-11-before-midnight/index.html",
       "/movie/2023/09/09-10-before-sunrise/index.html",
       "/movie/2023/09/09-10-before-sunset/index.html"
@@ -15,11 +16,12 @@
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/2023/09/09-13-it-is-my-life/index.html",
-      "/posts/2023/09/09-11-build-blog/index.html",
-      "/posts/2023/09/09-06-hello-world/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/cn/index.html",
+      "/posts/en/index.html",
+      "/posts/cn/2023/09/09-20-multi-languages/index.html",
+      "/posts/en/2023/09/09-13-it-is-my-life/index.html",
+      "/posts/en/2023/09/09-11-build-blog/index.html",
+      "/posts/en/2023/09/09-06-hello-world/index.html"
     ]
   },
   {
@@ -36,6 +38,28 @@
       "/movie/2023/09/09-11-before-midnight/index.html",
       "/movie/2023/09/09-10-before-sunrise/index.html",
       "/movie/2023/09/09-10-before-sunset/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/en/en.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/cn/cn.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/en/index.html",
+    "items": [
+      "/posts/en/2023/09/09-13-it-is-my-life/index.html",
+      "/posts/en/2023/09/09-11-build-blog/index.html",
+      "/posts/en/2023/09/09-06-hello-world/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/cn/index.html",
+    "items": [
+      "/posts/cn/2023/09/09-20-multi-languages/index.html"
     ]
   }
 ]

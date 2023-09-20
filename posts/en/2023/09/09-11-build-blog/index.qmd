@@ -99,6 +99,6 @@ I change the title into my name, and it presents as blew.
 
 ### 3.1.2.For single article
 
-Quarto needs a lot of 「index.qmd」 file, it is really different from `blogdown`. When you want to write a article, it is necessary to add a new 「index.qmd」file. For convenience,  
+Quarto needs a lot of 「index.qmd」 file, it is really different from `blogdown`. When you want to write a article, it is necessary to add a new 「index.qmd」file. For convenience,
 
 ## 3.2.「\_quarto.yaml」
