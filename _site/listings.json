@@ -2,8 +2,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/cn/index.html",
-      "/posts/en/index.html",
       "/posts/cn/2023/09/09-20-multi-languages/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",
@@ -16,8 +14,6 @@
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/cn/index.html",
-      "/posts/en/index.html",
       "/posts/cn/2023/09/09-20-multi-languages/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",

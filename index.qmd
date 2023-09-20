@@ -2,7 +2,7 @@
 title: "Guozheng"
 listing:
   - id: posts
-    contents: posts/**/*/index.qmd
+    contents: "{en,cn}/**/*/index.qmd"
     sort: "date desc"
     type: grid
     fields: [image, date, title]
@@ -11,7 +11,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: posts-en
-    contents: en/**/*/index.qmd
+    contents: posts/en/**/*/index.qmd
     type: default
     fields: [image, date, title]
     sort: "date desc"
@@ -20,7 +20,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: posts-cn
-    contents: cn/**/*/index.qmd
+    contents: posts/cn/**/*/index.qmd
     type: default
     fields: [image, date, title]
     sort: "date desc"

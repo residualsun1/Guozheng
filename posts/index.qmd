@@ -2,7 +2,7 @@
 title: "All Posts"
 listing:
   - id: posts
-    contents: "**/*/index.qmd"
+    contents: "{en,cn}/**/*/index.qmd"
     type: default
     fields: [image, date, title, subtitle, author, reading-time]
     sort: "date desc"

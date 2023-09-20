@@ -15,7 +15,7 @@ title-block-banner: false
 comments: false
 ---
 
-## Posts in English
+## English Posts
 
 ::: {#posts-en}
 :::
