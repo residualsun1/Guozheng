@@ -12,7 +12,7 @@ main, p{
 }
 
 :root {
-    --bs-blue: grey;
+    --bs-blue: black;
     --bs-primary: #eb6864;
 }
 
@@ -64,7 +64,7 @@ div.quarto-post .thumbnail img {
 }
 
 .navbar-dark {
-    background-color: var(--bs-blue);
+    background-color: var(--bs-blue); /*原来是var(--bs-blue)，即把导航栏设置成黑色*/
     font-family: 'Times New Roman';
     font-size: 1.1rem;
 }
@@ -78,8 +78,8 @@ div.quarto-post .thumbnail img {
 
 .quarto-title-banner {
     margin-bottom: 1em;
-    color: rgba(255,255,255,.7);
-    background: var(--bs-blue);
+    color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
+    background: white; /*原来是黑色的*/
 }
 
 
