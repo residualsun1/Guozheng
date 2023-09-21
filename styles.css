@@ -96,7 +96,7 @@ div.quarto-post .thumbnail img {
 }
 
 a{
-  color: #00ccff;
+  color: #00ccff; /*设置超链接颜色*/
   font-family: 'Times New Roman';
 }
 
