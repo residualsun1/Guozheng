@@ -2,8 +2,8 @@
 
 main, p{
   font-size: 1.15rem !important;
-  font-family: 'Times New Roman', "SiYuanSong", serif;
-  line-height: 1.65;
+  font-family: 'Times New Roman', Trebuchet MS;
+  line-height: 1.75;
 }
 
 .callout.callout-style-default .callout-body {
@@ -97,13 +97,13 @@ div.quarto-post .thumbnail img {
 
 a{
   color: var(--bs-blue);
-  font-family: 'Times New Roman', "SiYuanSong", serif;
+  font-family: 'Times New Roman';
 }
 
 b, strong {
     color: var(--bs-blue);
     font-weight: bolder;
-    font-family: 'Times New Roman', "SiYuanSong", serif;
+    font-family: 'Times New Roman';
 }
 
 div.quarto-post .listing-categories .listing-category {
