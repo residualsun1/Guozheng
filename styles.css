@@ -1,8 +1,8 @@
 /* css styles */
 
 main, p{
-  font-size: 1.15rem !important;
-  font-family: 'Times New Roman', Trebuchet MS;
+  font-size: 1.13rem !important; /*原来是1.15rem，但看起来1.13rem看起来更舒服*/
+  font-family: 'Times New Roman';
   line-height: 1.75;
 }
 
