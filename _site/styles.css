@@ -1,7 +1,7 @@
 /* css styles */
 
 main, p{
-  font-size: 1.13rem !important; /*原来是1.15rem，但看起来1.13rem看起来更舒服*/
+  font-size: 1.09rem !important; /*原来是1.15rem，但看起来1.09rem看起来更舒服*/
   font-family: 'Times New Roman';
   line-height: 1.75;
 }
