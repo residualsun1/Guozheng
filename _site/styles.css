@@ -2,7 +2,7 @@
 
 main, p{
   font-size: 1.09rem !important; /*原来是1.15rem，但看起来1.09rem看起来更舒服*/
-  font-family: 'Times New Roman', 'Source Han Serif CN';
+  font-family: 'Times New Roman', 'NSimSun';
   line-height: 1.75;
 }
 
