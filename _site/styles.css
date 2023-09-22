@@ -1,8 +1,8 @@
 /* css styles */
 
 main, p{
-  font-size: 1.09rem !important; /*原来是1.15rem，但看起来1.09rem看起来更舒服*/
-  font-family: 'Times New Roman', 'SimSun';
+  font-size: 1.10rem !important; /*原来是1.15rem，但看起来1.10rem看起来更舒服*/
+  font-family: 'Times New Roman';
   font-weight: 500;
   line-height: 1.75;
 }
@@ -24,10 +24,9 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud{
-    font-family: 'Times New Roman', 'SimSun';
+    font-family: 'Times New Roman';
 
 }
-
 
 .quarto-listing-category.category-cloud .category-cloud-6 {
     background: #f0fff2;
@@ -66,7 +65,7 @@ div.quarto-post .thumbnail img {
 
 .navbar-dark {
     background-color: var(--bs-blue); /*原来是var(--bs-blue)，即把导航栏设置成黑色*/
-    font-family: 'Times New Roman','SimSun';
+    font-family: 'Times New Roman';
     font-size: 1.1rem;
 }
 
@@ -98,20 +97,20 @@ div.quarto-post .thumbnail img {
 
 a{
   color: #00ccff; /*设置超链接颜色*/
-  font-family: 'Times New Roman', 'SimSun';
+  font-family: 'Times New Roman';
 }
 
 b, strong {
     color: var(--bs-blue);
     font-weight: bolder;
-    font-family: 'Times New Roman', 'SimSun';
+    font-family: 'Times New Roman';
 }
 
 div.quarto-post .listing-categories .listing-category {
     color: var(--bs-blue);
     border: solid 1px var(--bs-gray-400);
     font-size: .8em;
-    font-family: 'Times New Roman', 'SimSun';
+    font-family: 'Times New Roman';
 }
 
 
