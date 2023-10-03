@@ -1,8 +1,28 @@
 /* css styles */
 
+@font-face {
+font-family: 'SiYuanSong';
+src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能，调用本地字体*/
+  url('Fonts/NotoSerifSC-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+@font-face {
+  font-family: 'SiYuanSong';
+  src: local('Source Han Serif CN'), local('Source Han Serif SC'), 
+  url('static/css/Fonts/NotoSerifSC-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
 main, p{
-  font-size: 1.10rem !important; /*原来是1.15rem，但看起来1.10rem看起来更舒服*/
-  font-family: 'Times New Roman';
+  font-size: 1.00rem !important; /*原来是1.15rem，但看起来1.00rem看起来更舒服*/
+  font-family: 'Times New Roman', 'SiYuanSong';
   font-weight: 500;
   line-height: 1.75;
 }
@@ -103,7 +123,7 @@ a{
 b, strong {
     color: var(--bs-blue);
     font-weight: bolder;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', 'SiYuanSong';
 }
 
 div.quarto-post .listing-categories .listing-category {
