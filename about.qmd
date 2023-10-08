@@ -4,27 +4,17 @@ comments: false
 image: profile.jpg
 about:
   template: trestles
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Residualsun1
-    - icon: github
-      text: Github
-      href: https://github.com/residualsun1
+  #links:
+  # - icon: twitter
+  #    text: Twitter
+  #    href: https://twitter.com/Residualsun1
+  #  - icon: github
+  #    text: Github
+  #    href: https://github.com/residualsun1
 ---
 
-## Basic information
-
-This is Guozheng Huang's(you can also call me Residualsun) blog.
+This is Guozheng Huang's blog.
 
 I buildt my first blog with `blogdown` on May 28th, 2023. It was changed twice times by myself and completed on June 6th.
 
 During the theme within my first blog doesn't support multilanguages, I decide to bulid my English blog with Quarto and preserve [my Chinese blog](https://guozheng.rbind.io) in blogdown.
-
-## Eaducation
-
-Guangzhou University \| 2021 - 2025
-
-## Career
-
-Sociology

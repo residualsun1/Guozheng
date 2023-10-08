@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "Me",
     "section": "",
-    "text": "This is Guozheng Huang’s(you can also call me Residualsun) blog.\nI buildt my first blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th.\nDuring the theme within my first blog doesn’t support multilanguages, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown."
+    "text": "This is Guozheng Huang’s blog.\nI buildt my first blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th.\nDuring the theme within my first blog doesn’t support multilanguages, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown."
   },
   {
     "objectID": "posts/welcome/index.html",
