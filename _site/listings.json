@@ -11,10 +11,10 @@
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",
       "/posts/en/2023/09/09-06-hello-world/index.html",
-      "/movie/2023/10/10-08-survival-learning/index.html",
-      "/movie/2023/09/09-11-before-midnight/index.html",
-      "/movie/2023/09/09-10-before-sunrise/index.html",
-      "/movie/2023/09/09-10-before-sunset/index.html"
+      "/r/2023/10/10-08-survival-learning/index.html",
+      "/r/2023/09/09-11-before-midnight/index.html",
+      "/r/2023/09/09-10-before-sunrise/index.html",
+      "/r/2023/09/09-10-before-sunset/index.html"
     ]
   },
   {
@@ -73,6 +73,15 @@
     "items": [
       "/posts/cn/2023/09/09-20-multi-languages/index.html",
       "/posts/cn/2023/09/09-20-mutil-life/index.html"
+    ]
+  },
+  {
+    "listing": "/r/index.html",
+    "items": [
+      "/r/2023/10/10-08-survival-learning/index.html",
+      "/r/2023/09/09-11-before-midnight/index.html",
+      "/r/2023/09/09-10-before-sunrise/index.html",
+      "/r/2023/09/09-10-before-sunset/index.html"
     ]
   }
 ]

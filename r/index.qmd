@@ -1,7 +1,7 @@
 ---
-title: "Movie is another extension of life"
+title: "Practice makes perfect"
 listing:
-  - id: movie
+  - id: r
     contents: "**/*/index.qmd"
     type: default
     fields: [image, date, title, subtitle, author, reading-time]
@@ -17,5 +17,5 @@ comments: false
 toc: true
 ---
 
-::: {#movie}
+::: {#r}
 :::

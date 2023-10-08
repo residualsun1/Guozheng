@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-movie .list');
+    const listingTargetEl = window.document.querySelector('#listing-r .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-movie'] = new List('listing-movie', options);
+    window['quarto-listings']['listing-r'] = new List('listing-r', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -225,8 +225,8 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./movie/index.html" rel="" target="">
- <span class="menu-text">Movie</span></a>
+    <a class="nav-link" href="./r/index.html" rel="" target="">
+ <span class="menu-text">R and Rstudio</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./link.html" rel="" target="">
@@ -695,13 +695,13 @@ No matching items
 </section>
 <section id="recent-movies" class="level2">
 <h2 class="anchored" data-anchor-id="recent-movies">Recent movies</h2>
-<div id="listing-movie" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-r" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="机器学习" data-listing-date-sort="1696694400000" data-listing-file-modified-sort="1696732639482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<a href="./movie/2023/10/10-08-survival-learning/index.html" class="quarto-grid-link">
+<a href="./r/2023/10/10-08-survival-learning/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./movie/2023/10/10-08-survival-learning/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./r/2023/10/10-08-survival-learning/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -717,10 +717,10 @@ No matching items
 </a>
 </div>
 <div class="g-col-1" data-index="1" data-categories="love" data-listing-date-sort="1694361600000" data-listing-file-modified-sort="1694437820897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./movie/2023/09/09-11-before-midnight/index.html" class="quarto-grid-link">
+<a href="./r/2023/09/09-11-before-midnight/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./movie/2023/09/09-11-before-midnight/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./r/2023/09/09-11-before-midnight/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -736,10 +736,10 @@ Before Midnight (2013)
 </a>
 </div>
 <div class="g-col-1" data-index="2" data-categories="love" data-listing-date-sort="1694275200000" data-listing-file-modified-sort="1694440517364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./movie/2023/09/09-10-before-sunrise/index.html" class="quarto-grid-link">
+<a href="./r/2023/09/09-10-before-sunrise/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./movie/2023/09/09-10-before-sunrise/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./r/2023/09/09-10-before-sunrise/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -755,10 +755,10 @@ Before sunrise (1995)
 </a>
 </div>
 <div class="g-col-1" data-index="3" data-categories="love" data-listing-date-sort="1694275200000" data-listing-file-modified-sort="1694437549140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./movie/2023/09/09-10-before-sunset/index.html" class="quarto-grid-link">
+<a href="./r/2023/09/09-10-before-sunset/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./movie/2023/09/09-10-before-sunset/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./r/2023/09/09-10-before-sunset/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -777,7 +777,7 @@ Before sunset (2004)
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="movie-pagination" class="listing-pagination" aria-label="Page Navigation">
+<nav id="r-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div>

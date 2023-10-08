@@ -20,17 +20,14 @@ website:
           - text: 中文
             href: posts/cn/index.qmd
             
-      - text: Movie
-        href: movie/index.qmd
+      - text: R and Rstudio
+        href: r/index.qmd
             
       - text: link
         href: link.qmd
-      
-      - text: Chinese
-        href: https://guozheng.rbind.io
             
       - icon: github
-        href: https://github.com/residualsun1/
+        href: https://github.com/xxxxx
       - icon: twitter
         href: https://twitter.com/Residualsun1
       

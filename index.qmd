@@ -28,8 +28,8 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 3
-  - id: movie
-    contents: movie/**/*/index.qmd
+  - id: r
+    contents: r/**/*/index.qmd
     sort: "date desc"
     type: grid
     fields: [image, date, title, subtitle]
@@ -63,7 +63,7 @@ toc: true
 
 ## Recent movies
 
-::: {#movie}
+::: {#r}
 :::
 
 <a href="../movie/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
