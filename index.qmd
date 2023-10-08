@@ -66,4 +66,4 @@ toc: true
 ::: {#r}
 :::
 
-<a href="../movie/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<a href="../r/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
