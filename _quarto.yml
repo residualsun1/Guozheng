@@ -20,7 +20,7 @@ website:
           - text: 中文
             href: posts/cn/index.qmd
             
-      - text: R and Rstudio
+      - text: R
         href: r/index.qmd
             
       - text: link
