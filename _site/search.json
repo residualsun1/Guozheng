@@ -606,7 +606,7 @@
     "href": "r/index.html",
     "title": "Practice makes perfect",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n生存分析模仿案例\n\n\n\n\n\n\n\n\n\n2023-10-08\n\n\n黄国政\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore Midnight (2013)\n\n\n\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunrise (1995)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunset (2004)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n生存分析模仿案例\n\n\n\n\n\n\n\n\n\n2023-10-08\n\n\n黄国政\n\n\n5 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "r/2023/10/10-08-survival-learning/index.html",
@@ -670,5 +670,12 @@
     "title": "生存分析模仿案例",
     "section": "事例层面阐释",
     "text": "事例层面阐释\n\nsp_rf &lt;- predict_parts(explain_titanic_rf, new_passanger)\nplot(sp_rf)\n\n\n\n\n\nsp_lmr &lt;- predict_parts(explain_titanic_lmr, new_passanger)\nplot(sp_lmr)\n\n\n\n\n\nsp_gbm &lt;- predict_parts(explain_titanic_gbm, new_passanger)\nplot(sp_gbm)\n\n\n\n\n\nsp_svm &lt;- predict_parts(explain_titanic_svm, new_passanger)\nplot(sp_svm)\n\n\n\n\n\nsp_knn &lt;- predict_parts(explain_titanic_knn, new_passanger)\nplot(sp_knn)"
+  },
+  {
+    "objectID": "index.html#r-and-rtudio",
+    "href": "index.html#r-and-rtudio",
+    "title": "Guozheng",
+    "section": "R and Rtudio",
+    "text": "R and Rtudio\n\n\n\n\n\n\n\n\n\n\n生存分析模仿案例\n\n\n\n2023-10-08\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   }
 ]

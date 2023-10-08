@@ -61,7 +61,7 @@ toc: true
 ::: {#posts-cn}
 :::
 
-## Recent movies
+## R and Rtudio
 
 ::: {#r}
 :::
