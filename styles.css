@@ -23,6 +23,8 @@ src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能�
 pre {
   background-color: #f5f5f5;
 }
+/*以上，更改代码结果框的背景颜色*/
+
 
 main, p{
   font-size: 1.10rem !important; /*原来是1.15rem，但看起来1.00rem看起来更舒服*/
