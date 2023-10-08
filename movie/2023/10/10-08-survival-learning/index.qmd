@@ -1,0 +1,269 @@
+---
+title: "生存分析模仿案例"
+author: "黄国政"
+date: "2023-10-08"
+categories: [机器学习]
+image: "image.jpg"
+toc: true
+execute:
+  echo: false
+---
+
+::: {.callout-note apperance="simple"}
+## Pay attention
+
+本生存分析模仿案例根据教程[Survival on the RMS Titanic](https://modeloriented.github.io/DALEX/articles/vignette_titanic.html)翻译而来，我在翻译中增加了大量来自个人理解的解读。
+:::
+
+## 泰坦尼克号的生存数据
+
+让我们以泰坦尼克号数据集分析问题的分类模型中的`DALEX`包为例，引用的数据集是来自其中的`titanic`。这份数据是从`stablelearner`包复制而来。
+
+```{r}
+#| label: load-packages
+#| echo: true
+
+library(DALEX)
+head(titanic_imputed)
+```
+
+```{r}
+?titanic_imputed
+```
+
+运行以上代码，Rstudio的帮助界面中会出现`titanic_imputed`的详细信息，我们可以据此了解该数据集中各变量的含义。
+
+::: {.callout-caution collapse="true"}
+## 各变量含义
+
+1. `gender`：性别
+2. `age`：年龄
+3. `class`：乘客舱位等级或船员服务类型
+4. `embarked`：登船地点
+5. `fare`：票价（船员、音乐家和船厂员工的为0）
+6. `sibsp`：同胞或配偶的数量
+7. `parch`：父母或子女的数量
+8. `survival`：是否生存
+:::
+
+## 泰坦尼克号的生存模型
+
+使用随机森林模型试试。
+
+```{r}
+#| label: prepare model
+
+library(ranger)
+model_titanic_rf <- ranger(survived ~ gender + age + class + embarked +fare + sibsp + parch,  data = titanic_imputed, classification = TRUE)
+model_titanic_rf
+```
+
+`model_titanic_rf`即我们创建的一个随机森林模型（random forest model）
+
+## 对泰坦尼克号生存分析的解释
+
+第三步是为随机森林模型创建一个`DALEX`解释。
+
+```{r}
+library(DALEX)
+explain_titanic_rf <- explain(model_titanic_rf, 
+                      data = titanic_imputed,
+                      y = titanic_imputed$survived, 
+                      label = "Random Forest v7",
+                      colorize = FALSE)
+```
+
+## 变量重要性的可视化
+
+使用`variable_importance()`来说明特定特征的重要性。`type="difference"`会使dropout一般化，现在它们从0开始。
+
+```{r}
+vi_rf <- model_parts(explain_titanic_rf)
+head(vi_rf)
+```
+
+```{r}
+plot(vi_rf)
+```
+
+问题来了，这张图应该如何进行解释呢......
+
+## 变量效应
+
+由上图，我们知道性别是最突出的特征，其他三个比较突出的特征分别是舱位等级、年龄和票价。试着探究模型响应变量和这些特征之间分别的联系。
+
+这种单变量关系可以用`variable_effect()`来计算。
+
+### age年龄
+
+5岁及以下的儿童有着更高的存活率。
+
+```{r}
+vr_age <- model_profile(explain_titanic_rf, variables =  "age")
+head(vr_age)
+```
+
+```{r}
+plot(vr_age)
+```
+
+### class舱位等级
+
+头等舱的乘客有着更高的存活率。
+
+```{r}
+vr_class <- model_profile(explain_titanic_rf, variables =  "class")
+plot(vr_class)
+```
+
+### fare票价
+
+廉价的船票与更低的机会相关
+
+```{r}
+vr_fare <- variable_profile(explain_titanic_rf, variables =  "fare")
+plot(vr_fare)
+```
+
+### embarked
+
+从C处登船的乘客存活率最高
+
+```{r}
+vr_embarked <- model_profile(explain_titanic_rf, variables =  "embarked")
+plot(vr_embarked)
+```
+
+## 实例层面的解释
+
+看看从C处登船的头等舱的8岁男性的模型预测细分解释。
+
+```{r}
+new_passanger <- data.frame(
+  class = factor("1st", levels = c("1st", "2nd", "3rd", "deck crew", "engineering crew", "restaurant staff", "victualling crew")),
+  gender = factor("male", levels = c("female", "male")),
+  age = 8,
+  sibsp = 0,
+  parch = 0,
+  fare = 72,
+  embarked = factor("Southampton", levels = c("Belfast", "Cherbourg", "Queenstown", "Southampton"))
+)
+
+sp_rf <- predict_parts(explain_titanic_rf, new_passanger)
+plot(sp_rf)
+```
+
+由上图可以看出，这位乘客最重要的特征是年龄和性别。毕竟他的生存几率比一般乘客要高，主要是因为年龄小，虽然是男性。
+
+## 更多模型
+
+试一试使用更多的模型来进行生存分析
+
+### Logistic回归分析
+
+```{r}
+library("rms")
+model_titanic_lmr <- lrm(survived ~ class + gender + rcs(age) + sibsp +
+                   parch + fare + embarked, titanic_imputed)
+explain_titanic_lmr <- explain(model_titanic_lmr, data = titanic_imputed, 
+                   y = titanic_imputed$survived, 
+                   predict_function = function(m,x) 
+                            predict(m, x, type = "fitted"),
+                   label = "Logistic regression")
+```
+
+### Generalized Boosted 模型
+
+```{r}
+library("gbm")
+model_titanic_gbm <- gbm(survived  ~ class + gender + age + sibsp +
+                     parch + fare + embarked, data = titanic_imputed, 
+                     n.trees = 15000)
+```
+
+```{r}
+explain_titanic_gbm <- explain(model_titanic_gbm, data = titanic_imputed, 
+                       y = titanic_imputed$survived, 
+                       predict_function = function(m,x) 
+                            predict(m, x, n.trees = 15000, type = "response"),
+                       label = "Generalized Boosted Models",
+                       colorize = FALSE)
+```
+
+### Support Vector Machines (SVM)
+
+```{r}
+library("e1071")
+model_titanic_svm <- svm(survived ~ class + gender + age + sibsp + parch + fare + embarked, data = titanic_imputed, 
+             type = "C-classification", probability = TRUE)
+explain_titanic_svm <- explain(model_titanic_svm, data = titanic_imputed, 
+                       y = titanic_imputed$survived, 
+                       label = "Support Vector Machines",
+                       colorize = FALSE)
+```
+
+### k-Nearest Neighbors (kNN)
+
+```{r}
+library("caret")
+model_titanic_knn <- knn3(survived ~ class + gender + age + sibsp + parch + fare + embarked, data = titanic_imputed, k = 5)
+explain_titanic_knn <- explain(model_titanic_knn, data = titanic_imputed, 
+                       y = titanic_imputed$survived, 
+                       predict_function = function(m,x) predict(m, x)[,2],
+                       label = "k-Nearest Neighbors",
+                       colorize = FALSE)
+```
+
+### Variable performance
+
+```{r}
+vi_rf <- model_parts(explain_titanic_rf)
+vi_lmr <- model_parts(explain_titanic_lmr)
+vi_gbm <- model_parts(explain_titanic_gbm)
+vi_svm <- model_parts(explain_titanic_svm)
+vi_knn <- model_parts(explain_titanic_knn)
+
+plot(vi_rf, vi_lmr, vi_gbm, vi_svm, vi_knn, bar_width = 4)
+```
+
+### Single variable
+
+```{r}
+vr_age_rf   <- model_profile(explain_titanic_rf, variables = "age")
+vr_age_lmr  <- model_profile(explain_titanic_lmr, variables = "age")
+vr_age_gbm  <- model_profile(explain_titanic_gbm, variables = "age")
+vr_age_svm  <- model_profile(explain_titanic_svm, variables = "age")
+vr_age_knn  <- model_profile(explain_titanic_knn, variables = "age")
+plot(vr_age_rf$agr_profiles, 
+     vr_age_lmr$agr_profiles, 
+     vr_age_gbm$agr_profiles, 
+     vr_age_svm$agr_profiles, 
+     vr_age_knn$agr_profiles)
+```
+
+## 事例层面阐释
+
+```{r}
+sp_rf <- predict_parts(explain_titanic_rf, new_passanger)
+plot(sp_rf)
+```
+
+```{r}
+sp_lmr <- predict_parts(explain_titanic_lmr, new_passanger)
+plot(sp_lmr)
+```
+
+```{r}
+sp_gbm <- predict_parts(explain_titanic_gbm, new_passanger)
+plot(sp_gbm)
+```
+
+```{r}
+sp_svm <- predict_parts(explain_titanic_svm, new_passanger)
+plot(sp_svm)
+```
+
+```{r}
+sp_knn <- predict_parts(explain_titanic_knn, new_passanger)
+plot(sp_knn)
+```

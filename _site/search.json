@@ -151,7 +151,7 @@
     "href": "index.html#recent-movies",
     "title": "Guozheng",
     "section": "Recent movies",
-    "text": "Recent movies\n\n\n\n\n\n\n\n\n\n\nBefore Midnight (2013)\n\n\n\n2023-09-11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunrise (1995)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunset (2004)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Recent movies\n\n\n\n\n\n\n\n\n\n\n生存分析模仿案例\n\n\n\n2023-10-08\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore Midnight (2013)\n\n\n\n2023-09-11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunrise (1995)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBefore sunset (2004)\n\n\n\n2023-09-10\n\n\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n See all"
   },
   {
     "objectID": "movie/movie.html",
@@ -172,7 +172,7 @@
     "href": "movie/index.html",
     "title": "Movie is another extension of life",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nBefore Midnight (2013)\n\n\n\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunrise (1995)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunset (2004)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n生存分析模仿案例\n\n\n\n\n\n\n\n\n\n2023-10-08\n\n\n黄国政\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore Midnight (2013)\n\n\n\n\n\n\n\n\n\n2023-09-11\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunrise (1995)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBefore sunset (2004)\n\n\n\n\n\n\n\n\n\n2023-09-10\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "movie/index.html#recent-movies",
@@ -537,5 +537,68 @@
     "title": "Nice to meet you, Caixin",
     "section": "Talking",
     "text": "Talking\nCaixin will leave for Foshan tomorrow. My first reaction is upset, just as my first reaction when I arrived at Heishiyu today and heard she had stayed here was one of happiness.\nThere’s no Milky Way on the rooftop in Heishiyu tonight, just a handful of stars.\nLike my old friends I’ve known in the past, Caixin talked with me on the rooftop. We talked about work, study and perception of ourselves. She was willing to listen to me.\nI always worry about whether I would be chattering or noisy——I have many words to say and countless ideas to convey. To my surprise, Caixin said she liked to listen to me. Which built up my courage in passion for expression.\nI can feel it, her sincerity. She isn’t that girl who does well in embellishing words, while her approach to life is vibrant, her ego is in the midst of life, which are all infecting me.\nI love everyone who made friends with and stayed up late with me."
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html",
+    "href": "movie/2023/10/10-08-survival-learning/index.html",
+    "title": "生存分析模仿案例",
+    "section": "",
+    "text": "Pay attention\n\n\n\n本生存分析模仿案例根据教程Survival on the RMS Titanic翻译而来，我在翻译中增加了大量来自个人理解的解读。"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#泰坦尼克号的生存数据",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#泰坦尼克号的生存数据",
+    "title": "生存分析模仿案例",
+    "section": "泰坦尼克号的生存数据",
+    "text": "泰坦尼克号的生存数据\n让我们以泰坦尼克号数据集分析问题的分类模型中的DALEX包为例，引用的数据集是来自其中的titanic。这份数据是从stablelearner包复制而来。\n\nlibrary(DALEX)\n\nWelcome to DALEX (version: 2.4.3).\nFind examples and detailed introduction at: http://ema.drwhy.ai/\n\nhead(titanic_imputed)\n\n  gender age class    embarked  fare sibsp parch survived\n1   male  42   3rd Southampton  7.11     0     0        0\n2   male  13   3rd Southampton 20.05     0     2        0\n3   male  16   3rd Southampton 20.05     1     1        0\n4 female  39   3rd Southampton 20.05     1     1        1\n5 female  16   3rd Southampton  7.13     0     0        1\n6   male  25   3rd Southampton  7.13     0     0        1\n\n\n\n\nstarting httpd help server ... done\n\n\n运行以上代码，Rstudio的帮助界面中会出现titanic_imputed的详细信息，我们可以据此了解该数据集中各变量的含义。\n\n\n\n\n\n\n各变量含义\n\n\n\n\n\n\ngender：性别\nage：年龄\nclass：乘客舱位等级或船员服务类型\nembarked：登船地点\nfare：票价（船员、音乐家和船厂员工的为0）\nsibsp：同胞或配偶的数量\nparch：父母或子女的数量\nsurvival：是否生存"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#泰坦尼克号的生存模型",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#泰坦尼克号的生存模型",
+    "title": "生存分析模仿案例",
+    "section": "泰坦尼克号的生存模型",
+    "text": "泰坦尼克号的生存模型\n使用随机森林模型试试。\n\n\nRanger result\n\nCall:\n ranger(survived ~ gender + age + class + embarked + fare + sibsp +      parch, data = titanic_imputed, classification = TRUE) \n\nType:                             Classification \nNumber of trees:                  500 \nSample size:                      2207 \nNumber of independent variables:  7 \nMtry:                             2 \nTarget node size:                 1 \nVariable importance mode:         none \nSplitrule:                        gini \nOOB prediction error:             19.76 % \n\n\nmodel_titanic_rf即我们创建的一个随机森林模型（random forest model）"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#对泰坦尼克号生存分析的解释",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#对泰坦尼克号生存分析的解释",
+    "title": "生存分析模仿案例",
+    "section": "对泰坦尼克号生存分析的解释",
+    "text": "对泰坦尼克号生存分析的解释\n第三步是为随机森林模型创建一个DALEX解释。\n\n\nPreparation of a new explainer is initiated\n  -&gt; model label       :  Random Forest v7 \n  -&gt; data              :  2207  rows  8  cols \n  -&gt; target variable   :  2207  values \n  -&gt; predict function  :  yhat.ranger  will be used (  default  )\n  -&gt; predicted values  :  No value for predict function target column. (  default  )\n  -&gt; model_info        :  package ranger , ver. 0.15.1 , task classification (  default  ) \n  -&gt; predicted values  :  numerical, min =  0 , mean =  0.2088808 , max =  1  \n  -&gt; residual function :  difference between y and yhat (  default  )\n  -&gt; residuals         :  numerical, min =  -1 , mean =  0.1132759 , max =  1  \n  A new explainer has been created!"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#变量重要性的可视化",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#变量重要性的可视化",
+    "title": "生存分析模仿案例",
+    "section": "变量重要性的可视化",
+    "text": "变量重要性的可视化\n使用variable_importance()来说明特定特征的重要性。type=\"difference\"会使dropout一般化，现在它们从0开始。\n\n\n      variable mean_dropout_loss            label\n1 _full_model_         0.2186026 Random Forest v7\n2     survived         0.2186026 Random Forest v7\n3        parch         0.2326248 Random Forest v7\n4        sibsp         0.2364194 Random Forest v7\n5     embarked         0.2414229 Random Forest v7\n6         fare         0.2635077 Random Forest v7\n\n\n\n\n\n\n\n问题来了，这张图应该如何进行解释呢……"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#变量效应",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#变量效应",
+    "title": "生存分析模仿案例",
+    "section": "变量效应",
+    "text": "变量效应\n由上图，我们知道性别是最突出的特征，其他三个比较突出的特征分别是舱位等级、年龄和票价。试着探究模型响应变量和这些特征之间分别的联系。\n这种单变量关系可以用variable_effect()来计算。\n\nage年龄\n5岁及以下的儿童有着更高的存活率。\n\n\n$cp_profiles\nTop profiles    : \n       gender        age            class    embarked fare sibsp parch survived\n1972     male  0.1666667 engineering crew Southampton    0     0     0        1\n1972.1   male  2.0000000 engineering crew Southampton    0     0     0        1\n1972.2   male  4.0000000 engineering crew Southampton    0     0     0        1\n1972.3   male  7.0000000 engineering crew Southampton    0     0     0        1\n1972.4   male  9.0000000 engineering crew Southampton    0     0     0        1\n1972.5   male 13.0000000 engineering crew Southampton    0     0     0        1\n       _yhat_ _vname_ _ids_          _label_\n1972        0     age  1972 Random Forest v7\n1972.1      0     age  1972 Random Forest v7\n1972.2      0     age  1972 Random Forest v7\n1972.3      0     age  1972 Random Forest v7\n1972.4      0     age  1972 Random Forest v7\n1972.5      0     age  1972 Random Forest v7\n\n\nTop observations:\n     gender age            class    embarked    fare sibsp parch survived\n1972   male  29 engineering crew Southampton  0.0000     0     0        1\n64   female  38              3rd Southampton 31.0709     1     5        1\n2162   male  52 victualling crew Southampton  0.0000     0     0        1\n2174   male  23 engineering crew Southampton  0.0000     0     0        1\n2095   male  24        deck crew Southampton  0.0000     0     0        0\n1173   male  20              3rd Southampton  8.0100     0     0        1\n     _yhat_          _label_ _ids_\n1972      0 Random Forest v7     1\n64        0 Random Forest v7     2\n2162      0 Random Forest v7     3\n2174      0 Random Forest v7     4\n2095      0 Random Forest v7     5\n1173      0 Random Forest v7     6\n\n$agr_profiles\nTop profiles    : \n  _vname_          _label_        _x_ _yhat_ _ids_\n1     age Random Forest v7  0.1666667   0.44     0\n2     age Random Forest v7  2.0000000   0.51     0\n3     age Random Forest v7  4.0000000   0.51     0\n4     age Random Forest v7  7.0000000   0.44     0\n5     age Random Forest v7  9.0000000   0.41     0\n6     age Random Forest v7 13.0000000   0.30     0\n\n$color\n[1] \"#4378bf\"\n\n\n\n\n\n\n\n\n\nclass舱位等级\n头等舱的乘客有着更高的存活率。\n\n\n'variable_type' changed to 'categorical' due to lack of numerical variables.\n\n\n\n\n\n\n\nfare票价\n廉价的船票与更低的机会相关\n\n\n\n\n\n\n\nembarked\n从C处登船的乘客存活率最高\n\n\n'variable_type' changed to 'categorical' due to lack of numerical variables."
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#实例层面的解释",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#实例层面的解释",
+    "title": "生存分析模仿案例",
+    "section": "实例层面的解释",
+    "text": "实例层面的解释\n看看从C处登船的头等舱的8岁男性的模型预测细分解释。\n\n\n\n\n\n由上图可以看出，这位乘客最重要的特征是年龄和性别。毕竟他的生存几率比一般乘客要高，主要是因为年龄小，虽然是男性。"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#更多模型",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#更多模型",
+    "title": "生存分析模仿案例",
+    "section": "更多模型",
+    "text": "更多模型\n试一试使用更多的模型来进行生存分析\n\nLogistic回归分析\n\n\nLoading required package: Hmisc\n\n\n\nAttaching package: 'Hmisc'\n\n\nThe following objects are masked from 'package:base':\n\n    format.pval, units\n\n\nnumber of knots in rcs defaulting to 5\n\n\nPreparation of a new explainer is initiated\n  -&gt; model label       :  Logistic regression \n  -&gt; data              :  2207  rows  8  cols \n  -&gt; target variable   :  2207  values \n  -&gt; predict function  :  function(m, x) predict(m, x, type = \"fitted\") \n  -&gt; predicted values  :  No value for predict function target column. (  default  )\n  -&gt; model_info        :  package rms , ver. 6.7.1 , task classification (  default  ) \n  -&gt; predicted values  :  numerical, min =  0.002671631 , mean =  0.3221568 , max =  0.9845724  \n  -&gt; residual function :  difference between y and yhat (  default  )\n  -&gt; residuals         :  numerical, min =  -0.9845724 , mean =  -2.491758e-09 , max =  0.9715125  \n  A new explainer has been created!  \n\n\n\n\nGeneralized Boosted 模型\n\n\nLoaded gbm 2.1.8.1\n\n\nDistribution not specified, assuming bernoulli ...\n\n\n\n\nPreparation of a new explainer is initiated\n  -&gt; model label       :  Generalized Boosted Models \n  -&gt; data              :  2207  rows  8  cols \n  -&gt; target variable   :  2207  values \n  -&gt; predict function  :  function(m, x) predict(m, x, n.trees = 15000, type = \"response\") \n  -&gt; predicted values  :  No value for predict function target column. (  default  )\n  -&gt; model_info        :  package gbm , ver. 2.1.8.1 , task classification (  default  ) \n  -&gt; predicted values  :  numerical, min =  0.0002698367 , mean =  0.3212727 , max =  0.9988138  \n  -&gt; residual function :  difference between y and yhat (  default  )\n  -&gt; residuals         :  numerical, min =  -0.9690881 , mean =  0.0008841099 , max =  0.9925193  \n  A new explainer has been created!  \n\n\n\n\nSupport Vector Machines (SVM)\n\n\n\nAttaching package: 'e1071'\n\n\nThe following object is masked from 'package:Hmisc':\n\n    impute\n\n\nPreparation of a new explainer is initiated\n  -&gt; model label       :  Support Vector Machines \n  -&gt; data              :  2207  rows  8  cols \n  -&gt; target variable   :  2207  values \n  -&gt; predict function  :  yhat.svm  will be used (  default  )\n  -&gt; predicted values  :  No value for predict function target column. (  default  )\n  -&gt; model_info        :  package e1071 , ver. 1.7.13 , task classification (  default  ) \n  -&gt; predicted values  :  numerical, min =  0.08760853 , mean =  0.3225486 , max =  0.9617558  \n  -&gt; residual function :  difference between y and yhat (  default  )\n  -&gt; residuals         :  numerical, min =  -0.8638238 , mean =  -0.0003917913 , max =  0.9123915  \n  A new explainer has been created!  \n\n\n\n\nk-Nearest Neighbors (kNN)\n\n\nLoading required package: ggplot2\n\n\nLoading required package: lattice\n\n\nPreparation of a new explainer is initiated\n  -&gt; model label       :  k-Nearest Neighbors \n  -&gt; data              :  2207  rows  8  cols \n  -&gt; target variable   :  2207  values \n  -&gt; predict function  :  function(m, x) predict(m, x)[, 2] \n  -&gt; predicted values  :  No value for predict function target column. (  default  )\n  -&gt; model_info        :  package Model of class: knn3 package unrecognized , ver. Unknown , task regression (  default  ) \n  -&gt; predicted values  :  numerical, min =  0 , mean =  0.3061413 , max =  1  \n  -&gt; residual function :  difference between y and yhat (  default  )\n  -&gt; residuals         :  numerical, min =  -0.8333333 , mean =  0.01601551 , max =  0.9285714  \n  A new explainer has been created!  \n\n\n\n\nVariable performance\n\n\n\n\n\n\n\nSingle variable"
+  },
+  {
+    "objectID": "movie/2023/10/10-08-survival-learning/index.html#事例层面阐释",
+    "href": "movie/2023/10/10-08-survival-learning/index.html#事例层面阐释",
+    "title": "生存分析模仿案例",
+    "section": "事例层面阐释",
+    "text": "事例层面阐释"
   }
 ]

@@ -158,7 +158,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -696,7 +697,26 @@ No matching items
 <h2 class="anchored" data-anchor-id="recent-movies">Recent movies</h2>
 <div id="listing-movie" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="love" data-listing-date-sort="1694361600000" data-listing-file-modified-sort="1694437820897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="机器学习" data-listing-date-sort="1696694400000" data-listing-file-modified-sort="1696731015658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./movie/2023/10/10-08-survival-learning/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./movie/2023/10/10-08-survival-learning/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+生存分析模仿案例
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2023-10-08
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="love" data-listing-date-sort="1694361600000" data-listing-file-modified-sort="1694437820897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./movie/2023/09/09-11-before-midnight/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -715,7 +735,7 @@ Before Midnight (2013)
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="love" data-listing-date-sort="1694275200000" data-listing-file-modified-sort="1694440517364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="love" data-listing-date-sort="1694275200000" data-listing-file-modified-sort="1694440517364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./movie/2023/09/09-10-before-sunrise/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -734,11 +754,11 @@ Before sunrise (1995)
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="love" data-listing-date-sort="1694275200000" data-listing-file-modified-sort="1694437549140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="love" data-listing-date-sort="1694275200000" data-listing-file-modified-sort="1694437549140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./movie/2023/09/09-10-before-sunset/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./movie/2023/09/09-10-before-sunset/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./movie/2023/09/09-10-before-sunset/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -757,6 +777,9 @@ Before sunset (2004)
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="movie-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <p><a href="../movie/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
 
