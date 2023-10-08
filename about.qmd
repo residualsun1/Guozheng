@@ -13,8 +13,10 @@ about:
   #    href: https://github.com/residualsun1
 ---
 
-This is Guozheng Huang's blog.
+This is Guozheng Huang's English blog.
 
-I buildt my first blog with `blogdown` on May 28th, 2023. It was changed twice times by myself and completed on June 6th.
+I built my first Chinese blog with `blogdown` on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.
 
-During the theme within my first blog doesn't support multilanguages, I decide to bulid my English blog with Quarto and preserve [my Chinese blog](https://guozheng.rbind.io) in blogdown.
+During the theme within my Chinese blog doesn't support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in `blogdown`, and I would be beening updating it.
+
+This English blog will be used to record my simple daily in English, book reviews in Chinese(that's because its interface is better suited for displaying rich content, while my level of English writing hasn't be sufficient for me to express complex content yet) and some practices about data analysis(hope god bless I would keep it and I could write it down in English one day).

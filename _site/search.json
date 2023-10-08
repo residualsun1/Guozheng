@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "Me",
     "section": "",
-    "text": "This is Guozheng Huang’s blog.\nI buildt my first blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th.\nDuring the theme within my first blog doesn’t support multilanguages, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown."
+    "text": "This is Guozheng Huang’s English blog.\nI built my first Chinese blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.\nDuring the theme within my Chinese blog doesn’t support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown, and I would be beening updating it.\nThis English blog will be used to record my simple daily in English, book reviews in Chinese(that’s because its interface is better suited for displaying rich content, while my level of English writing hasn’t be sufficient for me to express complex content yet) and some practices about data analysis(hope god bless I would keep it and I could write it down in English one day)."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -677,5 +677,12 @@
     "title": "Guozheng",
     "section": "R and Rtudio",
     "text": "R and Rtudio\n\n\n\n\n\n\n\n\n\n\n生存分析模仿案例\n\n\n\n2023-10-08\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "Me",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThat’s because its interface is better suited for displaying rich content, while my level of English writing hasn’t be sufficient for me to express complex content.↩︎\nHope god bless I would keep it and I could write it down in English.↩︎"
   }
 ]
