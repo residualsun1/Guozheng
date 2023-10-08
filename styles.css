@@ -21,14 +21,14 @@ src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能�
 */
 
 main, p{
-  font-size: 1.13rem !important; /*原来是1.15rem，但看起来1.00rem看起来更舒服*/
+  font-size: 1.10rem !important; /*原来是1.15rem，但看起来1.00rem看起来更舒服*/
   font-family: 'Times New Roman', 'SiYuanSong';
   font-weight: 500;
   line-height: 1.75;
 }
 
 .callout.callout-style-default .callout-body {
-    font-size: 1.2rem;
+    font-size: 1.10rem;
     font-weight: 400;
 }
 

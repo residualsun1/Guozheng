@@ -5,8 +5,6 @@ date: "2023-10-08"
 categories: [机器学习]
 image: "image.jpg"
 toc: true
-execute:
-  echo: false
 ---
 
 ::: {.callout-note apperance="simple"}
