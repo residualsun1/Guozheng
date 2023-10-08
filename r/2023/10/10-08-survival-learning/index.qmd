@@ -34,14 +34,14 @@ head(titanic_imputed)
 ::: {.callout-caution collapse="true"}
 ## 各变量含义
 
-1. `gender`：性别
-2. `age`：年龄
-3. `class`：乘客舱位等级或船员服务类型
-4. `embarked`：登船地点
-5. `fare`：票价（船员、音乐家和船厂员工的为0）
-6. `sibsp`：同胞或配偶的数量
-7. `parch`：父母或子女的数量
-8. `survival`：是否生存
+1.  `gender`：性别
+2.  `age`：年龄
+3.  `class`：乘客舱位等级或船员服务类型
+4.  `embarked`：登船地点
+5.  `fare`：票价（船员、音乐家和船厂员工的为0）
+6.  `sibsp`：同胞或配偶的数量
+7.  `parch`：父母或子女的数量
+8.  `survival`：是否生存
 :::
 
 ## 泰坦尼克号的生存模型
