@@ -6,36 +6,36 @@ listing:
     sort: "date desc"
     type: grid
     fields: [image, date, title]
-    categories: false
-    sort-ui: false
-    filter-ui: false
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
     page-size: 3
   - id: posts-en
     contents: posts/en/**/*/index.qmd
     type: default
     fields: [image, date, title]
     sort: "date desc"
-    #categories: cloud
-    sort-ui: false
-    filter-ui: false
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
     page-size: 3
   - id: posts-cn
     contents: posts/cn/**/*/index.qmd
     type: default
     fields: [image, date, title]
     sort: "date desc"
-    #categories: cloud
-    sort-ui: false
-    filter-ui: false
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
     page-size: 3
   - id: r
     contents: r/**/*/index.qmd
     sort: "date desc"
     type: grid
     fields: [image, date, title, subtitle]
-    categories: false
-    sort-ui: false
-    filter-ui: false
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
     page-size: 3
 date-format: iso
 page-layout: full
