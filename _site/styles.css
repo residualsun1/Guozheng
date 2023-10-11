@@ -25,9 +25,9 @@ pre {
 }
 /*以上，更改代码结果框的背景颜色*/
 
-
+/*
 main, p{
-  font-size: 1.10rem !important; /*原来是1.15rem，但看起来1.00rem看起来更舒服*/
+  font-size: 1.15rem !important;
   font-family: 'Times New Roman', 'SiYuanSong';
   font-weight: 500;
   line-height: 1.75;
@@ -37,6 +37,52 @@ main, p{
     font-size: 1.10rem;
     font-weight: 400;
 }
+*/
+
+/*上面是原来的字体和界面配置*/
+
+body {
+  font-family: 'Times New Roman', 'SiYuanSong';
+
+  font-size: 0.95em;
+  line-height: 1.8em;
+  background-color: #faf8f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Times New Roman', 'SiYuanSong';
+ /*  color: #36454f;*/ 
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.6em;
+  padding-bottom: 0em;
+  line-height: 1.6em;
+}
+
+h2 {
+  font-size: 1.3em;
+  border-bottom: 1px solid #b3cde0;
+}
+
+h2 a {
+  border-bottom: none;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 0.8em;
+}
+
+/*以上是借鉴普癌新声的代码*/
 
 :root {
     --bs-blue: black;
@@ -127,7 +173,7 @@ a{
 }
 
 b, strong {
-    color: var(--bs-blue);
+    color: black;
     font-weight: bolder;
     font-family: 'Times New Roman', 'SiYuanSong';
 }
