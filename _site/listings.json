@@ -6,8 +6,6 @@
       "/posts/en/2023/10/10-04-caixin/index.html",
       "/posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html",
       "/posts/en/2023/09/09-23-blessings-to-friends/index.html",
-      "/posts/cn/2023/09/09-20-multi-languages/index.html",
-      "/posts/cn/2023/09/09-20-mutil-life/index.html",
       "/posts/en/2023/09/09-21-fudan-anthropology/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",
@@ -22,8 +20,6 @@
       "/posts/en/2023/10/10-04-caixin/index.html",
       "/posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html",
       "/posts/en/2023/09/09-23-blessings-to-friends/index.html",
-      "/posts/cn/2023/09/09-20-multi-languages/index.html",
-      "/posts/cn/2023/09/09-20-mutil-life/index.html",
       "/posts/en/2023/09/09-21-fudan-anthropology/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
       "/posts/en/2023/09/09-11-build-blog/index.html",
@@ -70,9 +66,7 @@
   {
     "listing": "/posts/cn/index.html",
     "items": [
-      "/posts/cn/2023/10/10-11-teahouse-reviews/index.html",
-      "/posts/cn/2023/09/09-20-multi-languages/index.html",
-      "/posts/cn/2023/09/09-20-mutil-life/index.html"
+      "/posts/cn/2023/10/10-11-teahouse-reviews/index.html"
     ]
   },
   {
