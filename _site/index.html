@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -302,6 +302,9 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -320,7 +323,13 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 《茶馆》：我们与公共生活
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-text listing-description">
+2023年10月11日凌晨1：41，我读完了《茶馆：成都的公共生活与微观世界，1900-1950》。这本书并不难读，整体给予我的感受是：<strong>既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀</strong>。但从9月30日开始阅读，我本…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+黄国政
+</div>
 <div class="listing-date">
 2023-10-11
 </div>
@@ -339,7 +348,16 @@ ul.task-list li input[type="checkbox"] {
 <h5 class="no-anchor card-title listing-title">
 Nice to meet you, Caixin
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+
+</div>
+<div class="card-text listing-description">
+I make friends with a new friend called Caixin who was…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-10-04
 </div>
@@ -358,7 +376,16 @@ Nice to meet you, Caixin
 <h5 class="no-anchor card-title listing-title">
 Charming night in Xiamen
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+It is too woderful to be not real……
+</div>
+<div class="card-text listing-description">
+It is a night of unparalleled enchantment.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-09-26
 </div>
@@ -377,7 +404,16 @@ Charming night in Xiamen
 <h5 class="no-anchor card-title listing-title">
 Blessings to my friend who is spoken for
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+Watermelon has been unavailable.
+</div>
+<div class="card-text listing-description">
+My friend, 「Watermelon」formed a WeChat group to contact each other who were classmates in middle school and who are studying in Guangzhou Higher…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-09-23
 </div>
@@ -396,7 +432,16 @@ Blessings to my friend who is spoken for
 <h5 class="no-anchor card-title listing-title">
 Hi, Fudan University!
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+Keep curiosity and enthusiasm for knowledge and the unknown
+</div>
+<div class="card-text listing-description">
+Secure in the knowledge that my parents have been respecting for and supporting my <strong>pursuit</strong>.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-09-17
 </div>
@@ -415,7 +460,16 @@ Hi, Fudan University!
 <h5 class="no-anchor card-title listing-title">
 For my life
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+I am diving into my own life
+</div>
+<div class="card-text listing-description">
+I have traced her silhouettes since I met her in Naozhou island. While she just <strong>frequented</strong> my…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-09-13
 </div>
@@ -432,7 +486,16 @@ For my life
 <h5 class="no-anchor card-title listing-title">
 Create my own blog
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+Learn how to build blog with Quarto and Desktop
+</div>
+<div class="card-text listing-description">
+Ahead of my blog, there has been a blog which was written by Bea Milz descripe how to create a blog belong to someone.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-09-11
 </div>
@@ -451,7 +514,16 @@ Create my own blog
 <h5 class="no-anchor card-title listing-title">
 Hello world
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-subtitle listing-subtitle">
+Welcome:-)
+</div>
+<div class="card-text listing-description">
+Hello, my first English blog;-)
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
+</div>
 <div class="listing-date">
 2023-09-06
 </div>
@@ -488,6 +560,9 @@ No matching items
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -508,12 +583,18 @@ Nice to meet you, Caixin
 <div class="listing-subtitle">
 
 </div>
+<div class="listing-description">
+I make friends with a new friend called Caixin who was…
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/10/10-04-caixin/index.html">
 <div class="listing-date">
 2023-10-04
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -530,12 +611,18 @@ Charming night in Xiamen
 <div class="listing-subtitle">
 It is too woderful to be not real……
 </div>
+<div class="listing-description">
+It is a night of unparalleled enchantment.
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html">
 <div class="listing-date">
 2023-09-26
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -552,12 +639,18 @@ Blessings to my friend who is spoken for
 <div class="listing-subtitle">
 Watermelon has been unavailable.
 </div>
+<div class="listing-description">
+My friend, 「Watermelon」formed a WeChat group to contact each other who were classmates in middle school and who are studying in Guangzhou Higher…
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/09/09-23-blessings-to-friends/index.html">
 <div class="listing-date">
 2023-09-23
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -574,12 +667,18 @@ Hi, Fudan University!
 <div class="listing-subtitle">
 Keep curiosity and enthusiasm for knowledge and the unknown
 </div>
+<div class="listing-description">
+Secure in the knowledge that my parents have been respecting for and supporting my <strong>pursuit</strong>.
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/09/09-21-fudan-anthropology/index.html">
 <div class="listing-date">
 2023-09-17
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -596,12 +695,18 @@ For my life
 <div class="listing-subtitle">
 I am diving into my own life
 </div>
+<div class="listing-description">
+I have traced her silhouettes since I met her in Naozhou island. While she just <strong>frequented</strong> my…
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/09/09-13-it-is-my-life/index.html">
 <div class="listing-date">
 2023-09-13
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -618,12 +723,18 @@ Create my own blog
 <div class="listing-subtitle">
 Learn how to build blog with Quarto and Desktop
 </div>
+<div class="listing-description">
+Ahead of my blog, there has been a blog which was written by Bea Milz descripe how to create a blog belong to someone.
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/09/09-11-build-blog/index.html">
 <div class="listing-date">
 2023-09-11
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -640,12 +751,18 @@ Hello world
 <div class="listing-subtitle">
 Welcome:-)
 </div>
+<div class="listing-description">
+Hello, my first English blog;-)
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/en/2023/09/09-06-hello-world/index.html">
 <div class="listing-date">
 2023-09-06
+</div>
+<div class="listing-author">
+Guozheng Huang
 </div>
 </a>
 </div>
@@ -677,6 +794,9 @@ No matching items
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -697,12 +817,18 @@ No matching items
 <div class="listing-subtitle">
 
 </div>
+<div class="listing-description">
+2023年10月11日凌晨1：41，我读完了《茶馆：成都的公共生活与微观世界，1900-1950》。这本书并不难读，整体给予我的感受是：<strong>既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀</strong>。但从9月30日开始阅读，我本…
+</div>
 </a>
 </div>
 <div class="metadata">
 <a href="./posts/cn/2023/10/10-11-teahouse-reviews/index.html">
 <div class="listing-date">
 2023-10-11
+</div>
+<div class="listing-author">
+黄国政
 </div>
 </a>
 </div>
@@ -731,6 +857,9 @@ No matching items
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -749,7 +878,13 @@ No matching items
 <h5 class="no-anchor card-title listing-title">
 生存分析模仿案例
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-text listing-description">
+本生存分析模仿案例根据教程Survival on the RMS Titanic翻译而来，我在翻译中增加了大量来自个人理解的解读。
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+黄国政
+</div>
 <div class="listing-date">
 2023-10-08
 </div>
