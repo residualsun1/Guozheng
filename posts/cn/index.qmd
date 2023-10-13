@@ -4,7 +4,7 @@ listing:
   - id: posts-cn
     contents: "**/*/index.qmd"
     type: default
-    fields: [image, date, title, subtitle, author, reading-time]  
+    fields: [image, date, title, subtitle, author, description]  
     sort: "date desc"
     categories: cloud
     sort-ui: true
