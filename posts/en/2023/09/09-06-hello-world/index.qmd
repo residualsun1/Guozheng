@@ -1,10 +1,10 @@
 ---
 title: "Hello world"
-subtitle: "Welcome:-)"
 author: "Guozheng Huang"
 date: "2023-09-06"
-categories: [news, code, analysis]
+categories: [blog]
 image: "image.jpg"
+description: "Welcome:-)"
 ---
 
 Hello, my first English blog;-)

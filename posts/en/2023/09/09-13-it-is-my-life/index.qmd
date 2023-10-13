@@ -1,14 +1,12 @@
 ---
 title: "For my life"
-subtitle: "I am diving into my own life"
 author: "Guozheng Huang"
 date: "2023-09-13"
 categories: [blog]
 toc: true
-image: image.jpg
+image: "image.jpg"
+description: ""
 ---
-
-# About her
 
 ![Walking with her on the island. 23 August, 2023](img/about-her.jpg)
 
@@ -18,11 +16,7 @@ What happened to me? I am...... enchanted? lost? falling in some ambiguous feeli
 
 I have no idea. Just like a silly man who could not reach **maturity**.
 
-She told me I regard Wang and her to my **desirable** but unattainable[^1] standard and phantom[^2].
-
-[^1]: 「desirable but unattainable」is from Deepl.
-
-[^2]: ibid
+She told me I regard Wang and her to my **desirable** but unattainable standard and phantom.
 
 There is no denying that she has a **fair** precise **grasp** of me. Instead, I was trapped in the fallout of the conduct from her. Like two sides of the same coin, an exolict goal that means some "certainty"(or "determinacy") vanished gradually--whcih refers to downsied. At the same time, it forced me to review my growth progress--
 
@@ -31,8 +25,6 @@ There is no denying that she has a **fair** precise **grasp** of me. Instead, I 
 Life launched a **philosophy** **invasion** of me. I lost direction--Even thought it is fasle.
 
 Nevertheless, things could not be commplicated. And that is why I write this blog.
-
-# Practice own life
 
 When I **recite words** in the early morning, something appear clear. I always doubt myself, but what would confuse us is **eternal** reflection.
 
@@ -44,9 +36,7 @@ Honey, no answer.
 
 That's the same thing why you should not stay up late.
 
-Something that could inspire us peacefully is important rather than an empty promises of a complex reality[^3]
-
-[^3]: ibid
+Something that could inspire us peacefully is important rather than an empty promises of a complex reality.
 
 Obviously, seeking for one thing you could act first and then practice is necessary. Don't expect the result and ending apace and worry about it.
 
@@ -54,10 +44,6 @@ If you find you can enjoy it--A peaceful feeling and you can continue practicing
 
 Go ahead and keep it.
 
-# My plan
-
 She has gone to Minzu University of China which is located in Beijing.
 
-From my own point of view, It is the best academic place in China. The reason why I want to become a postgraduate student is multiple. That's one among them.
-
-Only not because of her.
+From my own point of view, It is the best academic place in China. Nevertheless, I changed me mind--I don't have to be a postgradute. Construct your own story by the mean of various ways.

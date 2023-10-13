@@ -1,10 +1,10 @@
 ---
 title: "Create my own blog"
-subtitle: "Learn how to build blog with Quarto and Desktop"
 author: "Guozheng Huang"
 date: "2023-09-11"
 categories: [blog]
 toc: true
+description: "Learn how to build blog with Quarto and Desktop"
 ---
 
 Ahead of my blog, there has been a [blog](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/) which was written by [Bea Milz](https://beamilz.com/) descripe how to create a blog belong to someone.

@@ -1,11 +1,11 @@
 ---
 title: "Hi, Fudan University!"
-subtitle: "Keep curiosity and enthusiasm for knowledge and the unknown"
 author: "Guozheng Huang"
 date: "2023-09-17"
 categories: [blog]
 toc: true
 image: "image.png"
+description: "Keep curiosity and enthusiasm for knowledge and the unknown"
 ---
 
 > Secure in the knowledge that my parents have been respecting for and supporting my **pursuit**.
@@ -47,6 +47,7 @@ As a native of Shangahai, He took us to the Bund in Shanghai, and photographed w
 +---------------------------------------+---------------------------------------+
 | ![photo1](img/photo-in-shanghai1.jpg) | ![photo2](img/photo-in-shanghai2.jpg) |
 +:=====================================:+:=====================================:+
+|                                       |                                       |
 +---------------------------------------+---------------------------------------+
 
 **Destiny** is inexpressibly wonderful. There were 8 partners in our WeChat group without Liqiu who formed the group. In the end, my classmates and I participated in activity offline with Liqiu. We were more familiar with each other in an interactive progress.
