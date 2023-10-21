@@ -2,23 +2,18 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/cn/2023/10/10-21-social-security/index.html",
-      "/posts/en/2023/10/10-19-sarah/index.html",
       "/posts/cn/2023/10/10-11-teahouse-reviews/index.html",
       "/posts/en/2023/10/10-04-caixin/index.html",
       "/posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html",
       "/posts/en/2023/09/09-23-blessings-to-friends/index.html",
       "/posts/en/2023/09/09-21-fudan-anthropology/index.html",
       "/posts/en/2023/09/09-13-it-is-my-life/index.html",
-      "/posts/en/2023/09/09-06-hello-world/index.html",
-      "/r/2023/10/10-08-survival-learning/index.html"
+      "/posts/en/2023/09/09-06-hello-world/index.html"
     ]
   },
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/cn/2023/10/10-21-social-security/index.html",
-      "/posts/en/2023/10/10-19-sarah/index.html",
       "/posts/cn/2023/10/10-11-teahouse-reviews/index.html",
       "/posts/en/2023/10/10-04-caixin/index.html",
       "/posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html",
@@ -56,7 +51,6 @@
   {
     "listing": "/posts/en/index.html",
     "items": [
-      "/posts/en/2023/10/10-19-sarah/index.html",
       "/posts/en/2023/10/10-04-caixin/index.html",
       "/posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html",
       "/posts/en/2023/09/09-23-blessings-to-friends/index.html",
@@ -68,14 +62,11 @@
   {
     "listing": "/posts/cn/index.html",
     "items": [
-      "/posts/cn/2023/10/10-21-social-security/index.html",
       "/posts/cn/2023/10/10-11-teahouse-reviews/index.html"
     ]
   },
   {
     "listing": "/r/index.html",
-    "items": [
-      "/r/2023/10/10-08-survival-learning/index.html"
-    ]
+    "items": []
   }
 ]
