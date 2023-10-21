@@ -149,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">link</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/xxxxx" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/residualsun1" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -160,6 +160,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -321,7 +326,7 @@ Mtry:                             2
 Target node size:                 1 
 Variable importance mode:         none 
 Splitrule:                        gini 
-OOB prediction error:             19.44 % </code></pre>
+OOB prediction error:             19.26 % </code></pre>
 </div>
 </div>
 <p><code>model_titanic_rf</code>即我们创建的一个随机森林模型（random forest model）</p>
@@ -344,9 +349,9 @@ OOB prediction error:             19.44 % </code></pre>
   -&gt; predict function  :  yhat.ranger  will be used (  default  )
   -&gt; predicted values  :  No value for predict function target column. (  default  )
   -&gt; model_info        :  package ranger , ver. 0.15.1 , task classification (  default  ) 
-  -&gt; predicted values  :  numerical, min =  0 , mean =  0.2079746 , max =  1  
+  -&gt; predicted values  :  numerical, min =  0 , mean =  0.2043498 , max =  1  
   -&gt; residual function :  difference between y and yhat (  default  )
-  -&gt; residuals         :  numerical, min =  -1 , mean =  0.1155415 , max =  1  
+  -&gt; residuals         :  numerical, min =  -1 , mean =  0.1169008 , max =  1  
   A new explainer has been created!  </code></pre>
 </div>
 </div>
@@ -359,12 +364,12 @@ OOB prediction error:             19.44 % </code></pre>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(vi_rf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      variable mean_dropout_loss            label
-1 _full_model_         0.2155270 Random Forest v7
-2     survived         0.2152929 Random Forest v7
-3        sibsp         0.2324963 Random Forest v7
-4        parch         0.2329015 Random Forest v7
-5     embarked         0.2387845 Random Forest v7
-6         fare         0.2616076 Random Forest v7</code></pre>
+1 _full_model_         0.2223746 Random Forest v7
+2     survived         0.2216068 Random Forest v7
+3        parch         0.2356221 Random Forest v7
+4        sibsp         0.2374335 Random Forest v7
+5     embarked         0.2417836 Random Forest v7
+6         fare         0.2632125 Random Forest v7</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -388,47 +393,47 @@ OOB prediction error:             19.44 % </code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>$cp_profiles
 Top profiles    : 
-       gender        age class    embarked fare sibsp parch survived _yhat_
-1247     male  0.1666667   1st Southampton   34     0     0        0      1
-1247.1   male  2.0000000   1st Southampton   34     0     0        0      1
-1247.2   male  4.0000000   1st Southampton   34     0     0        0      1
-1247.3   male  7.0000000   1st Southampton   34     0     0        0      0
-1247.4   male  9.0000000   1st Southampton   34     0     0        0      0
-1247.5   male 13.0000000   1st Southampton   34     0     0        0      0
-       _vname_ _ids_          _label_
-1247       age  1247 Random Forest v7
-1247.1     age  1247 Random Forest v7
-1247.2     age  1247 Random Forest v7
-1247.3     age  1247 Random Forest v7
-1247.4     age  1247 Random Forest v7
-1247.5     age  1247 Random Forest v7
+       gender        age            class embarked fare sibsp parch survived
+1444     male  0.1666667 victualling crew  Belfast    0     0     0        1
+1444.1   male  2.0000000 victualling crew  Belfast    0     0     0        1
+1444.2   male  4.0000000 victualling crew  Belfast    0     0     0        1
+1444.3   male  7.0000000 victualling crew  Belfast    0     0     0        1
+1444.4   male  9.0000000 victualling crew  Belfast    0     0     0        1
+1444.5   male 13.0000000 victualling crew  Belfast    0     0     0        1
+       _yhat_ _vname_ _ids_          _label_
+1444        0     age  1444 Random Forest v7
+1444.1      0     age  1444 Random Forest v7
+1444.2      0     age  1444 Random Forest v7
+1444.3      0     age  1444 Random Forest v7
+1444.4      0     age  1444 Random Forest v7
+1444.5      0     age  1444 Random Forest v7
 
 
 Top observations:
-     gender age            class    embarked    fare sibsp parch survived
-1247   male  48              1st Southampton 34.0000     0     0        0
-943    male  30              1st     Belfast 89.0000     0     0        0
-535    male  30              3rd Southampton  7.1711     0     0        0
-1926   male  31 victualling crew Southampton  0.0000     0     0        0
-981  female  32              2nd Southampton 13.0000     0     0        1
-552  female  22              3rd Southampton 12.0509     1     1        1
+     gender age            class    embarked     fare sibsp parch survived
+1444   male  31 victualling crew     Belfast   0.0000     0     0        1
+2121   male  29 victualling crew     Belfast   0.0000     0     0        1
+553  female  20              2nd Southampton  23.0000     2     1        1
+911  female  31              3rd Southampton   7.1701     0     0        0
+713  female  27              1st   Cherbourg 106.0806     0     0        1
+171  female  17              3rd  Queenstown   7.1707     0     0        0
      _yhat_          _label_ _ids_
-1247      0 Random Forest v7     1
-943       0 Random Forest v7     2
-535       0 Random Forest v7     3
-1926      0 Random Forest v7     4
-981       1 Random Forest v7     5
-552       1 Random Forest v7     6
+1444      0 Random Forest v7     1
+2121      0 Random Forest v7     2
+553       1 Random Forest v7     3
+911       0 Random Forest v7     4
+713       1 Random Forest v7     5
+171       1 Random Forest v7     6
 
 $agr_profiles
 Top profiles    : 
   _vname_          _label_        _x_ _yhat_ _ids_
-1     age Random Forest v7  0.1666667   0.55     0
-2     age Random Forest v7  2.0000000   0.64     0
-3     age Random Forest v7  4.0000000   0.66     0
-4     age Random Forest v7  7.0000000   0.54     0
-5     age Random Forest v7  9.0000000   0.53     0
-6     age Random Forest v7 13.0000000   0.30     0
+1     age Random Forest v7  0.1666667   0.47     0
+2     age Random Forest v7  2.0000000   0.57     0
+3     age Random Forest v7  4.0000000   0.58     0
+4     age Random Forest v7  7.0000000   0.46     0
+5     age Random Forest v7  9.0000000   0.41     0
+6     age Random Forest v7 13.0000000   0.28     0
 
 $color
 [1] "#4378bf"</code></pre>
@@ -576,9 +581,9 @@ Attaching package: 'Hmisc'</code></pre>
   -&gt; predict function  :  function(m, x) predict(m, x, n.trees = 15000, type = "response") 
   -&gt; predicted values  :  No value for predict function target column. (  default  )
   -&gt; model_info        :  package gbm , ver. 2.1.8.1 , task classification (  default  ) 
-  -&gt; predicted values  :  numerical, min =  0.0004344323 , mean =  0.3237439 , max =  0.9985729  
+  -&gt; predicted values  :  numerical, min =  0.0004616668 , mean =  0.3203377 , max =  0.9988087  
   -&gt; residual function :  difference between y and yhat (  default  )
-  -&gt; residuals         :  numerical, min =  -0.9717102 , mean =  -0.001587121 , max =  0.9936794  
+  -&gt; residuals         :  numerical, min =  -0.9672889 , mean =  0.001819063 , max =  0.9920907  
   A new explainer has been created!  </code></pre>
 </div>
 </div>
@@ -610,9 +615,9 @@ Attaching package: 'e1071'</code></pre>
   -&gt; predict function  :  yhat.svm  will be used (  default  )
   -&gt; predicted values  :  No value for predict function target column. (  default  )
   -&gt; model_info        :  package e1071 , ver. 1.7.13 , task classification (  default  ) 
-  -&gt; predicted values  :  numerical, min =  0.08809287 , mean =  0.3236259 , max =  0.9621217  
+  -&gt; predicted values  :  numerical, min =  0.0885337 , mean =  0.3231199 , max =  0.9611676  
   -&gt; residual function :  difference between y and yhat (  default  )
-  -&gt; residuals         :  numerical, min =  -0.8648811 , mean =  -0.001469105 , max =  0.9119071  
+  -&gt; residuals         :  numerical, min =  -0.8627501 , mean =  -0.0009631668 , max =  0.9114663  
   A new explainer has been created!  </code></pre>
 </div>
 </div>
@@ -723,7 +728,7 @@ Attaching package: 'e1071'</code></pre>
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
