@@ -5,6 +5,7 @@ website:
   title: "Guozheng"
   site-url: "https://residualsun.blog/"
   page-navigation: true
+  back-to-top-navigation: true
   page-footer: 
     left: Powered by [Quarto](https://quarto.org/)
     right: © Copyright 2023 ❤️ Residualsun

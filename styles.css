@@ -46,7 +46,7 @@ body {
 
   font-size: 0.97em;
   line-height: 1.8em;
-  background-color: #faf8f8;
+  /*background-color: #faf8f8;*/
 }
 
 h1,
@@ -151,7 +151,7 @@ div.quarto-post .thumbnail img {
 .quarto-title-banner {
     margin-bottom: 1em;
     color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
-    background: #faf8f8; /*原来是黑色的*/
+    background: #fff; /*原来是黑色的*/
 }
 
 
