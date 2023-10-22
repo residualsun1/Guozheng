@@ -43,6 +43,16 @@ format:
   html:
     theme: zephyr
     css: styles.css
+    smooth-scroll: true
+    link-external-icon: false
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    toc-depth: 3
+    toc-title: 目录
+    toc-location: left
+    anchor-sections: true
 
 editor: visual
 
