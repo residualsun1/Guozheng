@@ -12,21 +12,21 @@ listing:
     page-size: 3
   - id: posts-en
     contents: posts/en/**/*/index.qmd
-    type: default
-    fields: [image, date, title, subtitle, author, description]
     sort: "date desc"
+    type: grid
+    fields: [image, date, title, subtitle, author, description]
     categories: cloud
-    sort-ui: true
-    filter-ui: true
+    sort-ui: false
+    filter-ui: false
     page-size: 3
   - id: posts-cn
     contents: posts/cn/**/*/index.qmd
-    type: default
-    fields: [image, date, title, subtitle, author, description]
     sort: "date desc"
+    type: grid
+    fields: [image, date, title, subtitle, author, description]
     categories: cloud
-    sort-ui: true
-    filter-ui: true
+    sort-ui: false
+    filter-ui: false
     page-size: 3
   - id: r
     contents: r/**/*/index.qmd
@@ -34,26 +34,20 @@ listing:
     type: grid
     fields: [image, date, title, subtitle, author, description]
     categories: cloud
-    sort-ui: true
-    filter-ui: true
+    sort-ui: false
+    filter-ui: false
     page-size: 3
 date-format: iso
 page-layout: full
 title-block-banner: false
 comments: false
 toc: true
+back-to-top-navigation: false
 ---
 
-## Recent posts
+## 近日博文 | Recent posts
 
 ::: {#posts}
-:::
-
-<a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
-
-## English Posts
-
-::: {#posts-en}
 :::
 
 ## 中文博客
@@ -61,9 +55,11 @@ toc: true
 ::: {#posts-cn}
 :::
 
-## R and Rtudio
+<a href="../posts/cn/index.html"> <button type="button" class="btn btn-primary float-end">所有</button></a>
 
-::: {#r}
+## English Posts
+
+::: {#posts-en}
 :::
 
-<a href="../r/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
+<a href="../posts/en/index.html"> <button type="button" class="btn btn-primary float-end">See all</button></a>

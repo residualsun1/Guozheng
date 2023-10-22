@@ -100,37 +100,38 @@ div.quarto-post .thumbnail img {
 
 }
 
+/*消除类别背景色*/
 .quarto-listing-category.category-cloud .category-cloud-6 {
-    background: #f0fff2;
+    /*background: #f0fff2;*/
     border-radius: 10%;
 
 }
 
 .quarto-listing-category.category-cloud .category-cloud-5 {
-    background: aliceblue;
+    /*background: aliceblue;*/
     border-radius: 10%;
 
 }
 
 .quarto-listing-category.category-cloud .category-cloud-4 {
-    background: #fdf0ff;
+    /*background: #fdf0ff;*/
     border-radius: 10%;
 
 }
 
 .quarto-listing-category.category-cloud .category-cloud-3 {
-    background: #fff0f0;
+    /*background: #fff0f0;*/
     border-radius: 10%;
 }
 
 .quarto-listing-category.category-cloud .category-cloud-2 {
-    background: #f2f0ff;
+    /*background: #f2f0ff;*/
     border-radius: 10%;
 
 }
 
 .quarto-listing-category.category-cloud .category-cloud-1 {
-    background: #f0f1ff;
+    /*background: #f0f1ff;*/
     border-radius: 10%;
 
 }

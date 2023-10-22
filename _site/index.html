@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -266,10 +266,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#recent-posts" id="toc-recent-posts" class="nav-link active" data-scroll-target="#recent-posts">Recent posts</a></li>
-  <li><a href="#english-posts" id="toc-english-posts" class="nav-link" data-scroll-target="#english-posts">English Posts</a></li>
+  <li><a href="#近日博文-recent-posts" id="toc-近日博文-recent-posts" class="nav-link active" data-scroll-target="#近日博文-recent-posts">近日博文 | Recent posts</a></li>
   <li><a href="#中文博客" id="toc-中文博客" class="nav-link" data-scroll-target="#中文博客">中文博客</a></li>
-  <li><a href="#r-and-rtudio" id="toc-r-and-rtudio" class="nav-link" data-scroll-target="#r-and-rtudio">R and Rtudio</a></li>
+  <li><a href="#english-posts" id="toc-english-posts" class="nav-link" data-scroll-target="#english-posts">English Posts</a></li>
   </ul>
 </nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="blog"><span class="quarto-category-count category-cloud-8">blog</span></div><div class="category" data-category="书评"><span class="quarto-category-count category-cloud-2">书评</span></div></div></div>
@@ -293,8 +292,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="recent-posts" class="level2">
-<h2 class="anchored" data-anchor-id="recent-posts">Recent posts</h2>
+<section id="近日博文-recent-posts" class="level2">
+<h2 class="anchored" data-anchor-id="近日博文-recent-posts">近日博文 | Recent posts</h2>
 <div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -505,204 +504,196 @@ No matching items
   <ul class="pagination"></ul>
 </nav>
 </div>
-<p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
+</section>
+<section id="中文博客" class="level2">
+<h2 class="anchored" data-anchor-id="中文博客">中文博客</h2>
+<div id="listing-posts-cn" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="书评" data-listing-date-sort="1696953600000" data-listing-file-modified-sort="1697916609547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/cn/2023/10/10-11-teahouse-reviews/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/cn/2023/10/10-11-teahouse-reviews/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+《茶馆》：我们与公共生活
+</h5>
+<div class="card-text listing-description">
+既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+黄国政
+</div>
+<div class="listing-date">
+2023-10-11
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><a href="../posts/cn/index.html"> <button type="button" class="btn btn-primary float-end">所有</button></a></p>
 </section>
 <section id="english-posts" class="level2">
 <h2 class="anchored" data-anchor-id="english-posts">English Posts</h2>
-<div id="listing-posts-en" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts-en-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts-en'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1697916609941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/en/2023/10/10-04-caixin/index.html"> <img src="./posts/en/2023/10/10-04-caixin/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/en/2023/10/10-04-caixin/index.html">
-<h3 class="no-anchor listing-title">
+<div id="listing-posts-en" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1697916609941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/en/2023/10/10-04-caixin/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/en/2023/10/10-04-caixin/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Nice to meet you, Caixin
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
+</h5>
+<div class="card-text listing-description">
 I make friends with a new friend called Caixin who was…
 </div>
-</a>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Guozheng Huang
 </div>
-<div class="metadata">
-<a href="./posts/en/2023/10/10-04-caixin/index.html">
 <div class="listing-date">
 2023-10-04
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="blog" data-listing-date-sort="1695657600000" data-listing-file-modified-sort="1697916609858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Charming night in Xiamen
+</h5>
+<div class="card-text listing-description">
+It is too woderful to be not real……
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Guozheng Huang
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="blog" data-listing-date-sort="1695657600000" data-listing-file-modified-sort="1697916609858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html"> <img src="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html">
-<h3 class="no-anchor listing-title">
-Charming night in Xiamen
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>It is too woderful to be not real……</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/en/2023/09/09-25-wonderful-night-in-xiamen/index.html">
 <div class="listing-date">
 2023-09-26
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="blog" data-listing-date-sort="1695398400000" data-listing-file-modified-sort="1697916609823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/en/2023/09/09-23-blessings-to-friends/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/en/2023/09/09-23-blessings-to-friends/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blessings to my friend who is spoken for
+</h5>
+<div class="card-text listing-description">
+Watermelon has been unavailable.
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Guozheng Huang
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="blog" data-listing-date-sort="1695398400000" data-listing-file-modified-sort="1697916609823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/en/2023/09/09-23-blessings-to-friends/index.html"> <img src="./posts/en/2023/09/09-23-blessings-to-friends/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/en/2023/09/09-23-blessings-to-friends/index.html">
-<h3 class="no-anchor listing-title">
-Blessings to my friend who is spoken for
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Watermelon has been unavailable.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/en/2023/09/09-23-blessings-to-friends/index.html">
 <div class="listing-date">
 2023-09-23
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="blog" data-listing-date-sort="1694880000000" data-listing-file-modified-sort="1697916609797" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/en/2023/09/09-21-fudan-anthropology/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/en/2023/09/09-21-fudan-anthropology/image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hi, Fudan University!
+</h5>
+<div class="card-text listing-description">
+Keep curiosity and enthusiasm for knowledge and the unknown
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Guozheng Huang
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="blog" data-listing-date-sort="1694880000000" data-listing-file-modified-sort="1697916609797" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/en/2023/09/09-21-fudan-anthropology/index.html"> <img data-src="./posts/en/2023/09/09-21-fudan-anthropology/image.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/en/2023/09/09-21-fudan-anthropology/index.html">
-<h3 class="no-anchor listing-title">
-Hi, Fudan University!
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Keep curiosity and enthusiasm for knowledge and the unknown</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/en/2023/09/09-21-fudan-anthropology/index.html">
 <div class="listing-date">
 2023-09-17
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="blog" data-listing-date-sort="1694534400000" data-listing-file-modified-sort="1697916609646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/en/2023/09/09-13-it-is-my-life/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/en/2023/09/09-13-it-is-my-life/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+For my life
+</h5>
+<div class="card-text listing-description">
+I have traced her silhouettes since I met her in Naozhou island. While she just <strong>frequented</strong> my…
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Guozheng Huang
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="blog" data-listing-date-sort="1694534400000" data-listing-file-modified-sort="1697916609646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/en/2023/09/09-13-it-is-my-life/index.html"> <img data-src="./posts/en/2023/09/09-13-it-is-my-life/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/en/2023/09/09-13-it-is-my-life/index.html">
-<h3 class="no-anchor listing-title">
-For my life
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-I have traced her silhouettes since I met her in Naozhou island. While she just <strong>frequented</strong> my…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/en/2023/09/09-13-it-is-my-life/index.html">
 <div class="listing-date">
 2023-09-13
 </div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="blog" data-listing-date-sort="1693929600000" data-listing-file-modified-sort="1697916609548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/en/2023/09/09-06-hello-world/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/en/2023/09/09-06-hello-world/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hello world
+</h5>
+<div class="card-text listing-description">
+Welcome:-)
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Guozheng Huang
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="blog" data-listing-date-sort="1693929600000" data-listing-file-modified-sort="1697916609548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/en/2023/09/09-06-hello-world/index.html"> <img data-src="./posts/en/2023/09/09-06-hello-world/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/en/2023/09/09-06-hello-world/index.html">
-<h3 class="no-anchor listing-title">
-Hello world
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-<p>Welcome:-)</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/en/2023/09/09-06-hello-world/index.html">
 <div class="listing-date">
 2023-09-06
 </div>
-<div class="listing-author">
-Guozheng Huang
+</div>
+</div>
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -712,112 +703,20 @@ No matching items
   <ul class="pagination"></ul>
 </nav>
 </div>
-</section>
-<section id="中文博客" class="level2">
-<h2 class="anchored" data-anchor-id="中文博客">中文博客</h2>
-<div id="listing-posts-cn" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts-cn-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts-cn'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="书评" data-listing-date-sort="1696953600000" data-listing-file-modified-sort="1697916609547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/cn/2023/10/10-11-teahouse-reviews/index.html"> <img src="./posts/cn/2023/10/10-11-teahouse-reviews/image.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/cn/2023/10/10-11-teahouse-reviews/index.html">
-<h3 class="no-anchor listing-title">
-《茶馆》：我们与公共生活
-</h3>
-<div class="listing-subtitle">
+<p><a href="../posts/en/index.html"> <button type="button" class="btn btn-primary float-end">See all</button></a></p>
 
-</div>
-<div class="listing-description">
-<p>既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/cn/2023/10/10-11-teahouse-reviews/index.html">
-<div class="listing-date">
-2023-10-11
-</div>
-<div class="listing-author">
-黄国政
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+
+
 </section>
-<section id="r-and-rtudio" class="level2">
-<h2 class="anchored" data-anchor-id="r-and-rtudio">R and Rtudio</h2>
-<div id="listing-r" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-r-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-r'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-r">
 <div class="list grid quarto-listing-cols-3">
 
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-<p><a href="../r/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
-
-
-
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
