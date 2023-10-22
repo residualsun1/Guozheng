@@ -16,7 +16,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "关于",
+    "title": "思考无价",
     "section": "",
     "text": "中文  English\n\n\n\n你好，这里是黄国政的个人主页。\n2023年5月28日，我使用blogdown包搭建了自己的第一个博客网站，并在后续进行了两次大修改，最终在2023年6月6日确定主题，并累积写作了70余篇博文。\n在Quarto上搭建新的博客，主要是看中了Quarto上更丰富的视觉呈现效果。在信息爆炸的今天，我认为仅仅依靠文字还是很难吸引读者，给视觉带来更多冲击的图片势必会给同一篇博文增色不少。此外，原网站博文记录的更多是个人生活，而本网站博文则旨在进行对阅读和思考的记录甚至是创作。在功能上，我期望原博文网站仅作为个人自留地即可，本博文网站则作为交流的思想平台，希望能与到访的读者相互学习。\n\n\n\n Back to top"
   },
@@ -849,7 +849,7 @@
   {
     "objectID": "about-en.html",
     "href": "about-en.html",
-    "title": "About",
+    "title": "Less is more",
     "section": "",
     "text": "中文  English\n\n\n\nThis is Guozheng Huang’s English blog.\nI built my first Chinese blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.\nDuring the theme within my Chinese blog doesn’t support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown, and I would be beening updating it.\nThis English blog will be used to record my book reviews in Chinese. Because its interface is better suited for displaying rich content, while my level of English writing hasn’t be sufficient for me to express complex content yet.\n\n\n\n Back to top"
   },

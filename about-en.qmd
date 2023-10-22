@@ -1,5 +1,6 @@
 ---
-title: "About"
+title: "Less is more"
+subtitle: "The desire to write is love"
 comments: false
 image: profile.jpg
 about:

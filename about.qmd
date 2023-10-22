@@ -1,5 +1,6 @@
 ---
-title: "关于"
+title: "思考无价"
+description: "当我一无所有，我将“思索”以蔽孱弱的躯体"
 comments: false
 image: profile.jpg
 about:
