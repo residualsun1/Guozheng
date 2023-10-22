@@ -46,6 +46,7 @@ back-to-top-navigation: false
 ---
 
 ## 中文
+
 ::: {#posts-cn}
 :::
 
@@ -58,7 +59,7 @@ back-to-top-navigation: false
 
 <a href="../posts/en/index.html"> <button type="button" class="btn btn-primary float-end">See all</button></a>
 
-## 所有 | All
+## 所有 \| All
 
 ::: {#posts}
 :::

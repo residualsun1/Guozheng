@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: logo.png
   title: "残日留痕 | Residualsun"
   site-url: "https://residualsun.blog/"
   page-navigation: true
@@ -12,6 +13,10 @@ website:
     left: Powered by [Quarto](https://quarto.org/)
     right: © Copyright 2023 ❤️ Residualsun
   navbar:
+    title: false
+    logo: logo.png
+    logo-alt: "残日留痕 | Residualsun"
+    logo-href: "https://residualsun.blog/"
     right:
       - about.qmd
       - text: 写作 #增加一个父级选项，和about并列
