@@ -1,5 +1,5 @@
 ---
-title: "Guozheng"
+title: ""
 listing:
   - id: posts
     contents: "{en,cn}/**/*/index.qmd"
@@ -45,19 +45,19 @@ toc: true
 back-to-top-navigation: false
 ---
 
-## 近日博文 | Recent posts
+## 深林
 
 ::: {#posts}
 :::
 
-## 中文博客
+## 观照
 
 ::: {#posts-cn}
 :::
 
 <a href="../posts/cn/index.html"> <button type="button" class="btn btn-primary float-end">所有</button></a>
 
-## English Posts
+## 反景
 
 ::: {#posts-en}
 :::

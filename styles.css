@@ -87,6 +87,7 @@ h6 {
 :root {
     --bs-blue: black;
     --bs-primary: #eb6864;
+    font-family: 'Times New Roman', 'SiYuanSong';
 }
 
 div.quarto-post .thumbnail img {
@@ -96,8 +97,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-listing-category.category-cloud{
-    font-family: 'Times New Roman', 'SiYuanSong';
-
+  font-family: 'Times New Roman', 'SiYuanSong';
 }
 
 /*消除类别背景色*/
@@ -139,7 +139,7 @@ div.quarto-post .thumbnail img {
 .navbar-dark {
     background-color: var(--bs-blue); /*原来是var(--bs-blue)，即把导航栏设置成黑色*/
     font-family: 'Times New Roman', 'SiYuanSong';
-    font-size: 1.1rem;
+    font-size: 0.95rem;
 }
 
 .page-item.active .page-link {

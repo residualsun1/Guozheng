@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Guozheng"
+  title: "残日留痕 | Residualsun"
   site-url: "https://residualsun.blog/"
   page-navigation: true
   back-to-top-navigation: true
@@ -14,25 +14,25 @@ website:
   navbar:
     right:
       - about.qmd
-      - text: Post #增加一个父级选项，和about并列
+      - text: 反景入深林 #增加一个父级选项，和about并列
         menu:
-          - text: All posts #原来的Posts变成子级选项
+          - text: 深林
             href: posts/index.qmd
-          - text: English
-            href: posts/en/index.qmd
-          - text: 中文
+          - text: 反景
             href: posts/cn/index.qmd
+          - text: 观照
+            href: posts/en/index.qmd
             
       - text: R
         href: r/index.qmd
             
-      - text: link
+      - text: 链接
         href: link.qmd
             
-      - icon: github
-        href: https://github.com/residualsun1
-      - icon: twitter
-        href: https://twitter.com/Residualsun1
+      #- icon: github
+      #  href: https://github.com/residualsun1
+      #- icon: twitter
+      #  href: https://twitter.com/Residualsun1
       
 format:
   html:
