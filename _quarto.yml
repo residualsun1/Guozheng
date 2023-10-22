@@ -13,6 +13,7 @@ website:
     left: Powered by [Quarto](https://quarto.org/)
     right: © Copyright 2023 ❤️ Residualsun
   navbar:
+    collapse-below: xxl
     title: false
     logo: logo.png
     logo-href: "https://residualsun.blog/"
