@@ -15,7 +15,6 @@ website:
   navbar:
     title: false
     logo: logo.png
-    logo-alt: "残日留痕 | Residualsun"
     logo-href: "https://residualsun.blog/"
     right:
       - about.qmd
