@@ -1,0 +1,38 @@
+---
+titile: "Link"
+comments: false
+---
+
+<center>
+
+::: {.btn-group role="group" aria-label="Link"}
+<a href="link.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">中文</button></a> <a href="link-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>
+:::
+
+</center>
+
+# Blog
+
+[Bea Milz](https://beamilz.com/): Inspiring me to bulid my English blog with Quarto
+
+[yihui](https://yihui.org): The first blog I read
+
+[Cryus Yip](https://cyrusyip.org/): Living for himself
+
+[Liechi](https://www.liechi.org): Be like a lighthouse with his thinking
+
+[yuanfan](https://yuanfan.rbind.io): life and thinking
+
+[Velas电波站](https://www.velasx.com/)：The website is exquisite to look at and enviable for its rich content
+
+[The Reasons of the Heart](https://stephenleng.com/)：critical thinking
+
+[太隐](https://wangyurui.com/)：reading, reflecting
+
+------------------------------------------------------------------------
+
+# Forum
+
+[Capital Of Statistics](https://cosx.org/): The largest Chinese R forum
+
+[Github](https://github.com): A new world for me

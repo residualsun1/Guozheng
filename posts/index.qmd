@@ -1,5 +1,5 @@
 ---
-title: "深林"
+title: ""
 listing:
   - id: posts
     contents: "{en,cn}/**/*/index.qmd"

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "English"
 listing:
   - id: posts-en
     contents: "**/*/index.qmd"
@@ -15,7 +15,7 @@ title-block-banner: false
 comments: false
 ---
 
-## 反景
+## Why not reflect on your own life?
 
 ::: {#posts-en}
 :::

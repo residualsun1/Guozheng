@@ -45,21 +45,20 @@ toc: true
 back-to-top-navigation: false
 ---
 
-## 深林
-
-::: {#posts}
-:::
-
-## 观照
-
+## 中文
 ::: {#posts-cn}
 :::
 
 <a href="../posts/cn/index.html"> <button type="button" class="btn btn-primary float-end">所有</button></a>
 
-## 反景
+## English
 
 ::: {#posts-en}
 :::
 
 <a href="../posts/en/index.html"> <button type="button" class="btn btn-primary float-end">See all</button></a>
+
+## 所有 | All
+
+::: {#posts}
+:::

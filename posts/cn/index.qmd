@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "中文"
 listing:
   - id: posts-cn
     contents: "**/*/index.qmd"
@@ -15,7 +15,7 @@ title-block-banner: false
 comments: false
 ---
 
-## 观照
+## 一个人的思想史便是其阅读史。
 
 ::: {#posts-cn}
 :::

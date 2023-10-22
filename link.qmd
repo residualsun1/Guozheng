@@ -1,26 +1,36 @@
 ---
-titile: "Link"
+titile: "链接"
 comments: false
 ---
 
-# Blog
+<center>
 
-These are some blogs I always visit.
+::: {.btn-group role="group" aria-label="Link"}
+<a href="link.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">中文</button></a> <a href="link-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>
+:::
 
-[Bea Milz](https://beamilz.com/): Inspiring me to bulid my English blog with Quarto
+</center>
 
-[yihui](https://yihui.org): The first blog I read
+# 博客
 
-[Cryus Yip](https://cyrusyip.org/): Living for himself
+[谢益辉](https://yihui.org)：引我走进博客的人
 
-[Liechi](https://www.liechi.org): Be like a lighthouse with his thinking
+[叶寻](https://cyrusyip.org/)：技术派，相信自学的力量
 
-[yuanfan](https://yuanfan.rbind.io): life and thinking
+[张列驰](https://www.liechi.org)：思考成熟稳重
 
-# Forum
+[袁凡](https://yuanfan.rbind.io)：学习统计和读书都很认真与用心
 
-These are forums I always visit.
+[Bea Milz](https://beamilz.com/)：Quarto博客搭建学习对象
 
-[Capital Of Statistics](https://cosx.org/): The largest Chinese R forum
+[Velas电波站](https://www.velasx.com/)：网站精致好看，内容丰富，令人羡慕
 
-[Github](https://github.com): A new world for me
+[心的道理](https://stephenleng.com/)：批判性思考
+
+## [太隐](https://wangyurui.com/)："一个人的思想发育史就是他的阅读史"
+
+# 论坛
+
+[统计之都](https://cosx.org/): 国内最大的R语言论坛
+
+[Github](https://github.com): 我的博客托管地

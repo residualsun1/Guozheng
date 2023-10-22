@@ -14,14 +14,14 @@ website:
   navbar:
     right:
       - about.qmd
-      - text: 反景入深林 #增加一个父级选项，和about并列
+      - text: 写作 #增加一个父级选项，和about并列
         menu:
-          - text: 深林
-            href: posts/index.qmd
-          - text: 观照
+          - text: 中文
             href: posts/cn/index.qmd
-          - text: 反景
+          - text: English
             href: posts/en/index.qmd
+          - text: 所有 | All
+            href: posts/index.qmd
             
       - text: R
         href: r/index.qmd
