@@ -1,5 +1,5 @@
 ---
-title: "黄国政"
+title: ""
 listing:
   - id: posts-cn
     contents: "**/*/index.qmd"
@@ -15,7 +15,7 @@ title-block-banner: false
 comments: false
 ---
 
-## 中文博客
+## 观照
 
 ::: {#posts-cn}
 :::

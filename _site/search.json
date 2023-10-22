@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "关于",
     "section": "",
-    "text": "This is Guozheng Huang’s English blog.\nI built my first Chinese blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.\nDuring the theme within my Chinese blog doesn’t support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown, and I would be beening updating it.\nThis English blog will be used to record my simple daily in English, book reviews in Chinese(that’s because its interface is better suited for displaying rich content, while my level of English writing hasn’t be sufficient for me to express complex content yet) and some practices about data analysis(hope god bless I would keep it and I could write it down in English one day).\n\n\n Back to top"
+    "text": "中文  English\n\n\n\n你好，这里是黄国政的个人主页。\n2023年5月28日，我使用blogdown包搭建了自己的第一个博客网站，并在后续进行了两次大修改，最终在2023年6月6日确定主题，并累积写作了70余篇博文。\n在Quarto上搭建新的博客，主要是看中了Quarto上更丰富的视觉呈现效果。在信息爆炸的今天，我认为仅仅依靠文字还是很难吸引读者，给视觉带来更多冲击的图片势必会给同一篇博文增色不少。此外，原网站博文记录的更多是个人生活，而本网站博文则旨在进行对阅读和思考的记录甚至是创作。在功能上，我期望原博文网站仅作为个人自留地即可，本博文网站则作为交流的思想平台，希望能与到访的读者相互学习。\n\n\n\n Back to top"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -72,7 +72,7 @@
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "All Posts",
+    "title": "深林",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。\n\n\n\n\n\n\n2023-10-11\n\n\n黄国政\n\n\n\n\n\n\n  \n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-04\n\n\nGuozheng Huang\n\n\n\n\n\n\n  \n\n\n\n\nCharming night in Xiamen\n\n\n\n\n\nIt is too woderful to be not real……\n\n\n\n\n\n\n2023-09-26\n\n\nGuozheng Huang\n\n\n\n\n\n\n  \n\n\n\n\nBlessings to my friend who is spoken for\n\n\n\n\n\nWatermelon has been unavailable.\n\n\n\n\n\n\n2023-09-23\n\n\nGuozheng Huang\n\n\n\n\n\n\n  \n\n\n\n\nHi, Fudan University!\n\n\n\n\n\nKeep curiosity and enthusiasm for knowledge and the unknown\n\n\n\n\n\n\n2023-09-17\n\n\nGuozheng Huang\n\n\n\n\n\n\n  \n\n\n\n\nFor my life\n\n\n\n\n\n\n\n\n\n\n\n\n2023-09-13\n\n\nGuozheng Huang\n\n\n\n\n\n\n  \n\n\n\n\nHello world\n\n\n\n\n\nWelcome:-)\n\n\n\n\n\n\n2023-09-06\n\n\nGuozheng Huang\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
   },
@@ -331,7 +331,7 @@
   {
     "objectID": "posts/en/index.html",
     "href": "posts/en/index.html",
-    "title": "Guozheng",
+    "title": "残日留痕 | Residualsun",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 4, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nIt is too woderful to be not real……\n\n\n\n\n\n\nSep 26, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nWatermelon has been unavailable.\n\n\n\n\n\n\nSep 23, 2023\n\n\nGuozheng Huang\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nKeep curiosity and enthusiasm for knowledge and the unknown\n\n\n\n\n\n\nSep 17, 2023\n\n\nGuozheng Huang\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nWelcome:-)\n\n\n\n\n\n\nSep 6, 2023\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
@@ -345,7 +345,7 @@
   {
     "objectID": "posts/cn/index.html",
     "href": "posts/cn/index.html",
-    "title": "黄国政",
+    "title": "残日留痕 | Residualsun",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。\n\n\n\n\n\n\nOct 11, 2023\n\n\n黄国政\n\n\n\n\n\n\nNo matching items"
   },
@@ -845,5 +845,40 @@
     "title": "残日留痕 | Residualsun",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。\n\n\n\n黄国政\n\n\n2023-10-11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuozheng Huang\n\n\n2023-10-04\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt is too woderful to be not real……\n\n\n\nGuozheng Huang\n\n\n2023-09-26\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWatermelon has been unavailable.\n\n\n\nGuozheng Huang\n\n\n2023-09-23\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeep curiosity and enthusiasm for knowledge and the unknown\n\n\n\nGuozheng Huang\n\n\n2023-09-17\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuozheng Huang\n\n\n2023-09-13\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome:-)\n\n\n\nGuozheng Huang\n\n\n2023-09-06\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about-en.html",
+    "href": "about-en.html",
+    "title": "About",
+    "section": "",
+    "text": "中文  English\n\n\n\nThis is Guozheng Huang’s English blog.\nI built my first Chinese blog with blogdown on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.\nDuring the theme within my Chinese blog doesn’t support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in blogdown, and I would be beening updating it.\nThis English blog will be used to record my book reviews in Chinese. Because its interface is better suited for displaying rich content, while my level of English writing hasn’t be sufficient for me to express complex content yet.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/cn/index.html#观照",
+    "href": "posts/cn/index.html#观照",
+    "title": "残日留痕 | Residualsun",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。\n\n\n\n\n\n\nOct 11, 2023\n\n\n黄国政\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/en/index.html#反景",
+    "href": "posts/en/index.html#反景",
+    "title": "残日留痕 | Residualsun",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 4, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nIt is too woderful to be not real……\n\n\n\n\n\n\nSep 26, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nWatermelon has been unavailable.\n\n\n\n\n\n\nSep 23, 2023\n\n\nGuozheng Huang\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nKeep curiosity and enthusiasm for knowledge and the unknown\n\n\n\n\n\n\nSep 17, 2023\n\n\nGuozheng Huang\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nWelcome:-)\n\n\n\n\n\n\nSep 6, 2023\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/en/index.html#深林",
+    "href": "posts/en/index.html#深林",
+    "title": "残日留痕 | Residualsun",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOct 4, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nIt is too woderful to be not real……\n\n\n\n\n\n\nSep 26, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nWatermelon has been unavailable.\n\n\n\n\n\n\nSep 23, 2023\n\n\nGuozheng Huang\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nKeep curiosity and enthusiasm for knowledge and the unknown\n\n\n\n\n\n\nSep 17, 2023\n\n\nGuozheng Huang\n\n\n5 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\nGuozheng Huang\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nWelcome:-)\n\n\n\n\n\n\nSep 6, 2023\n\n\nGuozheng Huang\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/cn/index.html#反景",
+    "href": "posts/cn/index.html#反景",
+    "title": "残日留痕 | Residualsun",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n既有历史性的宏观和深邃，也不失文学的诗意，还附随着对个体生命经历人类学意味般的文化关怀。\n\n\n\n\n\n\nOct 11, 2023\n\n\n黄国政\n\n\n\n\n\n\nNo matching items"
   }
 ]

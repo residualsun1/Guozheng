@@ -1,0 +1,34 @@
+---
+title: "About"
+comments: false
+image: profile.jpg
+about:
+  template: trestles
+  #links:
+  # - icon: twitter
+  #    text: Twitter
+  #    href: https://twitter.com/Residualsun1
+  #  - icon: github
+  #    text: Github
+  #    href: https://github.com/residualsun1
+---
+
+<center>
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">中文</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> 
+:::
+
+</center>
+
+::: {#hero-heading}
+
+This is Guozheng Huang's English blog.
+
+I built my first Chinese blog with `blogdown` on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.
+
+During the theme within my Chinese blog doesn't support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in `blogdown`, and I would be beening updating it.
+
+This English blog will be used to record my book reviews in Chinese. Because its interface is better suited for displaying rich content, while my level of English writing hasn't be sufficient for me to express complex content yet.
+
+:::

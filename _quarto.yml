@@ -6,7 +6,7 @@ website:
   site-url: "https://residualsun.blog/"
   page-navigation: true
   back-to-top-navigation: true
-  reader-mode: true
+  # reader-mode: true
   open-graph: true
   page-footer: 
     left: Powered by [Quarto](https://quarto.org/)
@@ -18,9 +18,9 @@ website:
         menu:
           - text: 深林
             href: posts/index.qmd
-          - text: 反景
-            href: posts/cn/index.qmd
           - text: 观照
+            href: posts/cn/index.qmd
+          - text: 反景
             href: posts/en/index.qmd
             
       - text: R
