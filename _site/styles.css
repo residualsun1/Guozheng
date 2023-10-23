@@ -56,7 +56,7 @@ main, p{
 
 body {
   font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
-  font-size: 0.98em;
+  font-size: 1.00em;
   line-height: 1.87em;
   /*background-color: #faf8f8;*/
 }
@@ -75,7 +75,7 @@ h6 {
 h1 {
   font-size: 1.6em;
   padding-bottom: 0em;
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 h2 {
