@@ -56,8 +56,8 @@ main, p{
 
 body {
   color: black;
-  font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
-  font-size: 1.00em;
+  font-family: 'Times New Roman', 'SiYuanSong';
+  font-size: 0.95em;
   line-height: 1.80em;
   /*background-color: #faf8f8;*/
 }
@@ -165,7 +165,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-title-banner {
-    margin-bottom: -2.00em; /*原来是1em*/
+    margin-bottom: -1.50em; /*原来是1em*/
     color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
     background: #fff; /*原来是黑色的*/
 }
@@ -184,13 +184,13 @@ div.quarto-post .thumbnail img {
 
 a{
   color: #00ccff; /*设置超链接颜色*/
-  font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
+  font-family: 'Times New Roman', 'SiYuanSong';
 }
 
 b, strong {
     color: #4D4D4D;
     font-weight: bold; /*原来是bloder*/
-    font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
+    font-family: 'Times New Roman', 'SiYuanSong';
 }
 
 div.quarto-post .listing-categories .listing-category {
