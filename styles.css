@@ -55,6 +55,7 @@ main, p{
 /*上面是原来的字体和界面配置*/
 
 body {
+  color: black;
   font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
   font-size: 0.95em;
   line-height: 1.90em;
@@ -186,7 +187,7 @@ a{
 }
 
 b, strong {
-    color: #5E6263;
+    color: black;
     font-weight: bold; /*原来是bloder*/
     font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
 }
