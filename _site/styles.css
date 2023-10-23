@@ -55,9 +55,9 @@ main, p{
 /*上面是原来的字体和界面配置*/
 
 body {
-  font-family: 'Times New Roman', 'SiYuanSong';
+  font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
   font-size: 0.98em;
-  line-height: 1.80em;
+  line-height: 1.87em;
   /*background-color: #faf8f8;*/
 }
 
@@ -65,7 +65,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: 'Times New Roman', 'SiYuanSong';
  /*  color: #36454f;*/ 
   font-weight: bold;
@@ -181,13 +182,13 @@ div.quarto-post .thumbnail img {
 
 a{
   color: #00ccff; /*设置超链接颜色*/
-  font-family: 'Times New Roman', 'SiYuanSong';
+  font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
 }
 
 b, strong {
-    color: black;
-    font-weight: bolder;
-    font-family: 'Times New Roman', 'SiYuanSong';
+    color: #5E6263;
+    font-weight: bold; /*原来是bloder*/
+    font-family: 'Times New Roman'/*, 'SiYuanSong'*/;
 }
 
 div.quarto-post .listing-categories .listing-category {
