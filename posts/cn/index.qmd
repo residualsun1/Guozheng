@@ -4,6 +4,7 @@ listing:
   - id: posts-cn
     contents: "**/*/index.qmd"
     type: default
+    image-align: left
     fields: [image, date, title, subtitle, author, description]  
     sort: "date desc"
     categories: cloud
@@ -13,6 +14,7 @@ listing:
 page-layout: full
 title-block-banner: false
 comments: false
+toc: false
 ---
 
 ## 一个人的思想史便是其阅读史。

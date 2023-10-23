@@ -14,6 +14,7 @@ page-layout: full
 title-block-banner: false
 comments: false
 toc: false
+toc-location: left
 ---
 
 ## Why not reflect on your own life?

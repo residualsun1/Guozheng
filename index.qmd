@@ -5,7 +5,8 @@ listing:
     contents: "{en,cn}/**/*/index.qmd"
     sort: "date desc"
     type: grid
-    fields: [image, date, title, subtitle, author, description]
+    image-height: full
+    fields: [image, title, date, author]
     categories: cloud
     sort-ui: true
     filter-ui: true
@@ -13,8 +14,9 @@ listing:
   - id: posts-en
     contents: posts/en/**/*/index.qmd
     sort: "date desc"
-    type: grid
-    fields: [image, date, title, subtitle, author, description]
+    type: default
+    image-align: left
+    fields: [image, date, title, author, description]
     categories: cloud
     sort-ui: false
     filter-ui: false
@@ -23,7 +25,8 @@ listing:
     contents: posts/cn/**/*/index.qmd
     sort: "date desc"
     type: grid
-    fields: [image, date, title, subtitle, author, description]
+    image-height: full
+    fields: [image, title, author, date]
     categories: cloud
     sort-ui: false
     filter-ui: false
@@ -41,7 +44,8 @@ date-format: iso
 page-layout: full
 title-block-banner: false
 comments: false
-toc: true
+toc: false
+toc-location: right
 back-to-top-navigation: false
 ---
 

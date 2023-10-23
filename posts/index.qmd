@@ -3,7 +3,7 @@ title: ""
 listing:
   - id: posts
     contents: "{en,cn}/**/*/index.qmd"
-    type: default
+    type: grid
     fields: [image, date, title, subtitle, author, description]
     sort: "date desc"
     categories: cloud
@@ -15,7 +15,11 @@ page-layout: full
 title-block-banner: false
 comments: false
 toc: true
+toc-location: left
+toc-title: 本页内容
 ---
+
+## 全部
 
 ::: {#posts}
 :::
