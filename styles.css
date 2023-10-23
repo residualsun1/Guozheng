@@ -188,7 +188,7 @@ a{
 }
 
 b, strong {
-    color: #4D4D4D;
+    color: black;
     font-weight: bold; /*原来是bloder*/
     font-family: 'Times New Roman', 'SiYuanSong';
 }
