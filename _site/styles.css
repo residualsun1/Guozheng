@@ -56,9 +56,8 @@ main, p{
 
 body {
   font-family: 'Times New Roman', 'SiYuanSong';
-
-  font-size: 0.97em;
-  line-height: 1.8em;
+  font-size: 1.00em;
+  line-height: 1.80em;
   /*background-color: #faf8f8;*/
 }
 
@@ -163,11 +162,10 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-title-banner {
-    margin-bottom: 1em;
+    margin-bottom: -2.50em; /*原来是1em*/
     color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
     background: #fff; /*原来是黑色的*/
 }
-
 
 .page-link {
       color: var(--bs-blue);

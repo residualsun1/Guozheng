@@ -46,6 +46,7 @@ format:
     smooth-scroll: true
     link-external-icon: false
     link-external-newwindow: true
+    code-fold: true
     citations-hover: true
     footnotes-hover: true
     toc: true
@@ -53,6 +54,7 @@ format:
     toc-title: 目录
     toc-location: left
     anchor-sections: true
+    
 
 editor: visual
 
