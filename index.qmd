@@ -8,7 +8,7 @@ back-to-top-navigation: false
 about:
   template: jolla
   image-shape: round
-  image-width: 25em
+  image-width: 20em
   id: hero-heading
 page-layout: full
 
