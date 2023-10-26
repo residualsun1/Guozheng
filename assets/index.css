@@ -51,10 +51,7 @@
 /* image */
 .about-image {
   margin-top: -2em;
-  /*padding: 1em 1em 1em 1em;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1em 1em 1em 1em;
 }
 
 /* // Home
@@ -106,7 +103,11 @@
 
     /* move image up, adjust padding */
     .about-image {
-      order: 1 !important;
-      padding: 1em 1em 1em 1em !important;
+      /*order: 1 !important;
+      padding: 1em 1em 1em 1em !important;*/
+      margin-top: -2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 }
