@@ -19,7 +19,6 @@ listing:
     categories: [R]
 citation: false
 toc: false
-comments: false
 format: 
   html: 
     page-layout: full
@@ -29,4 +28,6 @@ header-includes: >
   <link rel="stylesheet" href="../assets/listing-default.css">
 resources:
   - ../assets/listing-default.css 
+
+comments: false
 ---

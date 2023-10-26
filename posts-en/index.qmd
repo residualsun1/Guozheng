@@ -1,5 +1,5 @@
 ---
-title: "English"
+title: "English Writing"
 description: |
   <br>This is a home for my English writing practice<br>
   I believe in *less is more*
@@ -26,4 +26,6 @@ header-includes: >
   <link rel="stylesheet" href="../assets/listing-default.css">
 resources:
   - ../assets/listing-default.css
+  
+comments: false
 ---
