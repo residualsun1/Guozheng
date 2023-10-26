@@ -1,10 +1,10 @@
 ---
 title: "残日留痕"
 subtitle: "思考无价"
-image: "profile.jpg"
+image: "profile.gif"
 about:
   template: trestles
-  image-width: 14em
+  image-width: 20em
   image-shape: rounded
   id: hero-heading
   # links:
@@ -84,10 +84,9 @@ resources:
 
 </center>
 
-
 ::: {#hero-heading}
 ::: h1
-你好呀，欢迎来到我的主页！
+你好，欢迎来到我的主页！
 :::
 
 2023年5月28日，我使用`blogdown`包搭建了自己的第一个博客网站，并在后续进行了两次大修改，最终在2023年6月6日确定主题，并累积写作了70余篇博文。

@@ -1,12 +1,13 @@
 ---
 title: "残日留痕"
-subtitle: "Residualsun"
-image: "star.gif"
+#subtitle: "Residualsun"
+image: "darksun.gif"
 image-alt: "less is more"
 back-to-top-navigation: false
 
 about:
   template: jolla
+  image-shape: round
   image-width: 25em
   id: hero-heading
 page-layout: full
@@ -23,8 +24,6 @@ resources:
   
 comments: false
 ---
-
-<br><br>
 
 ::: {#hero-heading}
 你好，这里是黄国政的主页。

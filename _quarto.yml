@@ -12,9 +12,8 @@ website:
   
   navbar:
     # collapse-below: xxl
-    title: false
-    logo: logo.png
-    logo-href: "https://residualsun.blog/"
+    title: Residualsun
+    site-url: "https://residualsun.blog/"
     right:
       - text: 关于
         href: about.qmd

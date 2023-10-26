@@ -28,7 +28,7 @@
   background-color: var(--spc-bg-1);
   padding: 3em 0em 3em 0em !important;
   margin: 0em 2em 0em 2em;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 /* mobile query up for screens up to ~992px wide */
@@ -40,7 +40,7 @@
   }
   
   /* listings */
-  #blog, #talks, #publications, #projects {
+  #中文博客, #读书, #English-writing, #R {
     flex-basis: 40% !important;
     flex-grow: 1;
   }
