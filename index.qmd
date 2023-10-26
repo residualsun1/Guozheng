@@ -28,7 +28,6 @@ comments: false
 <br><br>
 
 ::: {#hero-heading}
-
 你好，这里是黄国政的主页。
 
 [learn more →](/about){.about-links .subtitle}
