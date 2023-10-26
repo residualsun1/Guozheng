@@ -7,7 +7,7 @@ back-to-top-navigation: false
 
 about:
   template: jolla
-  image-width: 24em
+  image-width: 20em
   id: hero-heading
 page-layout: full
 
