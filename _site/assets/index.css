@@ -2,29 +2,35 @@
 .title {
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1.1em !important;
+  line-height: 0.75em !important;
+  margin-top: -9em;
+  padding-top: -9em;
 }
 
 /* subtitle + Learn More About Me */
 .subtitle {
   font-family: "Times New Roman", "Petrona";
   font-size: 1.5rem;
+  line-height: 1.75em;
   font-weight: 700;
   text-transform: lowercase;
   letter-spacing: 0.07em;
   text-align: center;
+  margin-top: -1.5em;
 }
 
 /* heading, subtitle, and blurb */
 .entity-contents {
   text-align: center !important;
   padding: 0 2em 0 2em;
+  margin-top: -3em;
 }
 
 /* blurb */
 .about-contents {
   padding: 0 0 0 2em !important;
   text-align: center;
+  margin-top: -3em;
 }
 
 /* social links: block of links */
@@ -46,6 +52,7 @@
   font-family: "Red Hat Text";
   justify-content: flex-end !important;
   text-align: right;
+  padding-top: 2em;
 }
 
 /* image */
@@ -75,11 +82,11 @@
     /* move text up & center */
     .entity-contents {
       order: 2 !important;
-      margin: -4em 0 0 0 !important;
+      margin: -15em 0 0 0 !important;
       padding: 0 0 0 0em !important;
       text-align: center !important;
     }
-
+    
     /* center subtitle */
     .subtitle {
       text-align: center !important;
@@ -105,5 +112,6 @@
     .about-image {
       order: 1 !important;
       padding: 2em 2em 2em 2em !important;
+      margin-top: -4em;
     }
 }
