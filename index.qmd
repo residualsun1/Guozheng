@@ -1,69 +1,78 @@
 ---
-title: ""
-listing:
-  - id: posts
-    contents: "{en,cn}/**/*/index.qmd"
-    sort: "date desc"
-    type: grid
-    image-height: full
-    fields: [image, title, date, author]
-    categories: cloud
-    sort-ui: true
-    filter-ui: true
-    page-size: 3
-  - id: posts-en
-    contents: posts/en/**/*/index.qmd
-    sort: "date desc"
-    type: default
-    image-align: left
-    fields: [image, date, title, author, description]
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3
-  - id: posts-cn
-    contents: posts/cn/**/*/index.qmd
-    sort: "date desc"
-    type: grid
-    image-height: full
-    fields: [image, title, author, date]
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3
-  - id: r
-    contents: r/**/*/index.qmd
-    sort: "date desc"
-    type: grid
-    fields: [image, date, title, subtitle, author, description]
-    categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3
-date-format: iso
+title: "残日留痕 | Residualsun"
+pagetitle: "残日留痕 | Residualsun"
+subtitle: "一个人的思想史便是他的阅读史"
+image: "profile.jpg"
+image-alt: "less is more"
+
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
 page-layout: full
-title-block-banner: false
-comments: false
-toc: false
-toc-location: right
-back-to-top-navigation: false
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+  
+header-includes: >
+  <link rel="stylesheet" href="assets/index.css">
+resources:
+  - assets/index.css
+
+#listing:
+#  - id: posts
+#    contents: "{en,cn}/**/*/index.qmd"
+#    sort: "date desc"
+#    type: grid
+#    image-height: full
+#    fields: [image, title, date, author]
+#    categories: cloud
+#    sort-ui: true
+#    filter-ui: true
+#    page-size: 3
+#  - id: posts-en
+#    contents: posts/en/**/*/index.qmd
+#    sort: "date desc"
+#    type: default
+#    image-align: left
+#    fields: [image, date, title, author, description]
+#    categories: cloud
+#    sort-ui: false
+#    filter-ui: false
+#    page-size: 3
+#  - id: posts-cn
+#    contents: posts/cn/**/*/index.qmd
+#    sort: "date desc"
+#    type: grid
+#    image-height: full
+#    fields: [image, title, author, date]
+#    categories: cloud
+#    sort-ui: false
+#    filter-ui: false
+#    page-size: 3
+#  - id: r
+#    contents: r/**/*/index.qmd
+#    sort: "date desc"
+#    type: grid
+#    fields: [image, date, title, subtitle, author, description]
+#    categories: cloud
+#    sort-ui: false
+#    filter-ui: false
+#    page-size: 3
+date-format: iso
+# title-block-banner: false
+# comments: false
+# toc: false
+# toc-location: right
+# back-to-top-navigation: false
 ---
 
-## 中文
+<br><br>
 
-::: {#posts-cn}
-:::
+::: {#hero-heading}
+你好，这里是黄国政的主页。
 
-<a href="../posts/cn/index.html"> <button type="button" class="btn btn-primary float-end">所有</button></a>
-
-## English
-
-::: {#posts-en}
-:::
-
-<a href="../posts/en/index.html"> <button type="button" class="btn btn-primary float-end">See all</button></a>
-
-## 所有 \| All
-
-::: {#posts}
+[Learn more about me →](/about){.about-links .subtitle}
 :::

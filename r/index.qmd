@@ -1,21 +1,27 @@
 ---
 title: "Practice makes perfect"
-listing:
-  - id: r
-    contents: "**/*/index.qmd"
-    type: default
-    fields: [image, date, title, subtitle, author, reading-time]
-    sort: "date desc"
-    categories: cloud
-    sort-ui: true
-    filter-ui: true
-    page-size: 36
-date-format: iso     
-page-layout: full
+description: |
+  Practice makes perfect
+listing: 
+  contents:
+    - "**/index.qmd"
+    - "**/index.markdown"
+    - "**/index.md"
+  type: grid
+  fields: [title, categories, date, image]
+  sort: "date desc"
+  filter-ui: false
+  image-align: left
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
 title-block-banner: false
 comments: false
-toc: true
+header-includes: >
+  <link rel="stylesheet" href="../assets/listing-default.css">
+  <link rel="" href="../assets/custom-css.js"> 
+resources:
+  - ../assets/listing-default.css
+  - ../assets/custom-css.js
 ---
-
-::: {#r}
-:::

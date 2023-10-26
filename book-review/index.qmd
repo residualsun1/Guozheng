@@ -1,0 +1,35 @@
+---
+title: 读书
+description: |
+  <br>一个人的思想史便是他的阅读史
+author: "黄国政"
+show_post_thumbnail: false
+thumbnail_left: true # for list-sidebar only
+show_author_byline: true
+show_post_date: true
+comments: false
+# for listing page layout
+layout: list # list, list-sidebar, list-grid
+
+# for list-sidebar layout
+sidebar: 
+  title: 读书
+  description: |
+    <br>一个人的思想史便是他的阅读史
+    
+  author: "黄国政"
+  text_link_url: /index.xml
+  show_sidebar_adunit: true # show ad container
+
+# set up common front matter for all pages inside publication/
+cascade:
+  author: "黄国政"
+  show_author_byline: true
+  show_post_date: true
+  show_comments: false # see site config to choose Disqus or Utterances
+  # for single-sidebar layout
+  sidebar:
+    text_link_label: View recent posts
+    text_link_url: /book-review/
+    show_sidebar_adunit: false # show ad container
+---
