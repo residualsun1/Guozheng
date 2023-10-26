@@ -1,9 +1,10 @@
 ---
 title: "残日留痕 | Residualsun"
 pagetitle: "残日留痕 | Residualsun"
-subtitle: "一个人的思想史便是他的阅读史"
+#subtitle: "一个人的思想史便是他的阅读史"
 image: "profile.jpg"
 image-alt: "less is more"
+back-to-top-navigation: false
 
 about:
   template: solana
@@ -20,59 +21,15 @@ header-includes: >
   <link rel="stylesheet" href="assets/index.css">
 resources:
   - assets/index.css
-
-#listing:
-#  - id: posts
-#    contents: "{en,cn}/**/*/index.qmd"
-#    sort: "date desc"
-#    type: grid
-#    image-height: full
-#    fields: [image, title, date, author]
-#    categories: cloud
-#    sort-ui: true
-#    filter-ui: true
-#    page-size: 3
-#  - id: posts-en
-#    contents: posts/en/**/*/index.qmd
-#    sort: "date desc"
-#    type: default
-#    image-align: left
-#    fields: [image, date, title, author, description]
-#    categories: cloud
-#    sort-ui: false
-#    filter-ui: false
-#    page-size: 3
-#  - id: posts-cn
-#    contents: posts/cn/**/*/index.qmd
-#    sort: "date desc"
-#    type: grid
-#    image-height: full
-#    fields: [image, title, author, date]
-#    categories: cloud
-#    sort-ui: false
-#    filter-ui: false
-#    page-size: 3
-#  - id: r
-#    contents: r/**/*/index.qmd
-#    sort: "date desc"
-#    type: grid
-#    fields: [image, date, title, subtitle, author, description]
-#    categories: cloud
-#    sort-ui: false
-#    filter-ui: false
-#    page-size: 3
-date-format: iso
-# title-block-banner: false
-# comments: false
-# toc: false
-# toc-location: right
-# back-to-top-navigation: false
+  
+comments: false
 ---
 
 <br><br>
 
 ::: {#hero-heading}
+
 你好，这里是黄国政的主页。
 
-[Learn more about me →](/about){.about-links .subtitle}
+[learn more →](/about){.about-links .subtitle}
 :::

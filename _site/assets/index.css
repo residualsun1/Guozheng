@@ -1,8 +1,8 @@
 /* title */
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.1em !important;
+  line-height: 1.5em !important;
 }
 
 /* subtitle + Learn More About Me */
@@ -10,7 +10,7 @@
   font-family: "Petrona";
   font-size: 1rem;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.1em;
 }
 
