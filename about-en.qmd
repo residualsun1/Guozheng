@@ -1,18 +1,79 @@
 ---
-title: "Less is more"
-subtitle: "The desire to write is love"
-comments: false
-image: profile.jpg
+title: "Residualsun"
+subtitle: "Less is more"
+image: "profile.jpg"
 about:
   template: trestles
-  #links:
-  # - icon: twitter
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  # links:
+  #  - icon: twitter
   #    text: Twitter
   #    href: https://twitter.com/Residualsun1
   #  - icon: github
   #    text: Github
   #    href: https://github.com/residualsun1
-toc-location: right
+# toc-location: right
+listing: 
+- id: 中文博客
+  contents: 
+    - "../posts-cn/*/**/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+- id: 读书
+  contents: 
+    - "../book-review/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+- id: English-writing
+  contents: 
+    - "../posts-en/*/**/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+- id: R
+  contents: 
+    - "../r/*/index.qmd"
+    - "../r/*/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+format: 
+  html: 
+    page-layout: full
+comments: false
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
 ---
 
 <center>
@@ -24,6 +85,10 @@ toc-location: right
 </center>
 
 ::: {#hero-heading}
+::: h1
+Welcome to my garden!
+:::
+
 This is Guozheng Huang's English blog.
 
 I built my first Chinese blog with `blogdown` on May 28th, 2023. It was changed twice times by myself and completed on June 6th, 2023, which has already had more than 70 blogs.
@@ -31,4 +96,74 @@ I built my first Chinese blog with `blogdown` on May 28th, 2023. It was changed 
 During the theme within my Chinese blog doesn't support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in `blogdown`, and I would be beening updating it.
 
 This English blog will be used to record my book reviews in Chinese. Because its interface is better suited for displaying rich content, while my level of English writing hasn't be sufficient for me to express complex content yet.
+:::
+
+## about me
+
+::: grid
+::: {#about-me-1 .g-col-6}
+At present I am still a college student, majoring in sociology. I have tried field research, but it seems that I lack of sociological "sensitivity" and "penetrating power"...... Instead, I like to tinker with blogs on the Internet and try my hand at writing.
+
+Regarding [R](https://www.r-project.org/about.html), as mentioned above, I basically use it for writing blogs, and it seems like a non-starter no matter what (maybe, but who says R can only be statistical software?).
+:::
+
+::: {#about-me-2 .g-col-6}
+Here are some of the blogs I read regularly, strangers to me who have influenced me and friends who I unilaterally consider to have given me strength. It's because of them that I started blogging and will continue to do so!。
+
+*In no particular order, sorted by time of recognition.*
+
+<ul class="fa-ul">
+
+<li><i class="fa-solid fa-certificate"></i>[谢益辉](https://yihui.org)：A man who influences many R learner, including me into blogging!</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[叶寻](https://cyrusyip.org)：Good computer skills and willingness to help others</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[列弛](https://www.liechi.org)：The first friend to leave me a message, a friend who keeps reading and reflecting</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot</li>
+
+</ul>
+:::
+:::
+
+<!-- end grid -->
+
+## more......
+
+::: grid
+::: g-col-3
+#### 中文博客
+
+::: {#中文博客}
+:::
+
+[所有 →](../posts-cn){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### 读书
+
+::: {#读书}
+:::
+
+[所有 →](../book-review){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### English Writing
+
+::: {#English-writing}
+:::
+
+[所有 →](../posts-en){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### R
+
+::: {#R}
+:::
+
+[所有 →](../r){.about-links .subtitle}
+:::
 :::

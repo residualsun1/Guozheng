@@ -1,5 +1,5 @@
 ---
-title: "残日留痕 | Residualsun"
+title: "残日留痕"
 subtitle: "思考无价"
 image: "profile.jpg"
 about:
@@ -76,6 +76,15 @@ resources:
   - ../assets/about.css
 ---
 
+<center>
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">中文</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>
+:::
+
+</center>
+
+
 ::: {#hero-heading}
 ::: h1
 你好呀，欢迎来到我的主页！
@@ -84,37 +93,36 @@ resources:
 2023年5月28日，我使用`blogdown`包搭建了自己的第一个博客网站，并在后续进行了两次大修改，最终在2023年6月6日确定主题，并累积写作了70余篇博文。
 
 在Quarto上搭建新的博客，主要是看中了Quarto上更丰富的视觉呈现效果。在信息爆炸的今天，我认为仅仅依靠文字还是很难吸引读者，给视觉带来更多冲击的图片势必会给同一篇博文增色不少。此外，原网站博文记录的更多是个人生活，而本网站博文则旨在进行对阅读和思考的记录甚至是创作。在功能上，我期望原博文网站仅作为个人自留地即可，本博文网站则作为交流的思想平台，希望能与到访的读者相互学习。
-
 :::
 
 ## 关于我
 
-::: {.grid}
-
-::: {.g-col-6 #about-me-1}
-
-目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，单似乎社会学的“敏锐度”和“穿透力”都并不具备……倒是喜欢在网络上捣鼓博客，尝试写作。
+::: grid
+::: {#about-me-1 .g-col-6}
+目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，单似乎社会学的"敏锐度"和"穿透力"都并不具备......倒是喜欢在网络上捣鼓博客，尝试写作。
 
 关于[R](https://www.r-project.org/about.html)，如上所述，我基本用来写作博客，看起来无论怎么样似乎都像是不务正业了（也许吧，但谁说R只能是统计软件？）
-
 :::
 
-::: {.g-col-6 #about-me-2}
-
+::: {#about-me-2 .g-col-6}
 下面是一些我常看的博客，于我而言，他们都是影响了我的陌生人，也是我单方面认为的给予了我力量的朋友。因为他们，我才开始写博客，并会坚持一直写下去。
 
 *排名不分先后，按照认识时间排序。*
 
 <ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span>[谢益辉](https://yihui.org)：大家都很佩服，并影响了大家——包括我，让我走进博客</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>[叶寻](https://cyrusyip.org)：擅长电脑技术而又乐意帮助他人</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>[列弛](https://www.liechi.org)：第一个给我留言的朋友，一个看书、思考的朋友</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>[袁凡](https://yuanfan.rbind.io)：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服</li>
+
+<li><i class="fa-solid fa-certificate"></i>[谢益辉](https://yihui.org)：大家都很佩服，并影响了大家------包括我，让我走进博客</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[叶寻](https://cyrusyip.org)：擅长电脑技术而又乐意帮助他人</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[列弛](https://www.liechi.org)：第一个给我留言的朋友，一个看书、思考的朋友</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服</li>
+
 </ul>
-
+:::
 :::
 
-:::
 <!-- end grid -->
 
 ## 更多......
