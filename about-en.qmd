@@ -1,10 +1,10 @@
 ---
 title: "Residualsun"
 subtitle: "Less is more"
-image: "profile.jpg"
+image: "fallingstar.gif"
 about:
   template: trestles
-  image-width: 14em
+  image-width: 20em
   image-shape: rounded
   id: hero-heading
   # links:
