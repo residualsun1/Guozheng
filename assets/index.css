@@ -1,17 +1,17 @@
 /* title */
 .title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
-  line-height: 1.5em !important;
+  line-height: 1.1em !important;
 }
 
 /* subtitle + Learn More About Me */
 .subtitle {
   font-family: "Times New Roman", "Petrona";
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: lowercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
 }
 
 /* heading, subtitle, and blurb */
@@ -22,7 +22,7 @@
 
 /* blurb */
 .about-contents {
-  padding: 0 0 0 12em !important;
+  padding: 0 0 0 2em !important;
 }
 
 /* social links: block of links */
@@ -48,7 +48,7 @@
 /* image */
 .about-image {
   margin-top: -2em;
-  padding: 0 2em 0em 0;
+  padding: 0 2em 0 0;
 }
 
 /* // Home

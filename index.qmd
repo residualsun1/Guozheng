@@ -1,13 +1,13 @@
 ---
 title: "残日留痕"
 subtitle: "Residualsun"
-image: "profile.jpg"
+image: "star.gif"
 image-alt: "less is more"
 back-to-top-navigation: false
 
 about:
   template: solana
-  image-width: 25em
+  image-width: 28em
   id: hero-heading
 page-layout: full
 
