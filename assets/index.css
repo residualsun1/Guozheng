@@ -7,7 +7,7 @@
 
 /* subtitle + Learn More About Me */
 .subtitle {
-  font-family: "Petrona";
+  font-family: "Times New Roman", "Petrona";
   font-size: 1rem;
   font-weight: 700;
   text-transform: lowercase;
@@ -22,7 +22,7 @@
 
 /* blurb */
 .about-contents {
-  padding: 0 0 0 2em !important;
+  padding: 0 0 0 12em !important;
 }
 
 /* social links: block of links */

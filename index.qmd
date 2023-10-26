@@ -1,14 +1,13 @@
 ---
-title: "残日留痕 | Residualsun"
-pagetitle: "残日留痕 | Residualsun"
-#subtitle: "一个人的思想史便是他的阅读史"
+title: "残日留痕"
+subtitle: "Residualsun"
 image: "profile.jpg"
 image-alt: "less is more"
 back-to-top-navigation: false
 
 about:
   template: solana
-  image-width: 28em
+  image-width: 25em
   id: hero-heading
 page-layout: full
 
