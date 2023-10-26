@@ -6,8 +6,8 @@ image-alt: "less is more"
 back-to-top-navigation: false
 
 about:
-  template: solana
-  image-width: 28em
+  template: jolla
+  image-width: 24em
   id: hero-heading
 page-layout: full
 
