@@ -3,7 +3,7 @@ project:
 
 website:
   favicon: logo.png
-  title: "残日留痕 | Residualsun"
+  title: "Sonder"
   site-url: "https://residualsun.blog/"
   page-navigation: true
   back-to-top-navigation: true
