@@ -3,6 +3,8 @@
 .Rdata
 .httr-oauth
 .DS_Store
+/resources/
+/.luarc.json
 .quarto
 
 /.quarto/
