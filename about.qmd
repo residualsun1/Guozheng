@@ -30,7 +30,7 @@ listing:
   image-height: "200"
 - id: 读书
   contents: 
-    - "../book-review/*/index.qmd"
+    - "../book-review/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
