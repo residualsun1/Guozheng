@@ -71,7 +71,9 @@
   },
   {
     "listing": "/posts-cn/index.html",
-    "items": []
+    "items": [
+      "/posts-cn/2023/10/index.html"
+    ]
   },
   {
     "listing": "/about/index.html",
@@ -99,6 +101,7 @@
   {
     "listing": "/about.html",
     "items": [
+      "/posts-cn/2023/10/index.html",
       "/book-review/2023/10/10-11-teahouse-reviews/index.html",
       "/posts-en/2023/10/10-04-caixin/index.html",
       "/posts-en/2023/09/09-25-wonderful-night-in-xiamen/index.html",
