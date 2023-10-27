@@ -1131,7 +1131,7 @@
     "href": "about.html#更多",
     "title": "残日留痕",
     "section": "更多……",
-    "text": "更多……\n\n\n中文博客\n\n\n\n\n\n\n\n\n\n\n“制造无聊”：大学课堂，一场集体倦怠的狂欢\n\n\n“这个世界不过是一个大型的草台班子”\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n读书\n\n\n\n\n\n\n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\nEnglish\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\nR\n\n\n\n\n\nNo matching items\n\n\n所有 →"
+    "text": "更多……\n\n\n\n中文博客\n\n\n\n\n\n\n\n\n\n\n“制造无聊”：大学课堂，一场集体倦怠的狂欢\n\n\n“这个世界不过是一个大型的草台班子”\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\n读书\n\n\n\n\n\n\n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nEnglish Writing\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nR\n\n\n\n\n\nNo matching items\n\n\n所有 →"
   },
   {
     "objectID": "book-review/index.html",
@@ -1143,9 +1143,9 @@
   {
     "objectID": "about.html#about-me",
     "href": "about.html#about-me",
-    "title": "残日留痕 | Residualsun",
+    "title": "残日留痕",
     "section": "About me",
-    "text": "About me\n\n\nBiomedical engineer turned informaticist, curious about all intersections of data and society.\nI enjoy using R to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I’m certified as an RStudio Tidyverse Instructor and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my blog and presentations in talks.\n\n\nTidyverse Instructor Certification ∙ RStudio, PBC ∙ 2020\n\n\n\n\nPrior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I’m particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.\n\n\nCertificate in Biomedical Informatics ∙ University of Pennsylvania ∙ 2019\n\n\nPh.D. in Biomedical Engineering ∙ Purdue University ∙ 2018\n\n\nB.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012"
+    "text": "About me\n\n\n目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，但似乎社会学的”敏锐度”和”穿透力”都并不具备……倒是喜欢在网络上捣鼓博客，尝试写作。\n关于R，如上所述，我基本用来写作博客，看起来无论怎么样似乎都像是不务正业了（也许吧，但谁说R只能是统计软件？）\n我想过，虽然很害怕很害怕进入社会以后会朝九晚五，在重复性的工作中成为科层制运转里的一颗螺丝钉，失去现在这般思考能力。但如果现在养成阅读和写作的习惯，即使以后工作了是否也可以继续保持呢？我相信如果能保持这份习惯，我将一样能在生活中找到自己的乐趣和慰藉。\n\n\n下面是一些我常看的博客，于我而言，他们都是影响了我的陌生人，也是我单方面认为的给予了我力量的朋友。因为他们，我才开始写博客，并会坚持一直写下去。\n排名不分先后，按照认识时间排序。\n\n\n谢益辉：大家都很佩服，并影响了大家——包括我，让我走进博客\n\n\n叶寻：擅长电脑技术而又乐意帮助他人\n\n\n列弛：第一个给我留言的朋友，一个看书、思考的朋友\n\n\n袁凡：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服"
   },
   {
     "objectID": "about.html#关于我",
@@ -1223,5 +1223,19 @@
     "title": "“制造无聊”：大学课堂，一场集体倦怠的狂欢",
     "section": "被动的大学教育是对个人的废弃",
     "text": "被动的大学教育是对个人的废弃\n现代公共教育为我们提供了十分丰富的学习内容。就我有限的观察而言，颇具讽刺意味的是即使在“双减”政策下，现在的小学生在家长眼里幸运地享受着舞蹈、书法、歌唱、语文、数学和英语等多类课程资源；同一门专业，教学大纲为大学生拓展出了种类繁多的选择，一门社会学专业下有定性的与定量的社会学研究方法、社会学理论、社会工作、社区概论、思想道德政治、博弈论等等。美其名曰是为通识教育，需要都有所涉猎、有所了解。这一点我是十分认同的，从“被推着走”的应试模式到需要自己主动探索的自主成长模式，大学其实在呼唤学生的主体性。\n而我的困惑与思虑正在于，这份本应诞生的主体性似乎正在各种因素——“展演”、“加速”与倦怠——所压抑。\n就大学教育而言，大学应该发生什么？我认为应该有两点：“知识”与“美德”。需要注明的是，真正的知识伴随着智慧，而智慧正是将知识与美德相互联系起来的桥梁。\n知识是什么？简单理解，知识是我们将对社会与自然的认知经验加以总结与系统化的产物，我们今天说的科学（包括自然科学、社会科学与人文学科）正是知识最重要的载体，也是知识最具代表性和权威性的代理人。我们进入大学，最直接的目的往往是获取更深层次的知识，并用此加以理解世界，甚至改造世界。但在这个过程中，我们面临着最基本也常常被忽略的问题：我们与知识的关系。\n\n第一层关系：知识如何发生\n我们对眼前的知识有多少感情和执着？上完一门课便换下一门课，我们的知识，求知的情感，我们的兴趣，我们多少带有的志向能不能瞄准我们最情有独钟的事物？就像爱一个人一样，我们是在专情地爱一个人，还是平均地爱了不同的人？这是一个很重要的课题。我认为今天的大学生应该大胆一些，大学老师应该前卫一些。学生应当允许自己对某些课程的低兴趣和低价值感的困惑和迷茫存在，而不必自我攻伐；老师则应慷慨一些，不必强求学生必须在该课程上达到某个指标。我们对知识的发生往往会经历一个漫长而坎坷的过程，许多人甚至一生也难以实现（当然也有结构性因素的存在）。就好像工作一般，如果一个人能在自己认为有使命感、愿意投入巨大热情的工作中，他/她如何能不实现自己的价值？\n产生这样的想法源于我对博弈论等课程的无感以及对自己产生更多进行自主选择的勇气的希望。我似乎产生了一些逆反心理，面对这类课堂时，心中不仅毫无兴趣，甚至抱有强烈反抗性的想法——我不能委身于此。一位自己也讲不明白博弈论公式的老师在讲台上照念PPT，学生们则一言不发，默默地在台下做着自己的事情，双方相互展演，每日循环往复，情绪的调动只能停留在互联网社交媒体上——想到这点是因为每次开读书会时，我的情绪会比以往时候都活跃，同时伴有强烈的自我价值感。如果打一个不恰当的比方，就好像大脑在不停分泌没有副作用的多巴胺——思考带来的愉悦是悠悠而绵长的，比之暴食、懒惰与色欲更加迷人。\n\n\n\n\n\n我其实并不知道自己喜不喜欢社会学。但我想我很清楚，我也正在做着这几件事——读书、思考与写博客。读书更像是还在培养的习惯，但我喜欢读书之后思考，在博客网页上专注地写作，将自己混乱的想法组织好表达出来。为了这些，我可以熬夜捣鼓博客网站，甚至是在熬过漫长黑夜以后起来仍然迫不及待地打开。我期待着，期待着自己的博客网站上遍布自己思考的痕迹，由混乱到有序，由稚嫩到成熟。\n我将这些理解为自我知识发生的过程。这样一件事情让我着迷，让我迫不及待地完成，让我感到我在为自己而活，我是主动的。如同前文所述，我认为我正在培养自我主体性的过程之中，大学本应具备这样的功能。而主体性往往会因为个体间的差异性而带来丰富的多样性。但我们今天看到的是什么？我们今天看到的更多是同质性。大家从入学开始赛道似乎就顺理成章地成为考研与考公，在庞大的学术体系面前早早就将自己的思考让渡了出去。前段时间，我在学院的公众号看到一个大二的学生，在学院的行政公众号上发了一篇名为《大一就学做科研》的文章——并不是咬定这位同学没有思考，也没有否定ta，只是我始终觉得大学最重要的功能还是“育人”与“启蒙”，但今天许多高校却竭力在学术竞争中卷出名次，这种范围蔓延下来，身边的同学有的确实很会写论文，跟着不少老师打了比赛，但有多少人静下心来阅读？有所少人具有批判性思考？大多数人最后只是在重复性地生产知识和话语，有的还要被卷入行政党建——我看到的中国学术界是这般模样，我所遇见过的已站在高位的学术大咖也如此承认过。如果是以前的我无疑会十分羡慕，但随着阅读、实践，我对学术的认知反而越来越多地走向“祛魅”的过程。这个过程消解的是我过去对学术的崇拜，同时带来的还有一阵“还有更多可能”的感受。\n\n\n第二层关系：知识将我们工具化了吗？\n缺乏情感的处理能力，聚焦于一处的专研\n应对：个人的批判、勇气和反抗的实践。\n\n\n\n桑德斯与哈佛公开课"
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "残日留痕",
+    "section": "……",
+    "text": "……\n\n\n\n中文博客\n\n\n\n\n\n\n\n\n\n\n“制造无聊”：大学课堂，一场集体倦怠的狂欢\n\n\n“这个世界不过是一个大型的草台班子”\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\n读书\n\n\n\n\n\n\n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nEnglish Writing\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nR\n\n\n\n\n\nNo matching items\n\n\n所有 →"
+  },
+  {
+    "objectID": "about.html#lately",
+    "href": "about.html#lately",
+    "title": "残日留痕",
+    "section": "Lately……",
+    "text": "Lately……\n\n\n\n中文博客\n\n\n\n\n\n\n\n\n\n\n“制造无聊”：大学课堂，一场集体倦怠的狂欢\n\n\n“这个世界不过是一个大型的草台班子”\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\n读书\n\n\n\n\n\n\n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nEnglish Writing\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nR\n\n\n\n\n\nNo matching items\n\n\n所有 →"
   }
 ]

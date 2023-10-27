@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-中文博客 .list');
+    const listingTargetEl = window.document.querySelector('#listing-blog .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-中文博客'] = new List('listing-中文博客', options);
+    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-读书 .list');
+    const listingTargetEl = window.document.querySelector('#listing-reading .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-读书'] = new List('listing-读书', options);
+    window['quarto-listings']['listing-reading'] = new List('listing-reading', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-English-writing .list');
+    const listingTargetEl = window.document.querySelector('#listing-english-writing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-English-writing'] = new List('listing-English-writing', options);
+    window['quarto-listings']['listing-english-writing'] = new List('listing-english-writing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-R .list');
+    const listingTargetEl = window.document.querySelector('#listing-r .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-R'] = new List('listing-R', options);
+    window['quarto-listings']['listing-r'] = new List('listing-r', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -268,15 +268,15 @@ ul.task-list li input[type="checkbox"] {
 </div></div>
 </div>
 
-<section id="关于我" class="level2">
-<h2 data-anchor-id="关于我">关于我</h2>
+<section id="about-me" class="level2">
+<h2 data-anchor-id="about-me">About me</h2>
 <div class="grid">
-<div id="about-me-1" class="g-col-6">
+<div id="about-me" class="g-col-6">
 <p>目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，但似乎社会学的”敏锐度”和”穿透力”都并不具备……倒是喜欢在网络上捣鼓博客，尝试写作。</p>
 <p>关于<a href="https://www.r-project.org/about.html">R</a>，如上所述，我基本用来写作博客，看起来无论怎么样似乎都像是不务正业了（也许吧，但谁说R只能是统计软件？）</p>
 <p>我想过，虽然很害怕很害怕进入社会以后会朝九晚五，在重复性的工作中成为科层制运转里的一颗螺丝钉，失去现在这般思考能力。但如果现在养成阅读和写作的习惯，即使以后工作了是否也可以继续保持呢？我相信如果能保持这份习惯，我将一样能在生活中找到自己的乐趣和慰藉。</p>
 </div>
-<div id="about-me-2" class="g-col-6">
+<div id="about-me" class="g-col-6">
 <p>下面是一些我常看的博客，于我而言，他们都是影响了我的陌生人，也是我单方面认为的给予了我力量的朋友。因为他们，我才开始写博客，并会坚持一直写下去。</p>
 <p><em>排名不分先后，按照认识时间排序。</em></p>
 <ul class="fa-ul">
@@ -297,12 +297,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <!-- end grid -->
 </section>
-<section id="更多" class="level2">
-<h2 data-anchor-id="更多">更多……</h2>
+<section id="lately" class="level2">
+<h2 data-anchor-id="lately">Lately……</h2>
 <div class="grid">
-<section id="中文博客" class="level4 g-col-3">
+<div id="lately" class="g-col-3">
+<section id="中文博客" class="level4">
 <h4 data-anchor-id="中文博客">中文博客</h4>
-<div id="listing-中文博客" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="大学,想法" data-listing-date-sort="1698336000000" data-listing-file-modified-sort="1698381283592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts-cn/2023/10/index.html" class="quarto-grid-link">
@@ -328,9 +329,11 @@ No matching items
 </div>
 <p><a href="../posts-cn" class="about-links subtitle">所有 →</a></p>
 </section>
-<section id="读书" class="level4 g-col-3">
+</div>
+<div id="lately" class="g-col-3">
+<section id="读书" class="level4">
 <h4 data-anchor-id="读书">读书</h4>
-<div id="listing-读书" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-reading" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="书评" data-listing-date-sort="1696953600000" data-listing-file-modified-sort="1698374486377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./book-review/2023/10/10-11-teahouse-reviews/index.html" class="quarto-grid-link">
@@ -353,9 +356,11 @@ No matching items
 </div>
 <p><a href="../book-review" class="about-links subtitle">所有 →</a></p>
 </section>
-<section id="english" class="level4 g-col-3">
-<h4 data-anchor-id="english">English</h4>
-<div id="listing-English-writing" class="quarto-listing quarto-listing-container-grid">
+</div>
+<div id="lately" class="g-col-3">
+<section id="english-writing" class="level4">
+<h4 data-anchor-id="english-writing">English Writing</h4>
+<div id="listing-english-writing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1697916609941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./posts-en/2023/10/10-04-caixin/index.html" class="quarto-grid-link">
@@ -378,9 +383,11 @@ No matching items
 </div>
 <p><a href="../posts-en" class="about-links subtitle">所有 →</a></p>
 </section>
-<section id="r" class="level4 g-col-3">
+</div>
+<div id="lately" class="g-col-3">
+<section id="r" class="level4">
 <h4 data-anchor-id="r">R</h4>
-<div id="listing-R" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-r" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 
 </div>
@@ -390,6 +397,7 @@ No matching items
 </div>
 <p><a href="../r" class="about-links subtitle">所有 →</a></p>
 </section>
+</div>
 </div>
 
 

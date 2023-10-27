@@ -40,7 +40,7 @@
   }
   
   /* listings */
-  #中文博客, #读书, #English-writing, #R {
+  #blog, #reading, #english-writing, #r {
     flex-basis: 40% !important;
     flex-grow: 1;
   }
@@ -61,13 +61,13 @@
   }
 
   /* wrap lately section */
-  #更多 .grid {
+  #lately .grid {
     display: flex;
     flex-wrap: wrap;
   }
 
   /* listings */
-  #中文博客, #读书, #English-writing, #R {
+  #blog, #reading, #english-writing, #r {
     flex-basis: 100% !important;
   }
 

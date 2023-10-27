@@ -16,7 +16,7 @@ about:
   #    href: https://github.com/residualsun1
 # toc-location: right
 listing: 
-- id: 中文博客
+- id: blog
   contents: 
     - "../posts-cn/*/**/index.qmd"
   sort: date desc
@@ -28,7 +28,7 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: 读书
+- id: reading
   contents: 
     - "../book-review/*/**/index.qmd"
   sort: date desc
@@ -40,7 +40,7 @@ listing:
   fields: [title, image]
   max-items: 1
   image-height: "200"
-- id: English-writing
+- id: english-writing
   contents: 
     - "../posts-en/*/**/index.qmd"
   sort: date desc
@@ -52,7 +52,7 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: R
+- id: r
   contents: 
     - "../r/*/index.qmd"
     - "../r/*/index.markdown"
@@ -93,11 +93,11 @@ resources:
 
 :::
 
-## 关于我
+## About me
 
 ::: {.grid}
 
-::: {.g-col-6 #about-me-1}
+::: {.g-col-6 #about-me}
 
 目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，但似乎社会学的"敏锐度"和"穿透力"都并不具备......倒是喜欢在网络上捣鼓博客，尝试写作。
 
@@ -107,7 +107,7 @@ resources:
 
 :::
 
-::: {.g-col-6 #about-me-2}
+::: {.g-col-6 #about-me}
 
 下面是一些我常看的博客，于我而言，他们都是影响了我的陌生人，也是我单方面认为的给予了我力量的朋友。因为他们，我才开始写博客，并会坚持一直写下去。
 
@@ -130,34 +130,34 @@ resources:
 :::
 <!-- end grid -->
 
-## 更多......
+## Lately......
 
 :::: {.grid}
 
-::: {.g-col-3}
+::: {.g-col-3 #lately}
 #### 中文博客
-::: {#中文博客}
+::: {#blog}
 :::
 [所有 &rarr;](../posts-cn){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
+::: {.g-col-3 #lately}
 #### 读书
-::: {#读书}
+::: {#reading}
 :::
 [所有 &rarr;](../book-review){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
-#### English
-::: {#English-writing}
+::: {.g-col-3 #lately}
+#### English Writing
+::: {#english-writing}
 :::
 [所有 &rarr;](../posts-en){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
+::: {.g-col-3 #lately}
 #### R
-::: {#R}
+::: {#r}
 :::
 [所有 &rarr;](../r){.about-links .subtitle}
 :::
