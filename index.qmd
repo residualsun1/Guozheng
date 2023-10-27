@@ -28,5 +28,5 @@ comments: false
 ::: {#hero-heading}
 你好，这里是黄国政的个人网站。
 
-[learn more →](/about){.about-links .subtitle}
+[learn more →](/about.qmd){.about-links .subtitle}
 :::
