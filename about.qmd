@@ -93,7 +93,7 @@ resources:
 
 :::
 
-## About-me
+## About me
 
 ::: {.grid}
 

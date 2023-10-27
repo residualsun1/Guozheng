@@ -1144,8 +1144,8 @@
     "objectID": "about.html#about-me",
     "href": "about.html#about-me",
     "title": "残日留痕",
-    "section": "About-me",
-    "text": "About-me\n\n\n目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，但似乎社会学的”敏锐度”和”穿透力”都并不具备……倒是喜欢在网络上捣鼓博客，尝试写作。\n关于R，如上所述，我基本用来写作博客，看起来无论怎么样似乎都像是不务正业了（也许吧，但谁说R只能是统计软件？）\n我想过，虽然很害怕很害怕进入社会以后会朝九晚五，在重复性的工作中成为科层制运转里的一颗螺丝钉，失去现在这般思考能力。但如果现在养成阅读和写作的习惯，即使以后工作了是否也可以继续保持呢？我相信如果能保持这份习惯，我将一样能在生活中找到自己的乐趣和慰藉。\n\n\n下面是一些我常看的博客，于我而言，他们都是影响了我的陌生人，也是我单方面认为的给予了我力量的朋友。因为他们，我才开始写博客，并会坚持一直写下去。\n排名不分先后，按照认识时间排序。\n\n\n谢益辉：大家都很佩服，并影响了大家——包括我，让我走进博客\n\n\n叶寻：擅长电脑技术而又乐意帮助他人\n\n\n列弛：第一个给我留言的朋友，一个看书、思考的朋友\n\n\n袁凡：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服"
+    "section": "About me",
+    "text": "About me\n\n\n目前我还是一名大学生，专业是社会学，对人类学也很感兴趣，尝试过田野调查，但似乎社会学的”敏锐度”和”穿透力”都并不具备……倒是喜欢在网络上捣鼓博客，尝试写作。\n关于R，如上所述，我基本用来写作博客，看起来无论怎么样似乎都像是不务正业了（也许吧，但谁说R只能是统计软件？）\n我想过，虽然很害怕很害怕进入社会以后会朝九晚五，在重复性的工作中成为科层制运转里的一颗螺丝钉，失去现在这般思考能力。但如果现在养成阅读和写作的习惯，即使以后工作了是否也可以继续保持呢？我相信如果能保持这份习惯，我将一样能在生活中找到自己的乐趣和慰藉。\n\n\n下面是一些我常看的博客，于我而言，他们都是影响了我的陌生人，也是我单方面认为的给予了我力量的朋友。因为他们，我才开始写博客，并会坚持一直写下去。\n排名不分先后，按照认识时间排序。\n\n\n谢益辉：大家都很佩服，并影响了大家——包括我，让我走进博客\n\n\n叶寻：擅长电脑技术而又乐意帮助他人\n\n\n列弛：第一个给我留言的朋友，一个看书、思考的朋友\n\n\n袁凡：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服"
   },
   {
     "objectID": "about.html#关于我",
@@ -1158,8 +1158,8 @@
     "objectID": "about-en.html#about-me",
     "href": "about-en.html#about-me",
     "title": "Residualsun",
-    "section": "about me",
-    "text": "about me\n\n\nAt present I am still a college student, majoring in sociology. I have tried field research, but it seems that I lack of sociological “sensitivity” and “penetrating power”…… Instead, I like to tinker with blogs on the Internet and try my hand at writing.\nRegarding R, as mentioned above, I basically use it for writing blogs, and it seems like a non-starter no matter what (maybe, but who says R can only be statistical software?).\n\n\nHere are some of the blogs I read regularly, strangers to me who have influenced me and friends who I unilaterally consider to have given me strength. It’s because of them that I started blogging and will continue to do so!。\nIn no particular order, sorted by time of recognition.\n\n\n谢益辉：A man who influences many R learner, including me into blogging!\n\n\n叶寻：Good computer skills and willingness to help others\n\n\n列弛：The first friend to leave me a message, a friend who keeps reading and reflecting\n\n\n袁凡：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot"
+    "section": "About me",
+    "text": "About me\n\n\nAt present I am still a college student, majoring in sociology. I have tried field research, but it seems that I lack of sociological “sensitivity” and “penetrating power”…… Instead, I like to tinker with blogs on the Internet and try my hand at writing.\nRegarding R, as mentioned above, I basically use it for writing blogs, and it seems like a non-starter no matter what (maybe, but who says R can only be statistical software?).\n\n\nHere are some of the blogs I read regularly, strangers to me who have influenced me and friends who I unilaterally consider to have given me strength. It’s because of them that I started blogging and will continue to do so!。\nIn no particular order, sorted by time of recognition.\n\n\n谢益辉：A man who influences many R learner, including me into blogging!\n\n\n叶寻：Good computer skills and willingness to help others\n\n\n列弛：The first friend to leave me a message, a friend who keeps reading and reflecting\n\n\n袁凡：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot"
   },
   {
     "objectID": "about-en.html#more",
@@ -1235,6 +1235,13 @@
     "objectID": "about.html#lately",
     "href": "about.html#lately",
     "title": "残日留痕",
+    "section": "Lately……",
+    "text": "Lately……\n\n\n\n中文博客\n\n\n\n\n\n\n\n\n\n\n“制造无聊”：大学课堂，一场集体倦怠的狂欢\n\n\n“这个世界不过是一个大型的草台班子”\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\n读书\n\n\n\n\n\n\n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nEnglish Writing\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nR\n\n\n\n\n\nNo matching items\n\n\n所有 →"
+  },
+  {
+    "objectID": "about-en.html#lately",
+    "href": "about-en.html#lately",
+    "title": "Residualsun",
     "section": "Lately……",
     "text": "Lately……\n\n\n\n中文博客\n\n\n\n\n\n\n\n\n\n\n“制造无聊”：大学课堂，一场集体倦怠的狂欢\n\n\n“这个世界不过是一个大型的草台班子”\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\n读书\n\n\n\n\n\n\n\n\n\n\n《茶馆》：我们与公共生活\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nEnglish Writing\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\n所有 →\n\n\n\n\nR\n\n\n\n\n\nNo matching items\n\n\n所有 →"
   }
