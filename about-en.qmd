@@ -54,8 +54,8 @@ listing:
   image-height: "200"
 - id: r
   contents: 
-    - "../r/*/index.qmd"
-    - "../r/*/index.markdown"
+    - "../r/*/**/index.qmd"
+    - "../r/*/**/index.markdown"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -85,8 +85,9 @@ resources:
 </center>
 
 ::: {#hero-heading}
-
-<div class="h1">Welcome to my garden!</div>
+::: h1
+Welcome to my garden!
+:::
 
 This is Guozheng Huang's English blog.
 
@@ -95,23 +96,18 @@ I built my first Chinese blog with `blogdown` on May 28th, 2023. It was changed 
 During the theme within my Chinese blog doesn't support multi-language settings, I decide to bulid my English blog with Quarto and preserve my Chinese blog in `blogdown`, and I would be beening updating it.
 
 This English blog will be used to record my book reviews in Chinese. Because its interface is better suited for displaying rich content, while my level of English writing hasn't be sufficient for me to express complex content yet.
-
 :::
 
 ## About me
 
-::: {.grid}
-
-::: {.g-col-6 #about-me}
-
+::: grid
+::: {#about-me .g-col-6}
 At present I am still a college student, majoring in sociology. I have tried field research, but it seems that I lack of sociological "sensitivity" and "penetrating power"...... Instead, I like to tinker with blogs on the Internet and try my hand at writing.
 
 Regarding [R](https://www.r-project.org/about.html), as mentioned above, I basically use it for writing blogs, and it seems like a non-starter no matter what (maybe, but who says R can only be statistical software?).
-
 :::
 
-::: {.g-col-6 #about-me}
-
+::: {#about-me .g-col-6}
 Here are some of the blogs I read regularly, strangers to me who have influenced me and friends who I unilaterally consider to have given me strength. It's because of them that I started blogging and will continue to do so!。
 
 *In no particular order, sorted by time of recognition.*
@@ -127,42 +123,47 @@ Here are some of the blogs I read regularly, strangers to me who have influenced
 <li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot</li>
 
 </ul>
-
+:::
 :::
 
-:::
 <!-- end grid -->
 
 ## Lately......
 
-:::: {.grid}
-
-::: {.g-col-3 #lately}
+::: grid
+::: {#lately .g-col-3}
 #### 中文博客
+
 ::: {#blog}
 :::
-[所有 &rarr;](../posts-cn){.about-links .subtitle}
+
+[所有 →](../posts-cn){.about-links .subtitle}
 :::
 
-::: {.g-col-3 #lately}
+::: {#lately .g-col-3}
 #### 读书
+
 ::: {#reading}
 :::
-[所有 &rarr;](../book-review){.about-links .subtitle}
+
+[所有 →](../book-review){.about-links .subtitle}
 :::
 
-::: {.g-col-3 #lately}
+::: {#lately .g-col-3}
 #### English Writing
+
 ::: {#english-writing}
 :::
-[所有 &rarr;](../posts-en){.about-links .subtitle}
+
+[所有 →](../posts-en){.about-links .subtitle}
 :::
 
-::: {.g-col-3 #lately}
+::: {#lately .g-col-3}
 #### R
+
 ::: {#r}
 :::
-[所有 &rarr;](../r){.about-links .subtitle}
-:::
 
-::::
+[所有 →](../r){.about-links .subtitle}
+:::
+:::

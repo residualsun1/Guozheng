@@ -1,0 +1,46 @@
+---
+title: 更换字体 | 思源宋体
+subtitle: 思源宋体的本地下载与引用
+author: 黄国政
+date: "2023-10-29"
+categories: []
+image: image.jpg
+---
+
+
+Photo by <a href="https://unsplash.com/@brett_jordan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brett Jordan</a> on <a href="https://unsplash.com/photos/text-eIHaN6Azykw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+将思源宋体下载并安装到自己电脑本地中，按照该[帖子](https://blog.yfei.page/cn/2020/12/siyuansongti/)的做法，将以下代码输入决定博客样式的css文件中。
+
+```
+@font-face {
+font-family: 'SiYuanSong';
+src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能，调用本地字体*/
+  url('fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SiYuanSong';
+  src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能，调用本地字体*/
+    url('fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+  font-family: 'SiYuanSong', serif;
+}
+```
+
+如果需要自行创建.css文件，可以这样做：这篇[文章](https://www.w3cschool.cn/article/91795162.html)可以解决问题，直接在记事本输入内容，保存的时候在文件名后加上.css的后缀即可。
+
+---
+
+发现一篇关于益辉用思源字体设置幻灯片说明的[帖子](https://d.cosx.org/d/421962-yihuicss)，码住，往后应当是能用上的。
+
+该[幻灯片](https://slides.yihui.org/2020-random-walk.html#1)的内容也特别走心。
+  
