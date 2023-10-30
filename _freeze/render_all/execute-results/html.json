@@ -1,0 +1,14 @@
+{
+  "hash": "068c34d82d90cc1296edc5f9f9d31498",
+  "result": {
+    "markdown": "# Load the rmarkdown package\nlibrary(rmarkdown)\n\n# Set the path to your Quarto project directory\nquarto_project_path <- \"/04_Rrender/Quarto/Guozheng\"\n\n# List all .qmd files in the project directory\nqmd_files <- list.files(quarto_project_path, pattern = \"\\\\.qmd$\", full.names = TRUE)\n\n# Loop through the .qmd files and render them\nfor (qmd_file in qmd_files) {\n  render(qmd_file)\n}\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

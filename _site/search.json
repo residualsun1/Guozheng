@@ -376,5 +376,12 @@
     "title": "更换字体 | 思源宋体",
     "section": "",
     "text": "Photo by Brett Jordan on Unsplash\n将思源宋体下载并安装到自己电脑本地中，按照该帖子的做法，将以下代码输入决定博客样式的css文件中。\n@font-face {\nfont-family: 'SiYuanSong';\nsrc: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能，调用本地字体*/\n  url('fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf') format('opentype');\n  font-weight: 400;\n  font-style: normal;\n  font-display: swap;\n}\n\n@font-face {\n  font-family: 'SiYuanSong';\n  src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能，调用本地字体*/\n    url('fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf') format('opentype');\n  font-weight: 700;\n  font-style: normal;\n  font-display: swap;\n}\n\nbody{\n  font-family: 'SiYuanSong', serif;\n}\n如果需要自行创建.css文件，可以这样做：这篇文章可以解决问题，直接在记事本输入内容，保存的时候在文件名后加上.css的后缀即可。\n\n发现一篇关于益辉用思源字体设置幻灯片说明的帖子，码住，往后应当是能用上的。\n该幻灯片的内容也特别走心。\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "render_all.html",
+    "href": "render_all.html",
+    "title": "Load the rmarkdown package",
+    "section": "",
+    "text": "Load the rmarkdown package\nlibrary(rmarkdown)\n\n\nSet the path to your Quarto project directory\nquarto_project_path &lt;- “/04_Rrender/Quarto/Guozheng”\n\n\nList all .qmd files in the project directory\nqmd_files &lt;- list.files(quarto_project_path, pattern = “\\.qmd$”, full.names = TRUE)\n\n\nLoop through the .qmd files and render them\nfor (qmd_file in qmd_files) { render(qmd_file) }\n\n\n\n\n Back to top"
   }
 ]

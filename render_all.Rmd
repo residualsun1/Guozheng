@@ -1,0 +1,14 @@
+# Load the rmarkdown package
+library(rmarkdown)
+
+# Set the path to your Quarto project directory
+quarto_project_path <- "/04_Rrender/Quarto/Guozheng"
+
+# List all .qmd files in the project directory
+qmd_files <- list.files(quarto_project_path, pattern = "\\.qmd$", full.names = TRUE)
+
+# Loop through the .qmd files and render them
+for (qmd_file in qmd_files) {
+  render(qmd_file)
+}
+
