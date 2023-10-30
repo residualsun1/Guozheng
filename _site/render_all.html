@@ -120,21 +120,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="load-the-rmarkdown-package" class="level1">
-<h1>Load the rmarkdown package</h1>
-<p>library(rmarkdown)</p>
+<p>library(rmarkdown) library(fs)</p>
+<section id="设置-quarto-项目的根目录" class="level1">
+<h1>设置 Quarto 项目的根目录</h1>
+<p>quarto_project_path &lt;- “D:/04_Rrender/Quarto/Guozheng”</p>
 </section>
-<section id="set-the-path-to-your-quarto-project-directory" class="level1">
-<h1>Set the path to your Quarto project directory</h1>
-<p>quarto_project_path &lt;- “/04_Rrender/Quarto/Guozheng”</p>
+<section id="设置输出目录为-_site-文件夹" class="level1">
+<h1>设置输出目录为 _site 文件夹</h1>
+<p>output_path &lt;- file.path(quarto_project_path, “_site”)</p>
 </section>
-<section id="list-all-.qmd-files-in-the-project-directory" class="level1">
-<h1>List all .qmd files in the project directory</h1>
-<p>qmd_files &lt;- list.files(quarto_project_path, pattern = “\.qmd$”, full.names = TRUE)</p>
+<section id="递归查找所有-.qmd-文件" class="level1">
+<h1>递归查找所有 .qmd 文件</h1>
+<p>qmd_files &lt;- dir_ls(quarto_project_path, recurse = TRUE, regexp = “\.qmd$”)</p>
 </section>
-<section id="loop-through-the-.qmd-files-and-render-them" class="level1">
-<h1>Loop through the .qmd files and render them</h1>
-<p>for (qmd_file in qmd_files) { render(qmd_file) }</p>
+<section id="循环遍历并渲染每个-.qmd-文件指定输出路径为-_site-文件夹" class="level1">
+<h1>循环遍历并渲染每个 .qmd 文件，指定输出路径为 _site 文件夹</h1>
+<p>for (qmd_file in qmd_files) { render(qmd_file, output_dir = output_path) }</p>
 
 
 </section>

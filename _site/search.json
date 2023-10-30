@@ -380,8 +380,8 @@
   {
     "objectID": "render_all.html",
     "href": "render_all.html",
-    "title": "Load the rmarkdown package",
+    "title": "设置 Quarto 项目的根目录",
     "section": "",
-    "text": "Load the rmarkdown package\nlibrary(rmarkdown)\n\n\nSet the path to your Quarto project directory\nquarto_project_path &lt;- “/04_Rrender/Quarto/Guozheng”\n\n\nList all .qmd files in the project directory\nqmd_files &lt;- list.files(quarto_project_path, pattern = “\\.qmd$”, full.names = TRUE)\n\n\nLoop through the .qmd files and render them\nfor (qmd_file in qmd_files) { render(qmd_file) }\n\n\n\n\n Back to top"
+    "text": "library(rmarkdown) library(fs)\n\n设置 Quarto 项目的根目录\nquarto_project_path &lt;- “D:/04_Rrender/Quarto/Guozheng”\n\n\n设置输出目录为 _site 文件夹\noutput_path &lt;- file.path(quarto_project_path, “_site”)\n\n\n递归查找所有 .qmd 文件\nqmd_files &lt;- dir_ls(quarto_project_path, recurse = TRUE, regexp = “\\.qmd$”)\n\n\n循环遍历并渲染每个 .qmd 文件，指定输出路径为 _site 文件夹\nfor (qmd_file in qmd_files) { render(qmd_file, output_dir = output_path) }\n\n\n\n\n Back to top"
   }
 ]
