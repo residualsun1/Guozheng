@@ -1,14 +1,16 @@
-# Load the rmarkdown package
 library(rmarkdown)
+library(fs)
 
-# Set the path to your Quarto project directory
-quarto_project_path <- "/04_Rrender/Quarto/Guozheng"
+# 设置 Quarto 项目的根目录
+quarto_project_path <- "D:/04_Rrender/Quarto/Guozheng"
 
-# List all .qmd files in the project directory
-qmd_files <- list.files(quarto_project_path, pattern = "\\.qmd$", full.names = TRUE)
+# 设置输出目录为 _site 文件夹
+output_path <- file.path(quarto_project_path, "_site")
 
-# Loop through the .qmd files and render them
+# 递归查找所有 .qmd 文件
+qmd_files <- dir_ls(quarto_project_path, recurse = TRUE, regexp = "\\.qmd$")
+
+# 循环遍历并渲染每个 .qmd 文件，指定输出路径为 _site 文件夹
 for (qmd_file in qmd_files) {
-  render(qmd_file)
+  render(qmd_file, output_dir = output_path)
 }
-
