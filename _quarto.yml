@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  favicon: logo.png
+  favicon: img/logo.png
   title: "Residualsun"
   site-url: "https://residualsun.blog/"
   page-navigation: true

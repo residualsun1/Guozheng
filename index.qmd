@@ -1,7 +1,7 @@
 ---
 title: "残日留痕"
 #subtitle: "Residualsun"
-image: "darksun.gif"
+image: "img/darksun.gif"
 image-alt: "less is more"
 back-to-top-navigation: false
 

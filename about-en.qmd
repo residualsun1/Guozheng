@@ -1,7 +1,7 @@
 ---
 title: "Residualsun"
 subtitle: "Less is more"
-image: "fallingstar.gif"
+image: "img/fallingstar.gif"
 about:
   template: trestles
   image-width: 20em

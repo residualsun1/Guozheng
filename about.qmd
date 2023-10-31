@@ -1,7 +1,7 @@
 ---
 title: "残日留痕"
 subtitle: "思考无价"
-image: "profile.gif"
+image: "img/profile.gif"
 about:
   template: trestles
   image-width: 20em
