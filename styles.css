@@ -165,7 +165,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-title-banner {
-    margin-bottom: -1.50em; /*原来是1em*/
+    margin-bottom: 1.00em; /*如果想修改，就改成-1.50em吧*/
     color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
     background: #fff; /*原来是黑色的*/
 }

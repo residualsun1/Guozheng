@@ -55,7 +55,8 @@ format:
     
 execute: 
   freeze: auto
-editor: visual
+  
+editor: source #在Rstudio中总是使用源代码模式。改为visual则是预览模式。
 
 comments:
   giscus:
