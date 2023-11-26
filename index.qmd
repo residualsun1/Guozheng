@@ -1,7 +1,7 @@
 ---
-title: "残日留痕"
+title: "黄国政"
 #subtitle: "Residualsun"
-image: "img/darksun.gif"
+image: "img/avatar.jpg"
 image-alt: "less is more"
 back-to-top-navigation: false
 
@@ -26,7 +26,7 @@ comments: false
 ---
 
 ::: {#hero-heading}
-你好，这里是黄国政的个人网站。
+你好，这里是我的个人网站。
 
 [learn more →](/about.qmd){.about-links .subtitle}
 :::
