@@ -1,7 +1,7 @@
 ---
 title: "读书" 
 description: |
-  <br>一日无书，百事荒芜
+  <br>一个人的阅读史是他的思想史
 listing: 
   contents:
     - "**/index.qmd"
