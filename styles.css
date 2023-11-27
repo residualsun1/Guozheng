@@ -1,18 +1,5 @@
 /* css styles */
 
-.quoteit {
-  color: darkblue;
-  font-size: 80%;
-  font-style: italic;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.mermaidTooltip {
-		font-family: courier;
-		white-space: pre;
-}
-
 @font-face {
 font-family: 'SiYuanSong';
 src: local('Source Han Serif CN'), local('Source Han Serif SC'), /*如果可能，调用本地字体*/
