@@ -8,7 +8,7 @@
 
 /* subtitle + Learn More About Me */
 .subtitle {
-  font-family: "Times New Roman", "Petrona";
+  font-family: "Times New Roman", "SiYuanSong" "Petrona";
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: lowercase;
@@ -43,9 +43,10 @@
 /* Learn More About Me */
 .about-links.subtitle {
   font-size: 1em !important;
-  font-family: "Red Hat Text";
+  font-family: "Red Hat Text", "SiYuanSong";
   justify-content: flex-end !important;
   text-align: right;
+  text-decoration: none;
 }
 
 /* image */

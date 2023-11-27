@@ -28,5 +28,5 @@ comments: false
 ::: {#hero-heading}
 你好，这里是我的个人网站。
 
-[learn more →](/about.qmd){.about-links .subtitle}
+[更多……](/about.qmd){.about-links .subtitle}
 :::
