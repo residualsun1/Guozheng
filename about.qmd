@@ -131,7 +131,7 @@ resources:
 
 <!-- end grid -->
 
-## 最近......
+## Lately……
 
 ::: grid
 ::: {#lately .g-col-3}

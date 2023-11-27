@@ -68,7 +68,7 @@
 
   /* listings */
   #blog, #reading, #english-writing, #r {
-    flex-basis: 100% !important;
+    flex-basis: 40% !important;
   }
 
   /* social links: block of links */
