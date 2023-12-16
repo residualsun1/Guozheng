@@ -7,10 +7,11 @@ pre {
 
 /*
 main, p{
-  font-size: 1.15rem !important;
-  font-family: 'Times New Roman', 'SiYuanSong';
-  font-weight: 500;
-  line-height: 1.75;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Source Han Serif CN', serif;
+  font-size: 0.985em;
+  line-height: 1.85em;
+  color: black;
+  background-color: white;
 }
 
 .callout.callout-style-default .callout-body {
@@ -168,7 +169,7 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-title-banner {
-    margin-bottom: 1.00em; /*如果想修改，就改成-1.50em吧*/
+    margin-bottom: -1rem; /*如果想修改，就改成-1.50em吧*/
     color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
     background: #fff; /*原来是黑色的*/
 }
@@ -193,7 +194,7 @@ a{
 b, strong {
     color: #333333;
     font-weight: bold; /*原来是bloder*/
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FandolKai, serif;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Source Han Serif CN', serif;
 }
 
 div.quarto-post .listing-categories .listing-category {
