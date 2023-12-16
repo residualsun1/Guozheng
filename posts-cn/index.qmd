@@ -1,7 +1,7 @@
 ---
-title: "写作的欲求即爱欲"
-description: | 
-  <br>这里是我讲述故事的遥远之地<br>我时常觉得有太多想说，于是不知从何说起。希望我的故事能吸引到你。<br>
+#title: "写作的欲求即爱欲"
+#description: | 
+#  <br>这里是我讲述故事的遥远之地<br>我时常觉得有太多想说，于是不知从何说起。希望我的故事能吸引到你。<br>
 listing: 
   contents: 
     - "**/index.qmd"
@@ -9,7 +9,7 @@ listing:
     - "**/index.md"
   sort: "date desc"
   type: default
-  categories: false
+  categories: true
   sort-ui: false
   filter-ui: false
   fields: [title, author, categories, date, image]
