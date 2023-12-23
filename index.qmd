@@ -1,5 +1,5 @@
 ---
-title: "Residualsun | Guozheng Huang"
+title: "Guozheng Huang"
 #subtitle: "Residualsun"
 image: "img/avatar.jpg"
 image-alt: "Residualsun"
