@@ -1,10 +1,10 @@
 ---
-title: "残日留痕"
-subtitle: "思考无价"
+title: "Residualsun"
+subtitle: "Less is more"
 image: "img/profile.gif"
 about:
   template: trestles
-  image-width: 20em
+  image-width: 15em
   image-shape: rounded
   id: hero-heading
   # links:
@@ -76,6 +76,7 @@ resources:
   - ../assets/about.css
 ---
 
+<!--改成单语
 <center>
 
 ::: {.btn-group role="group" aria-label="About"}
@@ -83,6 +84,7 @@ resources:
 :::
 
 </center>
+-->
 
 ::: {#hero-heading}
 <!--
@@ -90,46 +92,42 @@ resources:
 <center>关于我</center>
 :::
 -->
-你好，我是黄国政，一名普通的大三学生，闲适的时候喜欢听周杰伦和my little airport，消沉的时候喜欢听林肯公园，怀旧的时候喜欢听张国荣。
 
-最近一直在听my little airport，《下了两天雨》总让我想起刘以鬯写的一段话：
+Hello, I am Guozheng Huang, an ordinary junior student who likes to listen to Jay Chou and MY LITTLE AIRPORT when I am idle, Linkin Park when I am depressed, and Leslie Cheung when I am nostalgic.
 
-> “生锈的感情又逢落雨天，思想在烟圈里捉迷藏。”
+Recently, I've been listening to my little airport, and *It's Raining for Two Days* always reminds me of a passage written by Liu Yisheng:
 
-《SABINA之淚》、《回到中学的暑假》、《忧伤的嫖客》、《散步之年》、《每次你走的时分》、《因讲了出来》、《那时阵不知道》都很好听，是我喜欢的风格，用列弛的话来说，它们似乎都是靡靡之音。
+> "Rusty feelings again on a rainy day, thoughts playing hide-and-seek in smoke rings."
 
-我似乎没有什么爱好，准备念小学的时候哥哥给了我一本读物，从此开始自己接触阅读。但小时候读的书籍良莠不齐，等到念中学时又适逢手机普及，遗憾没能保持阅读的习惯。直到在大学认识了兵哥，我重新捡回了阅读的习惯，并尝试写作博客。如果可以的话，我想说阅读和写作博客是我的爱好。“残日留痕”是我从石黑一雄的小说《长日将尽》的标题改的，但我现在更喜欢看社会学与人类学领域的书籍。
+*Tears of SABINA*, *Summer Vacation Back to Middle School*, *Sad Whoremonger*, *The Year of Walking*, *Every Time You Go*, *For Telling It Like It Is*, and *Then the Formation Didn't Know It* are all very good, and are in my favorite style; in the words of Lechi, they all seem to be woozy.
+
 :::
 
-<!--
-## 关于本站
+## About this blog
 
 ::: grid
 ::: {#about-me .g-col-6}
-本站是我的第二个博客。我很认同叶寻和益辉讲的[集中影响力](https://yihui.org/cn/2019/03/influence-focus/)，如果将所有精力投入到一个博客，写作的内容和影响力都会更好。不过考虑到自己旺盛的表达欲、尚且富余的自我支配时间，我想给自己写两个功能不同的博客。第一个博客是我进入博客圈子的起点，也是我最重要的自留地，通过它，我认识了来自[统计之都](https://cosx.org)的几位良师益友，也找到了向自己、向他人乃至向世界表述自我的方式。它是足以让我感到心中踏实的一份感受，只为我自己和少数几位朋友开放；第二个博客则用于以丰富的画面形式呈现自己的书评、议论写作以及英文写作。
+This site is my English blog. It is also my second blog, which is used to practice my English writing. The first blog is my starting point in the blogosphere, and it is also the most important place for me, through which I have met several mentors and friends from the [capital of statistics](https://cosx.org), and found a way to express myself to the world. 
 
-如果在“加速”的今天还有陌生人愿意聆听我的故事，这将是我的幸运，欢迎到访:-)！
+I'm lucky if there are strangers out there who want to listen to my stories in this "accelerated" world, welcome :-)!
 :::
 
 ::: {#about-me .g-col-6}
-以下是我常看的博客，于我而言，他们既是影响了我的陌生人，也是我单方面认为的给予了我力量的良师益友。因为他们，我才进入了博客写作的世界，感谢相识，感谢缘分。
-
-*排名不分先后，按照认识时间排序。*
+The following are blogs that I read often, they all gave some energy to me.
 
 <ul class="fa-ul">
 
-<li><i class="fa-solid fa-certificate"></i>[谢益辉](https://yihui.org)：大家都很佩服，并影响了大家------包括我，让我走进博客</li>
+<li><i class="fa-solid fa-certificate"></i>[谢益辉](https://yihui.org)：A man who influences many R learner, including me into blogging!</li>
 
-<li><i class="fa-solid fa-graduation-cap"></i>[叶寻](https://cyrusyip.org)：擅长电脑技术而又乐意帮助他人</li>
+<li><i class="fa-solid fa-graduation-cap"></i>[叶寻](https://cyrusyip.org)：Good computer skills and willingness to help others</li>
 
-<li><i class="fa-solid fa-graduation-cap"></i>[列弛](https://www.liechi.org)：第一个给我留言的朋友，一个看书、思考的朋友</li>
+<li><i class="fa-solid fa-graduation-cap"></i>[列弛](https://www.liechi.org)：The first friend to leave me a message, a friend who keeps reading and reflecting</li>
 
-<li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服</li>
+<li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot</li>
 
 </ul>
 :::
 :::
--->
 
 <!-- end grid -->
 
@@ -137,38 +135,38 @@ resources:
 
 ::: grid
 ::: {#lately .g-col-3}
-#### 中文博客
+#### no-title-1
 
 ::: {#blog}
 :::
 
-[所有 →](../posts-cn){.about-links .subtitle}
+[All →](../posts-cn){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### 读书
+#### no-title-2
 
 ::: {#reading}
 :::
 
-[所有 →](../book-review){.about-links .subtitle}
+[All →](../book-review){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### English Writing
+#### no-title-3
 
 ::: {#english-writing}
 :::
 
-[所有 →](../posts-en){.about-links .subtitle}
+[All →](../posts-en){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### R
+#### no-title-4
 
 ::: {#r}
 :::
 
-[所有 →](../r){.about-links .subtitle}
+[All →](../r){.about-links .subtitle}
 :::
 :::

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.427">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Residualsun - 残日留痕</title>
+<title>Residualsun</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -49,16 +49,16 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "没有结果",
-    "search-matching-documents-text": "匹配的文档",
-    "search-copy-link-title": "复制搜索链接",
-    "search-hide-matches-text": "隐藏其它匹配结果",
-    "search-more-match-text": "更多匹配结果",
-    "search-more-matches-text": "更多匹配结果",
-    "search-clear-button-title": "清除",
-    "search-detached-cancel-button-title": "取消",
-    "search-submit-button-title": "提交",
-    "search-label": "搜索"
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -181,8 +181,8 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Residualsun - 残日留痕">
-<meta property="og:description" content="思考无价">
+<meta property="og:title" content="Residualsun">
+<meta property="og:description" content="Less is more">
 <meta property="og:image" content="https://residualsun.blog/img/profile.gif">
 <meta property="og:site-name" content="Residualsun">
 </head>
@@ -198,8 +198,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Residualsun</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="搜索"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="切换导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -241,19 +241,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<!--改成单语
 <center>
-<div class="btn-group" role="group" aria-label="About">
-<p><a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">中文</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a></p>
-</div>
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">中文</button></a> <a href="about-en.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>
+:::
+
 </center>
+-->
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
     <img src="img/profile.gif" class="about-image
-  rounded " style="width: 20em;">
+  rounded " style="width: 15em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">残日留痕</h1>
-<p class="subtitle lead">思考无价</p>
+<h1 class="title">Residualsun</h1>
+<p class="subtitle lead">Less is more</p>
 </div>
 <div class="quarto-title-meta">
   </div>
@@ -265,82 +269,62 @@ ul.task-list li input[type="checkbox"] {
 <center>关于我</center>
 :::
 -->
-<p>你好，我是黄国政，一名普通的大三学生，闲适的时候喜欢听周杰伦和my little airport，消沉的时候喜欢听林肯公园，怀旧的时候喜欢听张国荣。</p>
-<p>最近一直在听my little airport，《下了两天雨》总让我想起刘以鬯写的一段话：</p>
+<p>Hello, I am Guozheng Huang, an ordinary junior student who likes to listen to Jay Chou and MY LITTLE AIRPORT when I am idle, Linkin Park when I am depressed, and Leslie Cheung when I am nostalgic.</p>
+<p>Recently, I’ve been listening to my little airport, and <em>It’s Raining for Two Days</em> always reminds me of a passage written by Liu Yisheng:</p>
 <blockquote class="blockquote">
-<p>“生锈的感情又逢落雨天，思想在烟圈里捉迷藏。”</p>
+<p>“Rusty feelings again on a rainy day, thoughts playing hide-and-seek in smoke rings.”</p>
 </blockquote>
-<p>《SABINA之淚》、《回到中学的暑假》、《忧伤的嫖客》、《散步之年》、《每次你走的时分》、《因讲了出来》、《那时阵不知道》都很好听，是我喜欢的风格，用列弛的话来说，它们似乎都是靡靡之音。</p>
-<p>我似乎没有什么爱好，准备念小学的时候哥哥给了我一本读物，从此开始自己接触阅读。但小时候读的书籍良莠不齐，等到念中学时又适逢手机普及，遗憾没能保持阅读的习惯。直到在大学认识了兵哥，我重新捡回了阅读的习惯，并尝试写作博客。如果可以的话，我想说阅读和写作博客是我的爱好。“残日留痕”是我从石黑一雄的小说《长日将尽》的标题改的，但我现在更喜欢看社会学与人类学领域的书籍。</p>
+<p><em>Tears of SABINA</em>, <em>Summer Vacation Back to Middle School</em>, <em>Sad Whoremonger</em>, <em>The Year of Walking</em>, <em>Every Time You Go</em>, <em>For Telling It Like It Is</em>, and <em>Then the Formation Didn’t Know It</em> are all very good, and are in my favorite style; in the words of Lechi, they all seem to be woozy.</p>
 </div></div>
 </div>
 
-<!--
-## 关于本站
-
-::: grid
-::: {#about-me .g-col-6}
-本站是我的第二个博客。我很认同叶寻和益辉讲的[集中影响力](https://yihui.org/cn/2019/03/influence-focus/)，如果将所有精力投入到一个博客，写作的内容和影响力都会更好。不过考虑到自己旺盛的表达欲、尚且富余的自我支配时间，我想给自己写两个功能不同的博客。第一个博客是我进入博客圈子的起点，也是我最重要的自留地，通过它，我认识了来自[统计之都](https://cosx.org)的几位良师益友，也找到了向自己、向他人乃至向世界表述自我的方式。它是足以让我感到心中踏实的一份感受，只为我自己和少数几位朋友开放；第二个博客则用于以丰富的画面形式呈现自己的书评、议论写作以及英文写作。
-
-如果在“加速”的今天还有陌生人愿意聆听我的故事，这将是我的幸运，欢迎到访:-)！
-:::
-
-::: {#about-me .g-col-6}
-以下是我常看的博客，于我而言，他们既是影响了我的陌生人，也是我单方面认为的给予了我力量的良师益友。因为他们，我才进入了博客写作的世界，感谢相识，感谢缘分。
-
-*排名不分先后，按照认识时间排序。*
-
+<section id="about-this-blog" class="level2">
+<h2 data-anchor-id="about-this-blog">About this blog</h2>
+<div class="grid">
+<div id="about-me" class="g-col-6">
+<p>This site is my English blog. It is also my second blog, which is used to practice my English writing. The first blog is my starting point in the blogosphere, and it is also the most important place for me, through which I have met several mentors and friends from the <a href="https://cosx.org">capital of statistics</a>, and found a way to express myself to the world.</p>
+<p>I’m lucky if there are strangers out there who want to listen to my stories in this “accelerated” world, welcome :-)!</p>
+</div>
+<div id="about-me" class="g-col-6">
+<p>The following are blogs that I read often, they all gave some energy to me.</p>
 <ul class="fa-ul">
-
-<li><i class="fa-solid fa-certificate"></i>[谢益辉](https://yihui.org)：大家都很佩服，并影响了大家------包括我，让我走进博客</li>
-
-<li><i class="fa-solid fa-graduation-cap"></i>[叶寻](https://cyrusyip.org)：擅长电脑技术而又乐意帮助他人</li>
-
-<li><i class="fa-solid fa-graduation-cap"></i>[列弛](https://www.liechi.org)：第一个给我留言的朋友，一个看书、思考的朋友</li>
-
-<li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：虽然自称是社畜，但保持学习，既在学习R，也在阅读，我很佩服</li>
-
+<li>
+<i class="fa-solid fa-certificate"></i><a href="https://yihui.org">谢益辉</a>：A man who influences many R learner, including me into blogging!
+</li>
+<li>
+<i class="fa-solid fa-graduation-cap"></i><a href="https://cyrusyip.org">叶寻</a>：Good computer skills and willingness to help others
+</li>
+<li>
+<i class="fa-solid fa-graduation-cap"></i><a href="https://www.liechi.org">列弛</a>：The first friend to leave me a message, a friend who keeps reading and reflecting
+</li>
+<li>
+<i class="fa-solid fa-graduation-cap"></i><a href="https://yuanfan.rbind.io">袁凡</a>：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot
+</li>
 </ul>
-:::
-:::
--->
+</div>
+</div>
 <!-- end grid -->
+</section>
 <section id="lately" class="level2">
 <h2 data-anchor-id="lately">Lately……</h2>
 <div class="grid">
 <div id="lately" class="g-col-3">
-<section id="中文博客" class="level4">
-<h4 data-anchor-id="中文博客">中文博客</h4>
+<section id="no-title-1" class="level4">
+<h4 data-anchor-id="no-title-1">no-title-1</h4>
 <div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="田野" data-listing-date-sort="1698768000000" data-listing-file-modified-sort="1698850842148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts-cn/2023-11-01-hello-strangers/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts-cn/2023-11-01-hello-strangers/image.jpg" class="thumbnail-image card-img" style="height: 200;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-越秀区出行
-</h5>
-<div class="card-subtitle listing-subtitle">
-田野本身即是生活本身。
-</div>
-</div>
-</div>
-</a>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
-无匹配项
+No matching items
 </div>
 </div>
-<p><a href="../posts-cn" class="about-links subtitle">所有 →</a></p>
+<p><a href="../posts-cn" class="about-links subtitle">All →</a></p>
 </section>
 </div>
 <div id="lately" class="g-col-3">
-<section id="读书" class="level4">
-<h4 data-anchor-id="读书">读书</h4>
+<section id="no-title-2" class="level4">
+<h4 data-anchor-id="no-title-2">no-title-2</h4>
 <div id="listing-reading" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="书评" data-listing-date-sort="1701187200000" data-listing-file-modified-sort="1701956998514" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
@@ -359,15 +343,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="listing-no-matching d-none">
-无匹配项
+No matching items
 </div>
 </div>
-<p><a href="../book-review" class="about-links subtitle">所有 →</a></p>
+<p><a href="../book-review" class="about-links subtitle">All →</a></p>
 </section>
 </div>
 <div id="lately" class="g-col-3">
-<section id="english-writing" class="level4">
-<h4 data-anchor-id="english-writing">English Writing</h4>
+<section id="no-title-3" class="level4">
+<h4 data-anchor-id="no-title-3">no-title-3</h4>
 <div id="listing-english-writing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1697916609941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
@@ -386,15 +370,15 @@ Nice to meet you, Caixin
 </div>
 </div>
 <div class="listing-no-matching d-none">
-无匹配项
+No matching items
 </div>
 </div>
-<p><a href="../posts-en" class="about-links subtitle">所有 →</a></p>
+<p><a href="../posts-en" class="about-links subtitle">All →</a></p>
 </section>
 </div>
 <div id="lately" class="g-col-3">
-<section id="r" class="level4">
-<h4 data-anchor-id="r">R</h4>
+<section id="no-title-4" class="level4">
+<h4 data-anchor-id="no-title-4">no-title-4</h4>
 <div id="listing-r" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1698508800000" data-listing-file-modified-sort="1698650222714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
@@ -413,10 +397,10 @@ Nice to meet you, Caixin
 </div>
 </div>
 <div class="listing-no-matching d-none">
-无匹配项
+No matching items
 </div>
 </div>
-<p><a href="../r" class="about-links subtitle">所有 →</a></p>
+<p><a href="../r" class="about-links subtitle">All →</a></p>
 </section>
 </div>
 </div>
@@ -426,7 +410,7 @@ Nice to meet you, Caixin
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> 回到顶部</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -474,12 +458,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "已复制");
+    button.setAttribute("title", "Copied!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "已复制");
+      button.setAttribute("data-bs-title", "Copied!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

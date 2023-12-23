@@ -1,8 +1,8 @@
 ---
-title: "黄国政"
+title: "Residualsun | Guozheng Huang"
 #subtitle: "Residualsun"
 image: "img/avatar.jpg"
-image-alt: "less is more"
+image-alt: "Residualsun"
 back-to-top-navigation: false
 
 about:
@@ -26,7 +26,7 @@ comments: false
 ---
 
 ::: {#hero-heading}
-你好，这里是我的个人网站。
+Welcome to my English blog.
 
-[更多……](/about.qmd){.about-links .subtitle}
+[more→](/about.qmd){.about-links .subtitle}
 :::
