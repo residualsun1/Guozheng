@@ -18,11 +18,11 @@ website:
       - text: About
         href: about.qmd
       - text: Blog
-        href: posts-cn/index.qmd
+        href: blog/index.qmd
       - text: Lifestream
-        href: book-review/index.qmd
-      - text: English writing
-        href: posts-en/index.qmd
+        href: lifestream/index.qmd
+      - text: Literatures
+        href: literatures/index.qmd
       - text: R
         href: r/index.qmd
             
@@ -50,7 +50,7 @@ format:
     #toc: true
     #toc-depth: 3
     #toc-title: 目录
-    #toc-location: left
+    toc-location: left
     #anchor-sections: true
     
 execute: 

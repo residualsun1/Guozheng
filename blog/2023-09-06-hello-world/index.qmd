@@ -1,0 +1,10 @@
+---
+title: "Hello world"
+author: "Guozheng Huang"
+date: "2023-09-06"
+categories: [blog]
+image: "image.jpg"
+description: "Welcome:-)"
+---
+
+Hello, my first English blog;-)

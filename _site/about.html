@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:site-name" content="Residualsun">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -209,16 +209,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts-cn/index.html" rel="" target="">
+    <a class="nav-link" href="./blog/index.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./book-review/index.html" rel="" target="">
+    <a class="nav-link" href="./lifestream/index.html" rel="" target="">
  <span class="menu-text">Lifestream</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts-en/index.html" rel="" target="">
- <span class="menu-text">English writing</span></a>
+    <a class="nav-link" href="./literatures/index.html" rel="" target="">
+ <span class="menu-text">Literatures</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./r/index.html" rel="" target="">
@@ -234,6 +234,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -282,10 +284,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="about-this-blog">About this blog</h2>
 <div class="grid">
 <div id="about-me" class="g-col-6">
-<p>This site is my English blog. It is also my second blog, which is used to practice my English writing. The first blog is my starting point in the blogosphere, and it is also the most important place for me, through which I have met several mentors and friends from the <a href="https://cosx.org">capital of statistics</a>, and found a way to express myself to the world.</p>
-<p>I’m lucky if there are strangers out there who want to listen to my stories in this “accelerated” world, welcome :-)!</p>
-</div>
-<div id="about-me" class="g-col-6">
+<p>This site is my English blog. It is also my second blog, which is used to practice my English writing. The first blog is my starting point in the blogosphere.</p>
 <p>The following are blogs that I read often, they all gave some energy to me.</p>
 <ul class="fa-ul">
 <li>
@@ -294,11 +293,24 @@ ul.task-list li input[type="checkbox"] {
 <li>
 <i class="fa-solid fa-graduation-cap"></i><a href="https://cyrusyip.org">叶寻</a>：Good computer skills and willingness to help others
 </li>
+</ul>
+</div>
+<div id="about-me" class="g-col-6">
+<ul class="fa-ul">
 <li>
 <i class="fa-solid fa-graduation-cap"></i><a href="https://www.liechi.org">列弛</a>：The first friend to leave me a message, a friend who keeps reading and reflecting
 </li>
 <li>
 <i class="fa-solid fa-graduation-cap"></i><a href="https://yuanfan.rbind.io">袁凡</a>：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot
+</li>
+<li>
+<i class="fa-solid fa-graduation-cap"></i><a href="https://dylanyu233.rbind.io">进击的鱼子酱</a>：My lifelong friend
+</li>
+<li>
+<i class="fa-solid fa-graduation-cap"></i><a href="https://stephenleng.com/">心的道理</a>：Good at observing and criticizing social phenomena
+</li>
+<li>
+<i class="fa-solid fa-graduation-cap"></i><a href="https://wangyurui.com/">太隐</a>：Exquisite blog, keep learning.
 </li>
 </ul>
 </div>
@@ -309,56 +321,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="lately">Lately……</h2>
 <div class="grid">
 <div id="lately" class="g-col-3">
-<section id="no-title-1" class="level4">
-<h4 data-anchor-id="no-title-1">no-title-1</h4>
+<section id="blog" class="level4">
+<h4 data-anchor-id="blog">Blog</h4>
 <div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="../posts-cn" class="about-links subtitle">All →</a></p>
-</section>
-</div>
-<div id="lately" class="g-col-3">
-<section id="no-title-2" class="level4">
-<h4 data-anchor-id="no-title-2">no-title-2</h4>
-<div id="listing-reading" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="书评" data-listing-date-sort="1701187200000" data-listing-file-modified-sort="1701956998514" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./book-review/2023-11-29-work-consumerism-and-the-new-poor/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./book-review/2023-11-29-work-consumerism-and-the-new-poor/image.jpg" class="thumbnail-image card-img" style="height: 200;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-齐格蒙特·鲍曼与《工作、消费主义和新穷人》
-</h5>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="../book-review" class="about-links subtitle">All →</a></p>
-</section>
-</div>
-<div id="lately" class="g-col-3">
-<section id="no-title-3" class="level4">
-<h4 data-anchor-id="no-title-3">no-title-3</h4>
-<div id="listing-english-writing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1697916609941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<a href="./posts-en/2023-10-04-caixin/index.html" class="quarto-grid-link">
+<a href="./blog/2023-10-04-caixin/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts-en/2023-10-04-caixin/image.jpg" class="thumbnail-image card-img" style="height: 200;">
+<img src="./blog/2023-10-04-caixin/image.jpg" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -373,12 +344,30 @@ Nice to meet you, Caixin
 No matching items
 </div>
 </div>
-<p><a href="../posts-en" class="about-links subtitle">All →</a></p>
+<p><a href="../blog" class="about-links subtitle">All →</a></p>
 </section>
 </div>
 <div id="lately" class="g-col-3">
-<section id="no-title-4" class="level4">
-<h4 data-anchor-id="no-title-4">no-title-4</h4>
+<section id="lifestream" class="level4">
+<h4 data-anchor-id="lifestream">Lifestream</h4>
+<div id="lifestream">
+
+</div>
+<p><a href="../lifestream" class="about-links subtitle">All →</a></p>
+</section>
+</div>
+<div id="lately" class="g-col-3">
+<section id="literatures" class="level4">
+<h4 data-anchor-id="literatures">Literatures</h4>
+<div id="literatures">
+
+</div>
+<p><a href="../literatures" class="about-links subtitle">All →</a></p>
+</section>
+</div>
+<div id="lately" class="g-col-3">
+<section id="r" class="level4">
+<h4 data-anchor-id="r">R</h4>
 <div id="listing-r" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1698508800000" data-listing-file-modified-sort="1698650222714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
@@ -410,7 +399,21 @@ No matching items
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-reading">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-english-writing">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

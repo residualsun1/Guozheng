@@ -18,7 +18,7 @@ about:
 listing: 
 - id: blog
   contents: 
-    - "../posts-cn/*/**/index.qmd"
+    - "../blog/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -30,7 +30,7 @@ listing:
   image-height: "200"
 - id: reading
   contents: 
-    - "../book-review/*/**/index.qmd"
+    - "../lifestream/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -42,7 +42,7 @@ listing:
   image-height: "200"
 - id: english-writing
   contents: 
-    - "../posts-en/*/**/index.qmd"
+    - "../literatures/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -107,12 +107,8 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 
 ::: grid
 ::: {#about-me .g-col-6}
-This site is my English blog. It is also my second blog, which is used to practice my English writing. The first blog is my starting point in the blogosphere, and it is also the most important place for me, through which I have met several mentors and friends from the [capital of statistics](https://cosx.org), and found a way to express myself to the world. 
+This site is my English blog. It is also my second blog, which is used to practice my English writing. The first blog is my starting point in the blogosphere. 
 
-I'm lucky if there are strangers out there who want to listen to my stories in this "accelerated" world, welcome :-)!
-:::
-
-::: {#about-me .g-col-6}
 The following are blogs that I read often, they all gave some energy to me.
 
 <ul class="fa-ul">
@@ -121,9 +117,22 @@ The following are blogs that I read often, they all gave some energy to me.
 
 <li><i class="fa-solid fa-graduation-cap"></i>[叶寻](https://cyrusyip.org)：Good computer skills and willingness to help others</li>
 
+</ul>
+:::
+
+::: {#about-me .g-col-6}
+
+<ul class="fa-ul">
+
 <li><i class="fa-solid fa-graduation-cap"></i>[列弛](https://www.liechi.org)：The first friend to leave me a message, a friend who keeps reading and reflecting</li>
 
 <li><i class="fa-solid fa-graduation-cap"></i>[袁凡](https://yuanfan.rbind.io)：A girl who regards herself as salarywoman while keeps up with her studies and is learning R as well as reading. I admire her a lot</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[进击的鱼子酱](https://dylanyu233.rbind.io)：My lifelong friend</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[心的道理](https://stephenleng.com/)：Good at observing and criticizing social phenomena</li>
+
+<li><i class="fa-solid fa-graduation-cap"></i>[太隐](https://wangyurui.com/)：Exquisite blog, keep learning.</li>
 
 </ul>
 :::
@@ -134,35 +143,36 @@ The following are blogs that I read often, they all gave some energy to me.
 ## Lately……
 
 ::: grid
+
 ::: {#lately .g-col-3}
-#### no-title-1
+#### Blog
 
 ::: {#blog}
 :::
 
-[All →](../posts-cn){.about-links .subtitle}
+[All →](../blog){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### no-title-2
+#### Lifestream
 
-::: {#reading}
+::: {#lifestream}
 :::
 
-[All →](../book-review){.about-links .subtitle}
-:::
-
-::: {#lately .g-col-3}
-#### no-title-3
-
-::: {#english-writing}
-:::
-
-[All →](../posts-en){.about-links .subtitle}
+[All →](../lifestream){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### no-title-4
+#### Literatures
+
+::: {#literatures}
+:::
+
+[All →](../literatures){.about-links .subtitle}
+:::
+
+::: {#lately .g-col-3}
+#### R
 
 ::: {#r}
 :::
