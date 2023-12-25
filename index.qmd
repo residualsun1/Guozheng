@@ -8,7 +8,7 @@ back-to-top-navigation: false
 about:
   template: jolla
   image-shape: round
-  image-width: 18em
+  image-width: 15em
   id: hero-heading
 page-layout: full
 
@@ -28,5 +28,5 @@ comments: false
 ::: {#hero-heading}
 Welcome to my English blog.
 
-[more→](/about.qmd){.about-links .subtitle}
+[→……](/about.qmd){.about-links .subtitle}
 :::

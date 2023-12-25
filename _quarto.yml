@@ -15,11 +15,11 @@ website:
     title: Residualsun
     site-url: "https://residualsun.blog/"
     right:
-      - text: 关于
+      - text: About
         href: about.qmd
-      - text: 中文博客
+      - text: Blog
         href: posts-cn/index.qmd
-      - text: 读书
+      - text: Lifestream
         href: book-review/index.qmd
       - text: English writing
         href: posts-en/index.qmd

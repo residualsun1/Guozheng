@@ -162,6 +162,7 @@ div.quarto-post .thumbnail img {
 }
 
 .page-item.active .page-link {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Source Han Serif CN', serif
     z-index: 3;
     color: #fff;
     background-color: var(--bs-blue);
@@ -169,12 +170,14 @@ div.quarto-post .thumbnail img {
 }
 
 .quarto-title-banner {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Source Han Serif CN', serif
     margin-bottom: -1rem; /*如果想修改，就改成-1.50em吧*/
     color: var(--bs-blue); /*原来是rgba(255,255,255,.7)，即偏白色的*/
     background: #fff; /*原来是黑色的*/
 }
 
 .page-link {
+      font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Source Han Serif CN', serif
       color: var(--bs-blue);
 }
 
