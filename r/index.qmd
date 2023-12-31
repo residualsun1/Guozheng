@@ -8,6 +8,7 @@ listing:
     - "**/index.markdown"
     - "**/index.md"
   type: grid
+  categories: cloud
   fields: [title, categories, date, image]
   sort: "date desc"
   filter-ui: false

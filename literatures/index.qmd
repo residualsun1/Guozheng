@@ -1,5 +1,5 @@
 ---
-#title: "读书" 
+title: "Essay" 
 #description: |
 #  <br>一个人的阅读史是他的思想史
 listing: 
@@ -18,12 +18,5 @@ format:
     page-layout: full
 title-block-banner: false
 
-header-includes: >
-  <link rel="stylesheet" href="../assets/listing-default.css">
-  <link rel="" href="../assets/custom-css.js"> 
-resources:
-  - ../assets/listing-default.css
-  - ../assets/custom-css.js
-  
 comments: false
 ---
