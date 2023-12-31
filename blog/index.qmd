@@ -13,10 +13,9 @@ listing:
   categories: cloud
   sort-ui: true
   filter-ui: true
+  page-size: 3
   fields: [title, author, categories, date, image]
   image-align: right
-  # image-height: 10em
-  page-size: 4
 comments: false
 citation: false
 toc: false
