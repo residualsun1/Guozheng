@@ -121,7 +121,7 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 ::: grid
 
 ::: {#lately .g-col-3}
-#### Blog
+#### Articles
 
 ::: {#blog}
 :::
@@ -130,7 +130,7 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 :::
 
 ::: {#lately .g-col-3}
-#### Lifestream
+#### Daily
 
 ::: {#lifestream}
 :::
