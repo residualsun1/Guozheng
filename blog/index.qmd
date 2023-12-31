@@ -10,9 +10,9 @@ listing:
     - "**/index.md"
   sort: "date desc"
   type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
+  categories: cloud
+  sort-ui: true
+  filter-ui: true
   fields: [title, author, categories, date, image]
   image-align: right
   # image-height: 10em
@@ -25,8 +25,4 @@ format:
     page-layout: full
 title-block-banner: false
 
-header-includes: >
-  <link rel="stylesheet" href="../assets/listing-default.css">
-resources:
-  - ../assets/listing-default.css
 ---

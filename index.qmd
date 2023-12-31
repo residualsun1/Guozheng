@@ -5,28 +5,154 @@ image: "img/avatar.jpg"
 image-alt: "Residualsun"
 back-to-top-navigation: false
 
+listing: 
+- id: blog
+  contents: 
+    - "../blog/*/**/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+- id: reading
+  contents: 
+    - "../lifestream/*/**/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+- id: english-writing
+  contents: 
+    - "../literatures/*/**/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+- id: r
+  contents: 
+    - "../r/*/**/index.qmd"
+    - "../r/*/**/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+
 about:
-  template: jolla
-  image-shape: round
+  template: solana
+  image-shape: rounded
   image-width: 15em
   id: hero-heading
 page-layout: full
+toc: false
+sidebar: false
 
 execute: 
   freeze: false
   echo: false
   warning: false
   
-header-includes: >
-  <link rel="stylesheet" href="assets/index.css">
-resources:
-  - assets/index.css
-  
 comments: false
 ---
 
-::: {#hero-heading}
-Welcome to my English blog.
+## About me
 
-[→……](/about.qmd){.about-links .subtitle}
+Hello, I am Guozheng Huang, an ordinary junior student who likes to listen to Jay Chou and MY LITTLE AIRPORT when I am idle, Linkin Park when I am depressed, and Leslie Cheung when I am nostalgic.
+
+Recently, I've been listening to my little airport, and *It's Raining for Two Days* always reminds me of a passage written by Liu Yisheng:
+
+> "Rusty feelings again on a rainy day, thoughts playing hide-and-seek in smoke rings."
+
+*Tears of SABINA*, *Summer Vacation Back to Middle School*, *Sad Whoremonger*, *The Year of Walking*, *Every Time You Go*, *For Telling It Like It Is*, and *Then the Formation Didn't Know It* are all very good, and are in my favorite style; in the words of Lechi, they all seem to be woozy.
+
+::: {.panel-tabset align="left"}
+## Interests
+
+-   Writing
+-   Reading
+-   Talking
+
+## Education
+
+<!---   **Ph.D.** \| Educational Measurement & Statistics \| [2019 - 2022]{style="color:darkgrey;"}
+-   **M.S.** \| Educational Psychology \| [2015 - 2019]{style="color:darkgrey;"}-->
+-   **B.S.** \| Sociology \| [2021 - 2025]{#date style="color:darkgrey;"}
+
+## Experience
+<!--
+-   **Postdoctoral Fellow**
+
+    The Chinese University of Hong Kong
+
+    [Dec 2022 - June 2023]{style="color:darkgrey;"}
+
+-   **Associate Researcher**
+
+    Stanford Research Institute (SRI)
+
+    [June 2021 - Jan 2022]{style="color:darkgrey;"}
+-->
+:::
+
+## 
+
+<!-- end grid -->
+
+## Lately……
+
+::: grid
+
+::: {#lately .g-col-3}
+#### Blog
+
+::: {#blog}
+:::
+
+[All →](../blog){.about-links .subtitle}
+:::
+
+::: {#lately .g-col-3}
+#### Lifestream
+
+::: {#lifestream}
+:::
+
+[All →](../lifestream){.about-links .subtitle}
+:::
+
+::: {#lately .g-col-3}
+#### Literatures
+
+::: {#literatures}
+:::
+
+[All →](../literatures){.about-links .subtitle}
+:::
+
+::: {#lately .g-col-3}
+#### R
+
+::: {#r}
+:::
+
+[All →](../r){.about-links .subtitle}
+:::
 :::
