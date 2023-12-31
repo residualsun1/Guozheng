@@ -81,8 +81,6 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 
 > "Rusty feelings again on a rainy day, thoughts playing hide-and-seek in smoke rings."
 
-*Tears of SABINA*, *Summer Vacation Back to Middle School*, *Sad Whoremonger*, *The Year of Walking*, *Every Time You Go*, *For Telling It Like It Is*, and *Then the Formation Didn't Know It* are all very good, and are in my favorite style; in the words of Lechi, they all seem to be woozy.
-
 ::: {.panel-tabset align="left"}
 ## Interests
 
@@ -96,8 +94,9 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 -   **M.S.** \| Educational Psychology \| [2015 - 2019]{style="color:darkgrey;"}-->
 -   **B.S.** \| Sociology \| [2021 - 2025]{#date style="color:darkgrey;"}
 
-## Experience
 <!--
+## Experience
+
 -   **Postdoctoral Fellow**
 
     The Chinese University of Hong Kong
