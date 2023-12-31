@@ -11,8 +11,8 @@ listing:
   sort: "date desc"
   type: default
   categories: cloud
-  sort-ui: true
-  filter-ui: true
+  sort-ui: false
+  filter-ui: false
   page-size: 3
   fields: [title, author, categories, date, image]
   image-align: right
