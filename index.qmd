@@ -6,7 +6,7 @@ image-alt: "Residualsun"
 back-to-top-navigation: false
 
 listing: 
-- id: blog
+- id: posts
   contents: 
     - "../blog/*/**/index.qmd"
   sort: date desc
@@ -18,7 +18,7 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: reading
+- id: articles
   contents: 
     - "../lifestream/*/**/index.qmd"
   sort: date desc
@@ -30,7 +30,7 @@ listing:
   fields: [title, image]
   max-items: 1
   image-height: "200"
-- id: english-writing
+- id: reading
   contents: 
     - "../literatures/*/**/index.qmd"
   sort: date desc
@@ -120,27 +120,27 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 ::: grid
 
 ::: {#lately .g-col-3}
-#### Articles
+#### Posts
 
-::: {#blog}
+::: {#posts}
 :::
 
 [All →](../blog){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### Daily
+#### Articles
 
-::: {#lifestream}
+::: {#articles}
 :::
 
 [All →](../lifestream){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
-#### Literatures
+#### Reading
 
-::: {#literatures}
+::: {#reading}
 :::
 
 [All →](../literatures){.about-links .subtitle}

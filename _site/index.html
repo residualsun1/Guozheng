@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -78,7 +78,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
+    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -100,41 +128,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-reading'] = new List('listing-reading', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-english-writing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-english-writing'] = new List('listing-english-writing', options);
+    window['quarto-listings']['listing-reading'] = new List('listing-reading', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -294,11 +294,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="lately">Lately……</h2>
 <div class="grid">
 <div id="lately" class="g-col-3">
-<section id="articles" class="level4">
-<h4 data-anchor-id="articles">Articles</h4>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
+<section id="posts" class="level4">
+<h4 data-anchor-id="posts">Posts</h4>
+<div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1697916609941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1696348800000" data-listing-file-modified-sort="1704127884984" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./blog/2023-10-04-caixin/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -321,17 +321,27 @@ No matching items
 </section>
 </div>
 <div id="lately" class="g-col-3">
-<section id="daily" class="level4">
-<h4 data-anchor-id="daily">Daily</h4>
-<div id="lifestream">
+<section id="articles" class="level4">
+<h4 data-anchor-id="articles">Articles</h4>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 <p><a href="../lifestream" class="about-links subtitle">All →</a></p>
 </section>
 </div>
 <div id="lately" class="g-col-3">
-<section id="literatures" class="level4">
-<h4 data-anchor-id="literatures">Literatures</h4>
-<div id="literatures">
+<section id="reading" class="level4">
+<h4 data-anchor-id="reading">Reading</h4>
+<div id="listing-reading" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 <p><a href="../literatures" class="about-links subtitle">All →</a></p>
 </section>
@@ -341,15 +351,15 @@ No matching items
 <h4 data-anchor-id="r">R</h4>
 <div id="listing-r" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="" data-listing-date-sort="1698508800000" data-listing-file-modified-sort="1698650222714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./r/2023-10-29-siyuansong/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="机器学习" data-listing-date-sort="1696694400000" data-listing-file-modified-sort="1704127885001" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./r/2023-10-08-survival-learning/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./r/2023-10-29-siyuansong/image.jpg" class="thumbnail-image card-img" style="height: 200;">
+<img src="./r/2023-10-08-survival-learning/image.jpg" class="thumbnail-image card-img" style="height: 200;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-更换字体 | 思源宋体
+生存分析模仿案例
 </h5>
 </div>
 </div>
@@ -367,19 +377,7 @@ No matching items
 
 
 </section>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-reading">
-<div class="list grid quarto-listing-cols-1">
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-english-writing">
-<div class="list grid quarto-listing-cols-1">
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main></div>
+</main></div>
     </div>
     <img src="img/avatar.jpg" alt="Residualsun" class="about-image
   rounded " style="width: 15em;">

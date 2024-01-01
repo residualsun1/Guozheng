@@ -382,7 +382,7 @@
     "href": "render_all.html",
     "title": "设置 Quarto 项目的根目录",
     "section": "",
-    "text": "library(rmarkdown) library(fs)\n\n设置 Quarto 项目的根目录\nquarto_project_path &lt;- “D:/04_Rrender/Quarto/Guozheng”\n\n\n设置输出目录为 _site 文件夹\noutput_path &lt;- file.path(quarto_project_path, “_site”)\n\n\n递归查找所有 .qmd 文件\nqmd_files &lt;- dir_ls(quarto_project_path, recurse = TRUE, regexp = “\\.qmd$”)\n\n\n循环遍历并渲染每个 .qmd 文件，指定输出路径为 _site 文件夹\nfor (qmd_file in qmd_files) { render(qmd_file, output_dir = output_path) }\n\n\n\n\n Back to top"
+    "text": "library(rmarkdown) library(fs)\n设置 Quarto 项目的根目录\nquarto_project_path &lt;- “D:/04_Rrender/Quarto/Guozheng”\n设置输出目录为 _site 文件夹\noutput_path &lt;- file.path(quarto_project_path, “_site”)\n递归查找所有 .qmd 文件\nqmd_files &lt;- dir_ls(quarto_project_path, recurse = TRUE, regexp = “\\.qmd$”)\n循环遍历并渲染每个 .qmd 文件，指定输出路径为 _site 文件夹\nfor (qmd_file in qmd_files) { render(qmd_file, output_dir = output_path) }\n\n\n Back to top"
   },
   {
     "objectID": "r/2023/10-08-survival-learning/index.html",
@@ -984,6 +984,6 @@
     "href": "index.html#lately",
     "title": "Guozheng Huang",
     "section": "Lately……",
-    "text": "Lately……\n\n\n\nArticles\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\nAll →\n\n\n\n\nDaily\n\n\nAll →\n\n\n\n\nLiteratures\n\n\nAll →\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n更换字体 | 思源宋体\n\n\n\n\n\n\n\nNo matching items\n\n\nAll →"
+    "text": "Lately……\n\n\n\nPosts\n\n\n\n\n\n\n\n\n\n\nNice to meet you, Caixin\n\n\n\n\n\n\n\nNo matching items\n\n\nAll →\n\n\n\n\nArticles\n\n\n\n\nNo matching items\n\n\nAll →\n\n\n\n\nReading\n\n\n\n\nNo matching items\n\n\nAll →\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n生存分析模仿案例\n\n\n\n\n\n\n\nNo matching items\n\n\nAll →"
   }
 ]
