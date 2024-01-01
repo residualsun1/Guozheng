@@ -45,6 +45,10 @@ pre {
 }
 */
 
+body {
+  color: black;
+}
+
 blockquote {
   /*
   margin-top: 5px;
