@@ -8,7 +8,7 @@ image: "image.png"
 description: "Keep curiosity and enthusiasm for knowledge and the unknown"
 ---
 
-> Secure in the knowledge that my parents have been respecting for and supporting my **pursuit**.
+---
 
 # Fudan University
 

@@ -8,6 +8,8 @@ image: "image.jpg"
 description: "It is too woderful to be not real……"
 ---
 
+---
+
 It is a night of unparalleled enchantment.
 
 It must be a fate or a density. I was trapped in guilt over Fantuan. I always think I couldn't give back the gift to her and cost her enthusiasm and kindness in the meanwhile.

@@ -8,6 +8,8 @@ image: "image.jpg"
 description: "Watermelon has been unavailable."
 ---
 
+---
+
 ## With Friends
 
 My friend, Watermelon formed a WeChat group to contact each other who were classmates in middle school and who are studying in Guangzhou Higher Education Mega Center now. There are total 10 members in the group. I don't remember when it started, we made a date that whoever is not available should give a dinner party to others.

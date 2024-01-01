@@ -7,9 +7,9 @@ toc: true
 image: "image.jpg"
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1982681570&amp;auto=1&amp;height=66">
+---
 
-</iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1982681570&amp;auto=1&amp;height=66"></iframe>
 
 I make friends with a new friend called Caixin who was mentioned by Fantuan early. This is the first time I met her, a lovely, active and easy-going girl. My teacher, Mr Wang also mentioned her in a commentary in Douban with admiring tone.
 
@@ -21,17 +21,7 @@ I came back HeiShiYu. Zhuang told us sunset clouds would be incredibly beautiful
 
 ![sunset clouds with Caixin \| 4 October, 2023](img/sunset-clouds.jpg)
 
-It is truly charming.
-
-![sunset clouds with Zhuang \| 4 October, 2023](img/sunset-zhuang.jpg)
-
-Zhuang always gives off a cool vibe
-
 ![sunset clouds with us \| 4 October, 2023](img/sunset-us.jpg)
-
-May you would like this.
-
-![before sunset \| 4 October, 2023](img/before-sunset.jpg)
 
 But I am attracted by this one, which was photoed by Caixin.
 
