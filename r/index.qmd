@@ -1,7 +1,10 @@
 ---
-title: "Practice makes perfect"
+title: |
+  <center>Practice makes perfect</center>
 description: |
-  <br>Practice makes perfect
+  <br>
+  <center>Practice makes perfect</center>
+  <br>
 listing: 
   contents:
     - "**/index.qmd"
@@ -19,10 +22,5 @@ format:
     page-layout: full
 title-block-banner: false
 comments: false
-header-includes: >
-  <link rel="stylesheet" href="../assets/listing-default.css">
-  <link rel="" href="../assets/custom-css.js"> 
-resources:
-  - ../assets/listing-default.css
-  - ../assets/custom-css.js
+
 ---

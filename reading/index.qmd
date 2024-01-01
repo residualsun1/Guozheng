@@ -1,6 +1,6 @@
 ---
 title: | 
-  <center>"Reading"</center> 
+  <center>Reading</center> 
 description: |
   <br>
   <center>I am still reading……</center>
