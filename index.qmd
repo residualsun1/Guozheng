@@ -20,7 +20,7 @@ listing:
   image-height: "200"
 - id: articles
   contents: 
-    - "../lifestream/*/**/index.qmd"
+    - "../articles/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -32,7 +32,7 @@ listing:
   image-height: "200"
 - id: reading
   contents: 
-    - "../literatures/*/**/index.qmd"
+    - "../reading/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
