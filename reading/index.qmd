@@ -1,7 +1,10 @@
 ---
-title: "Essay" 
-#description: |
-#  <br>一个人的阅读史是他的思想史
+title: | 
+  <center>"Reading"</center> 
+description: |
+  <br>
+  <center>I am still reading……</center>
+  <br>
 listing: 
   contents:
     - "**/index.qmd"
@@ -10,6 +13,7 @@ listing:
   type: grid
   fields: [title, categories, date, image]
   sort: "date desc"
+  categories: cloud
   filter-ui: false
   image-align: left
   image-height: 100%

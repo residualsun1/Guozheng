@@ -1,9 +1,13 @@
 ---
-title: "A rose for little king"
+title: | 
+  <center>A rose for little king</center>
 description: |
   <br>
+  <center>
   This is a home for my English writing practice<br>
   Welcome!
+  </center>
+  <br>
 listing: 
   contents: 
     - "**/index.qmd"
