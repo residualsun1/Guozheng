@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.427">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.3.427" />
 
-<meta name="author" content="黄国政">
-<meta name="dcterms.date" content="2023-10-08">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-<title>Residualsun - 生存分析模仿案例</title>
+<meta name="author" content="黄国政" />
+<meta name="dcterms.date" content="2023-10-08" />
+
+<title>Residualsun – 生存分析模仿案例</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,27 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
-
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../r/2023-10-29-siyuansong/index.html" rel="next">
-<link href="../../r/index.html" rel="prev">
-<link href="../../img/logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,50 +82,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&amp;family=Oxygen+Mono&amp;family=Ysabeau+Office&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Oxygen+Mono&family=Ysabeau+Office&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/key-buttons.min.js" defer=""></script>
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/key-buttons.min.js" defer></script>
 <link href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/key-buttons.min.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Residualsun - 生存分析模仿案例">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://residualsun.blog/r/2023-10-08-survival-learning/image.jpg">
-<meta property="og:site-name" content="Residualsun">
+<link rel="stylesheet" href="../../styles.css" />
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="/index.html">
     <span class="navbar-title">Residualsun</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../../blog/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="/blog/index.html" rel="" target="">
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../lifestream/index.html" rel="" target="">
+    <a class="nav-link" href="/lifestream/index.html" rel="" target="">
  <span class="menu-text">Daily</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../literatures/index.html" rel="" target="">
+    <a class="nav-link" href="/literatures/index.html" rel="" target="">
  <span class="menu-text">Literatures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../r/index.html" rel="" target="">
+    <a class="nav-link" href="/r/index.html" rel="" target="">
  <span class="menu-text">R</span></a>
   </li>  
 </ul>
@@ -155,11 +135,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn"
+      data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" 
+      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
+      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lifestream/index.html">Contents</a></li><li class="breadcrumb-item"><a href="../../r/index.html">Practice makes perfect</a></li><li class="breadcrumb-item"><a href="../../r/2023-10-08-survival-learning/index.html">生存分析模仿案例</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      <h1 class="quarto-secondary-nav-title"></h1>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" 
+      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
+      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
@@ -181,19 +166,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lifestream/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/lifestream/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Searching lost time</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../literatures/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/literatures/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Essay</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../blog/index.html" class="sidebar-item-text sidebar-link">
+            <a href="/blog/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A rose for little king</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -202,37 +187,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog/2023-09-06-hello-world/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/blog/2023-09-06-hello-world/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hello world</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog/2023-09-13-it-is-my-life/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/blog/2023-09-13-it-is-my-life/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">For my life</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog/2023-09-21-fudan-anthropology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/blog/2023-09-21-fudan-anthropology/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hi, Fudan University!</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog/2023-09-23-blessings-to-friends/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/blog/2023-09-23-blessings-to-friends/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blessings to my friend who is spoken for</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog/2023-09-25-wonderful-night-in-xiamen/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/blog/2023-09-25-wonderful-night-in-xiamen/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Charming night in Xiamen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog/2023-10-04-caixin/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/blog/2023-10-04-caixin/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nice to meet you, Caixin</span></a>
   </div>
 </li>
@@ -240,7 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../r/index.html" class="sidebar-item-text sidebar-link">
+            <a href="/r/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Practice makes perfect</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -249,13 +234,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../r/2023-10-08-survival-learning/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="/r/2023-10-08-survival-learning/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">生存分析模仿案例</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../r/2023-10-29-siyuansong/index.html" class="sidebar-item-text sidebar-link">
+  <a href="/r/2023-10-29-siyuansong/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">更换字体 | 思源宋体</span></a>
   </div>
 </li>
@@ -266,37 +251,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" ></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="incremental">
-  <li><a href="#泰坦尼克号的生存数据" id="toc-泰坦尼克号的生存数据" class="nav-link active" data-scroll-target="#泰坦尼克号的生存数据">泰坦尼克号的生存数据</a></li>
-  <li><a href="#泰坦尼克号的生存模型" id="toc-泰坦尼克号的生存模型" class="nav-link" data-scroll-target="#泰坦尼克号的生存模型">泰坦尼克号的生存模型</a></li>
-  <li><a href="#对泰坦尼克号生存分析的解释" id="toc-对泰坦尼克号生存分析的解释" class="nav-link" data-scroll-target="#对泰坦尼克号生存分析的解释">对泰坦尼克号生存分析的解释</a></li>
-  <li><a href="#变量重要性的可视化" id="toc-变量重要性的可视化" class="nav-link" data-scroll-target="#变量重要性的可视化">变量重要性的可视化</a></li>
-  <li><a href="#变量效应" id="toc-变量效应" class="nav-link" data-scroll-target="#变量效应">变量效应</a>
-  <ul class="incremental collapse">
-  <li><a href="#age年龄" id="toc-age年龄" class="nav-link" data-scroll-target="#age年龄">age年龄</a></li>
-  <li><a href="#class舱位等级" id="toc-class舱位等级" class="nav-link" data-scroll-target="#class舱位等级">class舱位等级</a></li>
-  <li><a href="#fare票价" id="toc-fare票价" class="nav-link" data-scroll-target="#fare票价">fare票价</a></li>
-  <li><a href="#embarked" id="toc-embarked" class="nav-link" data-scroll-target="#embarked">embarked</a></li>
-  </ul></li>
-  <li><a href="#实例层面的解释" id="toc-实例层面的解释" class="nav-link" data-scroll-target="#实例层面的解释">实例层面的解释</a></li>
-  <li><a href="#更多模型" id="toc-更多模型" class="nav-link" data-scroll-target="#更多模型">更多模型</a>
-  <ul class="incremental collapse">
-  <li><a href="#logistic回归分析" id="toc-logistic回归分析" class="nav-link" data-scroll-target="#logistic回归分析">Logistic回归分析</a></li>
-  <li><a href="#generalized-boosted-模型" id="toc-generalized-boosted-模型" class="nav-link" data-scroll-target="#generalized-boosted-模型">Generalized Boosted 模型</a></li>
-  <li><a href="#support-vector-machines-svm" id="toc-support-vector-machines-svm" class="nav-link" data-scroll-target="#support-vector-machines-svm">Support Vector Machines (SVM)</a></li>
-  <li><a href="#k-nearest-neighbors-knn" id="toc-k-nearest-neighbors-knn" class="nav-link" data-scroll-target="#k-nearest-neighbors-knn">k-Nearest Neighbors (kNN)</a></li>
-  <li><a href="#variable-performance" id="toc-variable-performance" class="nav-link" data-scroll-target="#variable-performance">Variable performance</a></li>
-  <li><a href="#single-variable" id="toc-single-variable" class="nav-link" data-scroll-target="#single-variable">Single variable</a></li>
-  </ul></li>
-  <li><a href="#事例层面阐释" id="toc-事例层面阐释" class="nav-link" data-scroll-target="#事例层面阐释">事例层面阐释</a></li>
-  </ul>
-</nav>
+        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -332,11 +290,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 
 </header>
-
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="incremental">
+  <li><a href="#泰坦尼克号的生存数据" id="toc-泰坦尼克号的生存数据">泰坦尼克号的生存数据</a></li>
+  <li><a href="#泰坦尼克号的生存模型" id="toc-泰坦尼克号的生存模型">泰坦尼克号的生存模型</a></li>
+  <li><a href="#对泰坦尼克号生存分析的解释" id="toc-对泰坦尼克号生存分析的解释">对泰坦尼克号生存分析的解释</a></li>
+  <li><a href="#变量重要性的可视化" id="toc-变量重要性的可视化">变量重要性的可视化</a></li>
+  <li><a href="#变量效应" id="toc-变量效应">变量效应</a>
+  <ul class="incremental">
+  <li><a href="#age年龄" id="toc-age年龄">age年龄</a></li>
+  <li><a href="#class舱位等级" id="toc-class舱位等级">class舱位等级</a></li>
+  <li><a href="#fare票价" id="toc-fare票价">fare票价</a></li>
+  <li><a href="#embarked" id="toc-embarked">embarked</a></li>
+  </ul></li>
+  <li><a href="#实例层面的解释" id="toc-实例层面的解释">实例层面的解释</a></li>
+  <li><a href="#更多模型" id="toc-更多模型">更多模型</a>
+  <ul class="incremental">
+  <li><a href="#logistic回归分析" id="toc-logistic回归分析">Logistic回归分析</a></li>
+  <li><a href="#generalized-boosted-模型" id="toc-generalized-boosted-模型">Generalized Boosted 模型</a></li>
+  <li><a href="#support-vector-machines-svm" id="toc-support-vector-machines-svm">Support Vector Machines (SVM)</a></li>
+  <li><a href="#k-nearest-neighbors-knn" id="toc-k-nearest-neighbors-knn">k-Nearest Neighbors (kNN)</a></li>
+  <li><a href="#variable-performance" id="toc-variable-performance">Variable performance</a></li>
+  <li><a href="#single-variable" id="toc-single-variable">Single variable</a></li>
+  </ul></li>
+  <li><a href="#事例层面阐释" id="toc-事例层面阐释">事例层面阐释</a></li>
+  </ul>
+</nav>
 <div class="callout callout-style-default callout-note callout-titled" data-apperance="simple">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class='callout-icon'></i>
 </div>
 <div class="callout-title-container flex-fill">
 Pay attention
@@ -347,12 +332,12 @@ Pay attention
 </div>
 </div>
 <section id="泰坦尼克号的生存数据" class="level2">
-<h2 class="anchored" data-anchor-id="泰坦尼克号的生存数据">泰坦尼克号的生存数据</h2>
+<h2>泰坦尼克号的生存数据</h2>
 <p>让我们以泰坦尼克号数据集分析问题的分类模型中的<code>DALEX</code>包为例，引用的数据集是来自其中的<code>titanic</code>。这份数据是从<code>stablelearner</code>包复制而来。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DALEX)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DALEX)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Welcome to DALEX (version: 2.4.3).
@@ -360,7 +345,7 @@ Find examples and detailed introduction at: http://ema.drwhy.ai/</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(titanic_imputed)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(titanic_imputed)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>  gender age class    embarked  fare sibsp parch survived
@@ -375,7 +360,7 @@ Find examples and detailed introduction at: http://ema.drwhy.ai/</code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>?titanic_imputed</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>?titanic_imputed</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>starting httpd help server ... done</code></pre>
@@ -385,12 +370,12 @@ Find examples and detailed introduction at: http://ema.drwhy.ai/</code></pre>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class='callout-icon'></i>
 </div>
 <div class="callout-title-container flex-fill">
 各变量含义
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+<div class='callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end'><i class='callout-toggle'></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
@@ -409,14 +394,14 @@ Find examples and detailed introduction at: http://ema.drwhy.ai/</code></pre>
 </div>
 </section>
 <section id="泰坦尼克号的生存模型" class="level2">
-<h2 class="anchored" data-anchor-id="泰坦尼克号的生存模型">泰坦尼克号的生存模型</h2>
+<h2>泰坦尼克号的生存模型</h2>
 <p>使用随机森林模型试试。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ranger)</span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ranger)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>model_titanic_rf <span class="ot">&lt;-</span> <span class="fu">ranger</span>(survived <span class="sc">~</span> gender <span class="sc">+</span> age <span class="sc">+</span> class <span class="sc">+</span> embarked <span class="sc">+</span>fare <span class="sc">+</span> sibsp <span class="sc">+</span> parch,  <span class="at">data =</span> titanic_imputed, <span class="at">classification =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>model_titanic_rf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>model_titanic_rf</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Ranger result
@@ -438,17 +423,17 @@ OOB prediction error:             19.62 % </code></pre>
 <p><code>model_titanic_rf</code>即我们创建的一个随机森林模型（random forest model）</p>
 </section>
 <section id="对泰坦尼克号生存分析的解释" class="level2">
-<h2 class="anchored" data-anchor-id="对泰坦尼克号生存分析的解释">对泰坦尼克号生存分析的解释</h2>
+<h2>对泰坦尼克号生存分析的解释</h2>
 <p>第三步是为随机森林模型创建一个<code>DALEX</code>解释。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DALEX)</span>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DALEX)</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>explain_titanic_rf <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_rf, </span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>                      <span class="at">data =</span> titanic_imputed,</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>                      <span class="at">y =</span> titanic_imputed<span class="sc">$</span>survived, </span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>                      <span class="at">label =</span> <span class="st">"Random Forest v7"</span>,</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>                      <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>                      <span class="at">label =</span> <span class="st">&quot;Random Forest v7&quot;</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>                      <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparation of a new explainer is initiated
@@ -466,13 +451,13 @@ OOB prediction error:             19.62 % </code></pre>
 </div>
 </section>
 <section id="变量重要性的可视化" class="level2">
-<h2 class="anchored" data-anchor-id="变量重要性的可视化">变量重要性的可视化</h2>
+<h2>变量重要性的可视化</h2>
 <p>使用<code>variable_importance()</code>来说明特定特征的重要性。<code>type="difference"</code>会使dropout一般化，现在它们从0开始。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>vi_rf <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_rf)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(vi_rf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>vi_rf <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_rf)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(vi_rf)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>      variable mean_dropout_loss            label
@@ -487,26 +472,26 @@ OOB prediction error:             19.62 % </code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vi_rf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vi_rf)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 <p>问题来了，这张图应该如何进行解释呢……</p>
 </section>
 <section id="变量效应" class="level2">
-<h2 class="anchored" data-anchor-id="变量效应">变量效应</h2>
+<h2>变量效应</h2>
 <p>由上图，我们知道性别是最突出的特征，其他三个比较突出的特征分别是舱位等级、年龄和票价。试着探究模型响应变量和这些特征之间分别的联系。</p>
 <p>这种单变量关系可以用<code>variable_effect()</code>来计算。</p>
 <section id="age年龄" class="level3">
-<h3 class="anchored" data-anchor-id="age年龄">age年龄</h3>
+<h3>age年龄</h3>
 <p>5岁及以下的儿童有着更高的存活率。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>vr_age <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">"age"</span>)</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(vr_age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>vr_age <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">&quot;age&quot;</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(vr_age)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>$cp_profiles
@@ -554,143 +539,143 @@ Top profiles    :
 6     age Random Forest v7 13.0000000   0.30     0
 
 $color
-[1] "#4378bf"</code></pre>
+[1] &quot;#4378bf&quot;</code></pre>
 </div>
 </div>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_age)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 </section>
 <section id="class舱位等级" class="level3">
-<h3 class="anchored" data-anchor-id="class舱位等级">class舱位等级</h3>
+<h3>class舱位等级</h3>
 <p>头等舱的乘客有着更高的存活率。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>vr_class <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">"class"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>vr_class <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">&quot;class&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>'variable_type' changed to 'categorical' due to lack of numerical variables.</code></pre>
+<pre><code>&#39;variable_type&#39; changed to &#39;categorical&#39; due to lack of numerical variables.</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_class)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_class)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 </section>
 <section id="fare票价" class="level3">
-<h3 class="anchored" data-anchor-id="fare票价">fare票价</h3>
+<h3>fare票价</h3>
 <p>廉价的船票与更低的机会相关</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>vr_fare <span class="ot">&lt;-</span> <span class="fu">variable_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">"fare"</span>)</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_fare)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>vr_fare <span class="ot">&lt;-</span> <span class="fu">variable_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">&quot;fare&quot;</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_fare)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 </section>
 <section id="embarked" class="level3">
-<h3 class="anchored" data-anchor-id="embarked">embarked</h3>
+<h3>embarked</h3>
 <p>从C处登船的乘客存活率最高</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>vr_embarked <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">"embarked"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>vr_embarked <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span>  <span class="st">&quot;embarked&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>'variable_type' changed to 'categorical' due to lack of numerical variables.</code></pre>
+<pre><code>&#39;variable_type&#39; changed to &#39;categorical&#39; due to lack of numerical variables.</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_embarked)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_embarked)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 </section>
 </section>
 <section id="实例层面的解释" class="level2">
-<h2 class="anchored" data-anchor-id="实例层面的解释">实例层面的解释</h2>
+<h2>实例层面的解释</h2>
 <p>看看从C处登船的头等舱的8岁男性的模型预测细分解释。</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>new_passanger <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">class =</span> <span class="fu">factor</span>(<span class="st">"1st"</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"1st"</span>, <span class="st">"2nd"</span>, <span class="st">"3rd"</span>, <span class="st">"deck crew"</span>, <span class="st">"engineering crew"</span>, <span class="st">"restaurant staff"</span>, <span class="st">"victualling crew"</span>)),</span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">gender =</span> <span class="fu">factor</span>(<span class="st">"male"</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"female"</span>, <span class="st">"male"</span>)),</span>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>new_passanger <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">class =</span> <span class="fu">factor</span>(<span class="st">&quot;1st&quot;</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;1st&quot;</span>, <span class="st">&quot;2nd&quot;</span>, <span class="st">&quot;3rd&quot;</span>, <span class="st">&quot;deck crew&quot;</span>, <span class="st">&quot;engineering crew&quot;</span>, <span class="st">&quot;restaurant staff&quot;</span>, <span class="st">&quot;victualling crew&quot;</span>)),</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">gender =</span> <span class="fu">factor</span>(<span class="st">&quot;male&quot;</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;female&quot;</span>, <span class="st">&quot;male&quot;</span>)),</span>
 <span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">age =</span> <span class="dv">8</span>,</span>
 <span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">sibsp =</span> <span class="dv">0</span>,</span>
 <span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">parch =</span> <span class="dv">0</span>,</span>
 <span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">fare =</span> <span class="dv">72</span>,</span>
-<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">embarked =</span> <span class="fu">factor</span>(<span class="st">"Southampton"</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Belfast"</span>, <span class="st">"Cherbourg"</span>, <span class="st">"Queenstown"</span>, <span class="st">"Southampton"</span>))</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">embarked =</span> <span class="fu">factor</span>(<span class="st">&quot;Southampton&quot;</span>, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Belfast&quot;</span>, <span class="st">&quot;Cherbourg&quot;</span>, <span class="st">&quot;Queenstown&quot;</span>, <span class="st">&quot;Southampton&quot;</span>))</span>
 <span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>sp_rf <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_rf, new_passanger)</span>
-<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_rf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_rf)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 <p>由上图可以看出，这位乘客最重要的特征是年龄和性别。毕竟他的生存几率比一般乘客要高，主要是因为年龄小，虽然是男性。</p>
 </section>
 <section id="更多模型" class="level2">
-<h2 class="anchored" data-anchor-id="更多模型">更多模型</h2>
+<h2>更多模型</h2>
 <p>试一试使用更多的模型来进行生存分析</p>
 <section id="logistic回归分析" class="level3">
-<h3 class="anchored" data-anchor-id="logistic回归分析">Logistic回归分析</h3>
+<h3>Logistic回归分析</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"rms"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;rms&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Loading required package: Hmisc</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>
-Attaching package: 'Hmisc'</code></pre>
+Attaching package: &#39;Hmisc&#39;</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
+<pre><code>The following objects are masked from &#39;package:base&#39;:
 
     format.pval, units</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>model_titanic_lmr <span class="ot">&lt;-</span> <span class="fu">lrm</span>(survived <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> <span class="fu">rcs</span>(age) <span class="sc">+</span> sibsp <span class="sc">+</span></span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>                   parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, titanic_imputed)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>model_titanic_lmr <span class="ot">&lt;-</span> <span class="fu">lrm</span>(survived <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> <span class="fu">rcs</span>(age) <span class="sc">+</span> sibsp <span class="sc">+</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>                   parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, titanic_imputed)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>number of knots in rcs defaulting to 5</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>explain_titanic_lmr <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_lmr, <span class="at">data =</span> titanic_imputed, </span>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>explain_titanic_lmr <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_lmr, <span class="at">data =</span> titanic_imputed, </span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">y =</span> titanic_imputed<span class="sc">$</span>survived, </span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">predict_function =</span> <span class="cf">function</span>(m,x) </span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>                            <span class="fu">predict</span>(m, x, <span class="at">type =</span> <span class="st">"fitted"</span>),</span>
-<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>                   <span class="at">label =</span> <span class="st">"Logistic regression"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>                            <span class="fu">predict</span>(m, x, <span class="at">type =</span> <span class="st">&quot;fitted&quot;</span>),</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>                   <span class="at">label =</span> <span class="st">&quot;Logistic regression&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparation of a new explainer is initiated
   -&gt; model label       :  Logistic regression 
   -&gt; data              :  2207  rows  8  cols 
   -&gt; target variable   :  2207  values 
-  -&gt; predict function  :  function(m, x) predict(m, x, type = "fitted") 
+  -&gt; predict function  :  function(m, x) predict(m, x, type = &quot;fitted&quot;) 
   -&gt; predicted values  :  No value for predict function target column. (  default  )
   -&gt; model_info        :  package rms , ver. 6.7.1 , task classification (  default  ) 
   -&gt; predicted values  :  numerical, min =  0.002671631 , mean =  0.3221568 , max =  0.9845724  
@@ -701,20 +686,20 @@ Attaching package: 'Hmisc'</code></pre>
 </div>
 </section>
 <section id="generalized-boosted-模型" class="level3">
-<h3 class="anchored" data-anchor-id="generalized-boosted-模型">Generalized Boosted 模型</h3>
+<h3>Generalized Boosted 模型</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"gbm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;gbm&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Loaded gbm 2.1.8.1</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>model_titanic_gbm <span class="ot">&lt;-</span> <span class="fu">gbm</span>(survived  <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> age <span class="sc">+</span> sibsp <span class="sc">+</span></span>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>model_titanic_gbm <span class="ot">&lt;-</span> <span class="fu">gbm</span>(survived  <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> age <span class="sc">+</span> sibsp <span class="sc">+</span></span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>                     parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, <span class="at">data =</span> titanic_imputed, </span>
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">n.trees =</span> <span class="dv">15000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">n.trees =</span> <span class="dv">15000</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Distribution not specified, assuming bernoulli ...</code></pre>
@@ -723,19 +708,19 @@ Attaching package: 'Hmisc'</code></pre>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>explain_titanic_gbm <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_gbm, <span class="at">data =</span> titanic_imputed, </span>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>explain_titanic_gbm <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_gbm, <span class="at">data =</span> titanic_imputed, </span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> titanic_imputed<span class="sc">$</span>survived, </span>
 <span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>                       <span class="at">predict_function =</span> <span class="cf">function</span>(m,x) </span>
-<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>                            <span class="fu">predict</span>(m, x, <span class="at">n.trees =</span> <span class="dv">15000</span>, <span class="at">type =</span> <span class="st">"response"</span>),</span>
-<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label =</span> <span class="st">"Generalized Boosted Models"</span>,</span>
-<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>                            <span class="fu">predict</span>(m, x, <span class="at">n.trees =</span> <span class="dv">15000</span>, <span class="at">type =</span> <span class="st">&quot;response&quot;</span>),</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label =</span> <span class="st">&quot;Generalized Boosted Models&quot;</span>,</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparation of a new explainer is initiated
   -&gt; model label       :  Generalized Boosted Models 
   -&gt; data              :  2207  rows  8  cols 
   -&gt; target variable   :  2207  values 
-  -&gt; predict function  :  function(m, x) predict(m, x, n.trees = 15000, type = "response") 
+  -&gt; predict function  :  function(m, x) predict(m, x, n.trees = 15000, type = &quot;response&quot;) 
   -&gt; predicted values  :  No value for predict function target column. (  default  )
   -&gt; model_info        :  package gbm , ver. 2.1.8.1 , task classification (  default  ) 
   -&gt; predicted values  :  numerical, min =  0.000483001 , mean =  0.3243221 , max =  0.9988059  
@@ -746,29 +731,29 @@ Attaching package: 'Hmisc'</code></pre>
 </div>
 </section>
 <section id="support-vector-machines-svm" class="level3">
-<h3 class="anchored" data-anchor-id="support-vector-machines-svm">Support Vector Machines (SVM)</h3>
+<h3>Support Vector Machines (SVM)</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"e1071"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;e1071&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>
-Attaching package: 'e1071'</code></pre>
+Attaching package: &#39;e1071&#39;</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>The following object is masked from 'package:Hmisc':
+<pre><code>The following object is masked from &#39;package:Hmisc&#39;:
 
     impute</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>model_titanic_svm <span class="ot">&lt;-</span> <span class="fu">svm</span>(survived <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> age <span class="sc">+</span> sibsp <span class="sc">+</span> parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, <span class="at">data =</span> titanic_imputed, </span>
-<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">type =</span> <span class="st">"C-classification"</span>, <span class="at">probability =</span> <span class="cn">TRUE</span>)</span>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>model_titanic_svm <span class="ot">&lt;-</span> <span class="fu">svm</span>(survived <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> age <span class="sc">+</span> sibsp <span class="sc">+</span> parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, <span class="at">data =</span> titanic_imputed, </span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">type =</span> <span class="st">&quot;C-classification&quot;</span>, <span class="at">probability =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>explain_titanic_svm <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_svm, <span class="at">data =</span> titanic_imputed, </span>
 <span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> titanic_imputed<span class="sc">$</span>survived, </span>
-<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label =</span> <span class="st">"Support Vector Machines"</span>,</span>
-<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label =</span> <span class="st">&quot;Support Vector Machines&quot;</span>,</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparation of a new explainer is initiated
@@ -786,11 +771,11 @@ Attaching package: 'e1071'</code></pre>
 </div>
 </section>
 <section id="k-nearest-neighbors-knn" class="level3">
-<h3 class="anchored" data-anchor-id="k-nearest-neighbors-knn">k-Nearest Neighbors (kNN)</h3>
+<h3>k-Nearest Neighbors (kNN)</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"caret"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;caret&quot;</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>Loading required package: ggplot2</code></pre>
@@ -800,12 +785,12 @@ Attaching package: 'e1071'</code></pre>
 </div>
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>model_titanic_knn <span class="ot">&lt;-</span> <span class="fu">knn3</span>(survived <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> age <span class="sc">+</span> sibsp <span class="sc">+</span> parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, <span class="at">data =</span> titanic_imputed, <span class="at">k =</span> <span class="dv">5</span>)</span>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>model_titanic_knn <span class="ot">&lt;-</span> <span class="fu">knn3</span>(survived <span class="sc">~</span> class <span class="sc">+</span> gender <span class="sc">+</span> age <span class="sc">+</span> sibsp <span class="sc">+</span> parch <span class="sc">+</span> fare <span class="sc">+</span> embarked, <span class="at">data =</span> titanic_imputed, <span class="at">k =</span> <span class="dv">5</span>)</span>
 <span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>explain_titanic_knn <span class="ot">&lt;-</span> <span class="fu">explain</span>(model_titanic_knn, <span class="at">data =</span> titanic_imputed, </span>
 <span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>                       <span class="at">y =</span> titanic_imputed<span class="sc">$</span>survived, </span>
 <span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>                       <span class="at">predict_function =</span> <span class="cf">function</span>(m,x) <span class="fu">predict</span>(m, x)[,<span class="dv">2</span>],</span>
-<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label =</span> <span class="st">"k-Nearest Neighbors"</span>,</span>
-<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>                       <span class="at">label =</span> <span class="st">&quot;k-Nearest Neighbors&quot;</span>,</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>                       <span class="at">colorize =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Preparation of a new explainer is initiated
@@ -823,103 +808,107 @@ Attaching package: 'e1071'</code></pre>
 </div>
 </section>
 <section id="variable-performance" class="level3">
-<h3 class="anchored" data-anchor-id="variable-performance">Variable performance</h3>
+<h3>Variable performance</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>vi_rf <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_rf)</span>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>vi_rf <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_rf)</span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>vi_lmr <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_lmr)</span>
 <span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>vi_gbm <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_gbm)</span>
 <span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>vi_svm <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_svm)</span>
 <span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>vi_knn <span class="ot">&lt;-</span> <span class="fu">model_parts</span>(explain_titanic_knn)</span>
 <span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vi_rf, vi_lmr, vi_gbm, vi_svm, vi_knn, <span class="at">bar_width =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vi_rf, vi_lmr, vi_gbm, vi_svm, vi_knn, <span class="at">bar_width =</span> <span class="dv">4</span>)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 </section>
 <section id="single-variable" class="level3">
-<h3 class="anchored" data-anchor-id="single-variable">Single variable</h3>
+<h3>Single variable</h3>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>vr_age_rf   <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span> <span class="st">"age"</span>)</span>
-<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>vr_age_lmr  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_lmr, <span class="at">variables =</span> <span class="st">"age"</span>)</span>
-<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>vr_age_gbm  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_gbm, <span class="at">variables =</span> <span class="st">"age"</span>)</span>
-<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>vr_age_svm  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_svm, <span class="at">variables =</span> <span class="st">"age"</span>)</span>
-<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>vr_age_knn  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_knn, <span class="at">variables =</span> <span class="st">"age"</span>)</span>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>vr_age_rf   <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_rf, <span class="at">variables =</span> <span class="st">&quot;age&quot;</span>)</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>vr_age_lmr  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_lmr, <span class="at">variables =</span> <span class="st">&quot;age&quot;</span>)</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>vr_age_gbm  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_gbm, <span class="at">variables =</span> <span class="st">&quot;age&quot;</span>)</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>vr_age_svm  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_svm, <span class="at">variables =</span> <span class="st">&quot;age&quot;</span>)</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>vr_age_knn  <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(explain_titanic_knn, <span class="at">variables =</span> <span class="st">&quot;age&quot;</span>)</span>
 <span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(vr_age_rf<span class="sc">$</span>agr_profiles, </span>
 <span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>     vr_age_lmr<span class="sc">$</span>agr_profiles, </span>
 <span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a>     vr_age_gbm<span class="sc">$</span>agr_profiles, </span>
 <span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>     vr_age_svm<span class="sc">$</span>agr_profiles, </span>
-<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>     vr_age_knn<span class="sc">$</span>agr_profiles)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>     vr_age_knn<span class="sc">$</span>agr_profiles)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 </section>
 </section>
 <section id="事例层面阐释" class="level2">
-<h2 class="anchored" data-anchor-id="事例层面阐释">事例层面阐释</h2>
+<h2>事例层面阐释</h2>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>sp_rf <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_rf, new_passanger)</span>
-<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_rf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>sp_rf <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_rf, new_passanger)</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_rf)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>sp_lmr <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_lmr, new_passanger)</span>
-<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_lmr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>sp_gbm <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_gbm, new_passanger)</span>
-<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_gbm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>sp_lmr <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_lmr, new_passanger)</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_lmr)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>sp_svm <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_svm, new_passanger)</span>
-<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_svm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>sp_gbm <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_gbm, new_passanger)</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_gbm)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
 <div class="cell">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>sp_knn <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_knn, new_passanger)</span>
-<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_knn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>sp_svm <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_svm, new_passanger)</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_svm)</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid" width="672" /></p>
 </div>
 </div>
-
-
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>sp_knn <span class="ot">&lt;-</span> <span class="fu">predict_parts</span>(explain_titanic_knn, new_passanger)</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sp_knn)</span></code></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672" /></p>
+</div>
+</div>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Residualsun</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Residualsun</span> <span class="hidden" data-render-id="quarto-int-next">更换字体 | 思源宋体</span> <span class="hidden" data-render-id="quarto-int-prev">Practice makes perfect</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Contents</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lifestream/index.html">Searching lost time</span> <span class="hidden" data-render-id="quarto-int-sidebar:/literatures/index.html">Essay</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-2">A rose for little king</span> <span class="hidden" data-render-id="quarto-int-sidebar:/blog/2023-09-06-hello-world/index.html">Hello world</span> <span class="hidden" data-render-id="quarto-int-sidebar:/blog/2023-09-13-it-is-my-life/index.html">For my life</span> <span class="hidden" data-render-id="quarto-int-sidebar:/blog/2023-09-21-fudan-anthropology/index.html">Hi, Fudan University!</span> <span class="hidden" data-render-id="quarto-int-sidebar:/blog/2023-09-23-blessings-to-friends/index.html">Blessings to my friend who is spoken for</span> <span class="hidden" data-render-id="quarto-int-sidebar:/blog/2023-09-25-wonderful-night-in-xiamen/index.html">Charming night in Xiamen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/blog/2023-10-04-caixin/index.html">Nice to meet you, Caixin</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-3">Practice makes perfect</span> <span class="hidden" data-render-id="quarto-int-sidebar:/r/2023-10-08-survival-learning/index.html">生存分析模仿案例</span> <span class="hidden" data-render-id="quarto-int-sidebar:/r/2023-10-29-siyuansong/index.html">更换字体 | 思源宋体</span> <span class="hidden" data-render-id="quarto-int-navbar:Articles">Articles</span> <span class="hidden" data-render-id="quarto-int-navbar:/blog/index.html">/blog/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Daily">Daily</span> <span class="hidden" data-render-id="quarto-int-navbar:/lifestream/index.html">/lifestream/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Literatures">Literatures</span> <span class="hidden" data-render-id="quarto-int-navbar:/literatures/index.html">/literatures/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:R">R</span> <span class="hidden" data-render-id="quarto-int-navbar:/r/index.html">/r/index.html</span> <span class="hidden" data-render-id="footer-left">powered by <a href="https://quarto.org">Quarto</a></span> <span class="hidden" data-render-id="footer-right">© Copyright 2023 ❤️ Residualsun</span> <span class="hidden" data-render-id="quarto-breadcrumbs-c1df1da7a1ce305a3b60af9d5733ac1d">Contents</span> <span class="hidden" data-render-id="quarto-breadcrumbs-18ae47b45d57384ba22e6535a2432ac3">Practice makes perfect</span> <span class="hidden" data-render-id="quarto-breadcrumbs-d576e7f464d53e2ff3069ccece0acb86">生存分析模仿案例</span></p>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden" data-render-id="quarto-metatitle">Residualsun - 生存分析模仿案例</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Residualsun - 生存分析模仿案例</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Residualsun - 生存分析模仿案例</span> <span class="hidden" data-render-id="quarto-metasitename">Residualsun</span> <span class="hidden" data-render-id="quarto-twittercarddesc"></span> <span class="hidden" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -1267,16 +1256,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="residualsun1/Guozheng" data-repo-id="" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js"
+        data-repo="residualsun1/Guozheng"
+        data-repo-id=""
+        data-category="General"
+        data-category-id=""
+        data-mapping="title"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../r/index.html" class="pagination-link">
+      <a  href="/r/index.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Practice makes perfect</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../r/2023-10-29-siyuansong/index.html" class="pagination-link">
+      <a  href="/r/2023-10-29-siyuansong/index.html" class="pagination-link">
         <span class="nav-page-text">更换字体 | 思源宋体</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -1284,15 +1285,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">powered by <a href="https://quarto.org">Quarto</a></div>   
+    <div class="nav-footer-left">
+      <div class='footer-contents'>powered by [Quarto](https://quarto.org)</div>  
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">© Copyright 2023 ❤️ Residualsun</div>
+    <div class="nav-footer-right">
+      <div class='footer-contents'>© Copyright 2023 ❤️ Residualsun</div>  
+    </div>
   </div>
 </footer>
 
+</body>
 
-
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
-</body></html>
+</html>
