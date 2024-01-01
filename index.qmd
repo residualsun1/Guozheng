@@ -8,7 +8,7 @@ back-to-top-navigation: false
 listing: 
 - id: posts
   contents: 
-    - "../blog/*/**/index.qmd"
+    - "../posts/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -125,7 +125,7 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 ::: {#posts}
 :::
 
-[All →](../blog){.about-links .subtitle}
+[All →](../posts){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
@@ -134,7 +134,7 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 ::: {#articles}
 :::
 
-[All →](../lifestream){.about-links .subtitle}
+[All →](../articles){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
@@ -143,7 +143,7 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 ::: {#reading}
 :::
 
-[All →](../literatures){.about-links .subtitle}
+[All →](../reading){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}

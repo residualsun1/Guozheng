@@ -22,12 +22,12 @@ website:
     site-url: "https://residualsun.blog/"
     pinned: true
     right:
+      - text: Posts
+        href: posts/index.qmd
       - text: Articles
-        href: blog/index.qmd
-      - text: Daily
-        href: lifestream/index.qmd
-      - text: Literatures
-        href: literatures/index.qmd
+        href: articles/index.qmd
+      - text: Reading
+        href: reading/index.qmd
       - text: R
         href: r/index.qmd
             
