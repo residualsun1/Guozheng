@@ -10,11 +10,13 @@ website:
   # reader-mode: true
   open-graph: true
   sidebar:
-    style: "floating"
+    style: floating
     contents:
-      - section: Contents
-        contents: 
-          - auto: '*.qmd'
+      - section:  
+        contents:
+          - auto: '*/**/.qmd'
+
+
   
   navbar:
     collapse-below: lg
