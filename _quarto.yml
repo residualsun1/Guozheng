@@ -24,12 +24,10 @@ website:
     right:
       - text: Posts
         href: posts/index.qmd
-      - text: Articles
-        href: articles/index.qmd
+      - text: Daily
+        href: daily/index.qmd
       - text: Reading
         href: reading/index.qmd
-      - text: R
-        href: r/index.qmd
             
       #- icon: github
       #  href: https://github.com/residualsun1

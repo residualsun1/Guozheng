@@ -18,9 +18,9 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: articles
+- id: daily
   contents: 
-    - "../articles/*/**/index.qmd"
+    - "../daily/*/**/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -40,19 +40,6 @@ listing:
   sort-ui: false
   filter-ui: false
   fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: r
-  contents: 
-    - "../r/*/**/index.qmd"
-    - "../r/*/**/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
   max-items: 1
   image-height: "200"
 
@@ -129,12 +116,12 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 :::
 
 ::: {#lately .g-col-3}
-#### Articles
+#### Daily
 
-::: {#articles}
+::: {#daily}
 :::
 
-[All →](../articles){.about-links .subtitle}
+[All →](../daily){.about-links .subtitle}
 :::
 
 ::: {#lately .g-col-3}
@@ -146,12 +133,4 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 [All →](../reading){.about-links .subtitle}
 :::
 
-::: {#lately .g-col-3}
-#### R
-
-::: {#r}
-:::
-
-[All →](../r){.about-links .subtitle}
-:::
 :::
