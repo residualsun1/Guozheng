@@ -4,7 +4,11 @@ author: "Guozheng Huang"
 date: "2024-01-02"
 categories: [daily]
 description: "I am lost again"
+sidebar: false
 ---
+
+---
+<br>
 
 I organized fishing nets with Grandpa Feizhen all  the morning. It is so smelly that I could't help doubting how fisherfolks could face it everyday.
 

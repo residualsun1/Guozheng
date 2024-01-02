@@ -60,9 +60,9 @@ pre {
  } 
 
 
-body {
+main, p {
   font-family: 'Ysabeau Office', 'Source Han Serif CN', serif;
-  color: black;
+  font-size: 1.05em;
 }
 
 blockquote {

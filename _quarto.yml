@@ -12,7 +12,10 @@ website:
   sidebar:
     style: floating
     contents:
-      - section:  
+      - section: Contents
+        contents: 
+          - auto: '*.qmd'
+       
 
   navbar:
     collapse-below: lg
