@@ -73,68 +73,13 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-daily .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-daily'] = new List('listing-daily', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-reading .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-reading'] = new List('listing-reading', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -261,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-1" data-index="0" data-listing-date-sort="1704038400000" data-listing-file-modified-sort="1704131030785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts/2024-01-01-new-year/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200;">&nbsp;</div>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 New year
@@ -279,7 +224,7 @@ Jan 1, 2024
 <a href="./posts/2023-10-04-caixin/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2023-10-04-caixin/image.jpg" class="thumbnail-image card-img" style="height: 200;">
+<img src="./posts/2023-10-04-caixin/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -298,7 +243,7 @@ Oct 4, 2023
 <a href="./posts/2023-09-25-wonderful-night-in-xiamen/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2023-09-25-wonderful-night-in-xiamen/image.jpg" class="thumbnail-image card-img" style="height: 200;">
+<img src="./posts/2023-09-25-wonderful-night-in-xiamen/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -313,10 +258,89 @@ Sep 26, 2023
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="3" data-categories="blog" data-listing-date-sort="1695398400000" data-listing-file-modified-sort="1704131151739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/2023-09-23-blessings-to-friends/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2023-09-23-blessings-to-friends/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blessings to my friend who is spoken for
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 23, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="blog" data-listing-date-sort="1694880000000" data-listing-file-modified-sort="1704131127178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="./posts/2023-09-21-fudan-anthropology/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2023-09-21-fudan-anthropology/image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hi, Fudan University!
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 17, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="blog" data-listing-date-sort="1694534400000" data-listing-file-modified-sort="1704131080024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/2023-09-13-it-is-my-life/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2023-09-13-it-is-my-life/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+For my life
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 13, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="blog" data-listing-date-sort="1693929600000" data-listing-file-modified-sort="1704131055466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/2023-09-06-hello-world/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2023-09-06-hello-world/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hello world
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 6, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="posts-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <p><a href="../posts/index.html"><button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
 <!--
@@ -345,19 +369,7 @@ end grid -->
 
 
 </section>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-daily">
-<div class="list grid quarto-listing-cols-1">
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-reading">
-<div class="list grid quarto-listing-cols-1">
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main></div>
+</main></div>
     </div>
     <img src="img/avatar.jpg" alt="Residualsun" class="about-image
   rounded " style="width: 15em;">

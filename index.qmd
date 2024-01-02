@@ -7,41 +7,41 @@ back-to-top-navigation: false
 
 listing: 
 - id: posts
-  contents: posts/*/*.[Rq]md
-    #- "../posts/*/**/index.qmd"
-  sort: date desc
+  contents: "../posts/*/**/index.qmd"
+  sort: "date desc"
   type: grid
-  grid-columns: 3 #这个是规定行数的。
-  max-items: 3 #这个是设置展示多少帖子出来的。
+  #grid-columns: 3 #这个是规定行数的。
+  #max-items: 3 #这个是设置展示多少帖子出来的。
+  page-size: 3
   categories: false
   sort-ui: false
   filter-ui: false
   fields: [title, date, image]
-  image-height: "200"
-- id: daily
-  contents: 
-    - "../daily/*/**/index.qmd"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-- id: reading
-  contents: 
-    - "../reading/*/**/index.qmd"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
+  #image-height: "200"
+#- id: daily
+#  contents: 
+#    - "../daily/*/**/index.qmd"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, image]
+#  max-items: 1
+#  image-height: "200"
+#- id: reading
+#  contents: 
+#    - "../reading/*/**/index.qmd"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, subtitle, image]
+#  max-items: 1
+#  image-height: "200"
 
 about:
   template: solana

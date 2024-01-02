@@ -9,10 +9,10 @@ description: |
   </center>
   <br>
 listing: 
-  contents: 
+  contents:
     - "**/index.qmd"
-    - "**/index.markdown"
-    - "**/index.md"
+    #- "**/index.markdown"
+    #- "**/index.md"
   sort: "date desc"
   type: default
   categories: cloud
