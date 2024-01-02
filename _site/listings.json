@@ -163,5 +163,9 @@
   {
     "listing": "/articles/index.html",
     "items": []
+  },
+  {
+    "listing": "/daily/index.html",
+    "items": []
   }
 ]
