@@ -13,11 +13,7 @@ website:
     style: floating
     contents:
       - section:  
-        contents:
-          - auto: '*/**/.qmd'
 
-
-  
   navbar:
     collapse-below: lg
     title: Residualsun
