@@ -14,13 +14,13 @@ listing:
     - "**/index.md"
   sort: "date desc"
   type: default
-  categories: cloud
+  categories: false
   sort-ui: false
   filter-ui: false
   fields: [title, author, categories, date, image]
   image-align: right
   page-size: 3
-toc: false
+toc: true
 format: 
   html: 
     page-layout: full
@@ -28,3 +28,21 @@ title-block-banner: false
 
 comments: false
 ---
+
+<style>
+h1, h2 {
+  text-align: center;
+}
+</style>
+
+## 2024
+
+### 01-01
+<br>
+In 2024, I still like *散步之年* sung by my little airport. 
+
+<audio controls>
+    <source src="https://residualsun.blog/music/散步之年-LIVE.flac" type="audio/mpeg">
+</audio>  
+
+This is the live version.
