@@ -4,6 +4,7 @@ author: "Guozheng Huang"
 date: "2024-01-01"
 categorise: ["Daily"]
 toc: true
+image: "image.jpg"
 ---
 
 ---

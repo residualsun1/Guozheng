@@ -4,7 +4,7 @@ author: "Guozheng Huang"
 date: "2024-01-02"
 categories: [daily]
 description: "I am lost again"
-sidebar: false
+image: "image.jpg"
 ---
 
 ---
