@@ -1,6 +1,5 @@
 ---
-title: |
-  <center>Lost Time</center>
+title: Lost time
 description: | 
   <br>
   <center>
@@ -38,7 +37,7 @@ h1, h2 {
 ## 2024
 
 ### 01-01
-<br>
+
 In 2024, I still like *散步之年* sung by my little airport. 
 
 <audio controls>
@@ -46,3 +45,7 @@ In 2024, I still like *散步之年* sung by my little airport.
 </audio>    
 
 This is the live version.
+
+### 01-02
+
+I often feel nostalgic when I look through my pictures and miss the past.
