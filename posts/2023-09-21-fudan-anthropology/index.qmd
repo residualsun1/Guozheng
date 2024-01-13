@@ -8,8 +8,6 @@ image: "image.jpg"
 description: "Keep curiosity and enthusiasm for knowledge and the unknown"
 ---
 
----
-
 # Fudan University
 
 I went to Fudan University to participate in a lecture on medical anthropology with two classmates by train on 17th September, 2023.

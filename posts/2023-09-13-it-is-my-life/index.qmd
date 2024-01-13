@@ -5,10 +5,8 @@ date: "2023-09-13"
 categories: [blog]
 toc: true
 image: "image.jpg"
-description: ""
 ---
 
----
 
 ![Walking with her on the island. 23 August, 2023](img/about-her.jpg)
 
