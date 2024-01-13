@@ -94,3 +94,7 @@ blockquote:not(:hover) {
   #blog, #lifestream, #literatures, #r {
     flex-basis: 100% !important;
   }
+  
+  toc {
+    display: flex;
+  }
