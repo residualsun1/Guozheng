@@ -8,6 +8,8 @@ execute:
 title-block:
   style: center
 
+toc: true
+
 # Enable banner style title blocks
 title-block-banner: false
 
