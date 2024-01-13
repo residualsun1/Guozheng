@@ -4,10 +4,10 @@ author: "Guozheng Huang"
 date: "2024-01-13"
 categories: [daily]
 description: "Dreams are the product of the ambulations of the soul"
-image: "image.webp"
+image: "image.jpg"
 ---
 
-![Eduardo Kohn](image.webp)
+![Eduardo Kohn](image.jpg)
 
 > "According to pepole in Avila, dreams are the product ot the ambulations of the soul. During sleep, the soul separates from the body, its 'owner', and interacts with the souls of other beings. Dreams are not commentaries to the world; they take palce in it (see also Tedlock 1992)
 >
