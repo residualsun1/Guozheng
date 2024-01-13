@@ -4,7 +4,7 @@ author: "Guozheng Huang"
 date: "2023-09-17"
 categories: [blog]
 toc: true
-image: "image.png"
+image: "image.jpg"
 description: "Keep curiosity and enthusiasm for knowledge and the unknown"
 ---
 
