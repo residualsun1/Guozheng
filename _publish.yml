@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 2b87e0d6-4deb-479e-9900-43a2d38b550b
+      url: 'https://residualsun.blog/'
