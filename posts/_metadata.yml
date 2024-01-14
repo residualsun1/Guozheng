@@ -1,7 +1,7 @@
 # options specified here will apply to all posts in this folder
 
 # freeze computational output
-author: "Guozheng Huang"
+
 number-sections: true
 number-depth: 3
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
