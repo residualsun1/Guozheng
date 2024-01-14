@@ -68,7 +68,7 @@ format:
     table-of-contents: true
     #anchor-sections: true
     # code settings
-    monofont: 'JetBrains Mono'
+    #monofont: 'JetBrains Mono'
     code-link: true
     code-summary: '&#8984;+C' # https://symbl.cc/en/collections/special-symbols/
     code-line-numbers: false
@@ -83,11 +83,6 @@ editor: source #在Rstudio中总是使用源代码模式。改为visual则是预
 comments:
   giscus:
     repo: residualsun1/Guozheng
-header-includes: |
-      <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Oxygen+Mono&family=Ysabeau+Office&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-      <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/key-buttons.min.js" defer></script>
-      <link href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/key-buttons.min.css" rel="stylesheet">
 mainfont: 'Ysabeau Office'
     
 incremental: true
