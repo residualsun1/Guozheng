@@ -62,12 +62,15 @@ comments: false
 
 ## About me
 
-Hello, I am Guozheng Huang, an ordinary junior student who likes to listen to Jay Chou and MY LITTLE AIRPORT when I am idle, Linkin Park when I am depressed, and Leslie Cheung when I am nostalgic.
+Hello, I am Guozheng Huang, an ordinary Chinese junior student who likes to listen to Jay Chou and *my little airport* when I am idle, *Linkin Park* when I am depressed, and *Leslie Cheung* when I am nostalgic.
 
-Recently, I've been listening to my little airport, and *It's Raining for Two Days* always reminds me of a passage written by Liu Yisheng:
+I am learning English writing and committed to being a long-termist.
 
-> "Rusty feelings again on a rainy day, thoughts playing hide-and-seek in smoke rings."
+This my favorite sentences in Chinese.
 
+> 人生如树花同发，随风而散：或拂帘幌，坠茵席之上，或关篱墙，落粪溷之中。
+
+<!--
 ::: {.panel-tabset align="left"}
 ## Interests
 
@@ -77,9 +80,9 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
 
 ## Education
 
-<!---   **Ph.D.** \| Educational Measurement & Statistics \| [2019 - 2022]{style="color:darkgrey;"}
--   **M.S.** \| Educational Psychology \| [2015 - 2019]{style="color:darkgrey;"}-->
 -   **B.S.** \| Sociology \| [2021 - 2025]{#date style="color:darkgrey;"}
+
+-->
 
 <!--
 ## Experience
@@ -95,8 +98,9 @@ Recently, I've been listening to my little airport, and *It's Raining for Two Da
     Stanford Research Institute (SRI)
 
     [June 2021 - Jan 2022]{style="color:darkgrey;"}
--->
+    
 :::
+-->
 
 ## Recent posts
 
