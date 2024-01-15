@@ -44,11 +44,11 @@ listing:
 #  image-height: "200"
 
 about:
-  template: solana
-  image-shape: rounded
-  image-width: 15em
+  template: jolla
+  image-shape: round
+  image-width: 12em
   id: hero-heading
-page-layout: full
+page-layout: article
 toc: false
 sidebar: false
 
@@ -60,15 +60,9 @@ execute:
 comments: false
 ---
 
-## About me
+![](hi.gif){width="5%"}Hello, this is Guozheng Huang's English blog. I am an ordinary Chinese junior student who likes to listen to *Jay Chou* and *My Little Airport* when I am idle, *Linkin Park* when I am depressed, and *Leslie Cheung* when I am nostalgic.
 
-Hello, I am Guozheng Huang, an ordinary Chinese junior student who likes to listen to Jay Chou and *my little airport* when I am idle, *Linkin Park* when I am depressed, and *Leslie Cheung* when I am nostalgic.
-
-I am learning English writing and committed to being a long-termist.
-
-This my favorite sentences in Chinese.
-
-> 人生如树花同发，随风而散：或拂帘幌，坠茵席之上，或关篱墙，落粪溷之中。
+I am learning English writing now and committed to being a long-termist.
 
 <!--
 ::: {.panel-tabset align="left"}
