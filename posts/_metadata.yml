@@ -6,7 +6,7 @@ number-sections: true
 number-depth: 3
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
 execute: 
-  freeze: true
+  freeze: false
 
 title-block:
   style: center
