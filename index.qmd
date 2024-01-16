@@ -60,7 +60,7 @@ execute:
 comments: false
 ---
 
-![](hi.gif){width="5%"}Hello, this is Guozheng Huang's English blog. I am an ordinary Chinese junior student who likes to listen to *Jay Chou* and *My Little Airport* when I am idle, *Linkin Park* when I am depressed, and *Leslie Cheung* when I am nostalgic.
+![](hi.gif){width="7%"}Hello, this is Guozheng Huang's English blog. I am an ordinary Chinese junior student who likes to listen to *Jay Chou* and *My Little Airport* when I am idle, *Linkin Park* when I am depressed, and *Leslie Cheung* when I am nostalgic.
 
 I am learning English writing now and committed to being a long-termist.
 
