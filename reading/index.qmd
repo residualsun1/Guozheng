@@ -10,7 +10,7 @@ listing:
     - "**/index.qmd"
     - "**/index.markdown"
     - "**/index.md"
-  type: grid
+  type: default
   fields: [title, categories, date, image]
   sort: "date desc"
   categories: cloud

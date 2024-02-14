@@ -9,7 +9,7 @@ title-block:
   style: center
 
 # Enable banner style title blocks
-title-block-banner: false
+title-block-banner: true
 
 sidebar: false
 
