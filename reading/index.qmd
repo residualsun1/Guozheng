@@ -13,14 +13,13 @@ listing:
   type: grid
   fields: [title, categories, date, image]
   sort: "date desc"
-  categories: cloud
+  categories: false
   filter-ui: false
   image-align: left
   image-height: 100%
-format: 
-  html: 
-    page-layout: full
-title-block-banner: false
-
+#format: 
+#  html: 
+#    page-layout: full
+title-block-banner: true
 comments: false
 ---

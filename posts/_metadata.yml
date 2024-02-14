@@ -14,7 +14,7 @@ title-block:
 toc: true
 
 # Enable banner style title blocks
-title-block-banner: true
+#title-block-banner: true
 
 sidebar: false
 

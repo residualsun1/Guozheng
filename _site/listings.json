@@ -160,7 +160,9 @@
   },
   {
     "listing": "/reading/index.html",
-    "items": []
+    "items": [
+      "/reading/2024-02-14-reading-plan/index.html"
+    ]
   },
   {
     "listing": "/articles/index.html",

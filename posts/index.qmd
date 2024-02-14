@@ -26,5 +26,5 @@ comments: false
 #format: 
 #  html: 
 #    page-layout: full
-#title-block-banner: false
+title-block-banner: true
 ---
