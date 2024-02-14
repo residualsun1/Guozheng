@@ -18,6 +18,18 @@ listing:
   filter-ui: false
   fields: [title, date, image]
   #image-height: "200"
+- id: reading
+  contents: "../reading/*/**/index.qmd"
+  sort: "date desc"
+  type: grid
+  #grid-columns: 3 #这个是规定行数的。
+  #max-items: 3 #这个是设置展示多少帖子出来的。
+  page-size: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, image]
+  #image-height: "200"
 #- id: daily
 #  contents: 
 #    - "../daily/*/**/index.qmd"
@@ -30,19 +42,6 @@ listing:
 #  fields: [title, image]
 #  max-items: 1
 #  image-height: "200"
-#- id: reading
-#  contents: 
-#    - "../reading/*/**/index.qmd"
-#  sort: date desc
-#  type: grid
-#  grid-columns: 1
-#  categories: false
-#  sort-ui: false
-#  filter-ui: false
-#  fields: [title, subtitle, image]
-#  max-items: 1
-#  image-height: "200"
-
 about:
   template: jolla
   image-shape: round
@@ -103,38 +102,11 @@ I am learning English writing now and committed to being a long-termist.
 
 <a href="../posts/index.html"><button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
 
-<!--
+<br>
 
-## Lately……
-
-::: grid
-
-::: {#lately .g-col-3}
-#### Posts
-
-::: {#posts}
-:::
-
-[All →](../posts){.about-links .subtitle}
-:::
-
-::: {#lately .g-col-3}
-#### Daily
-
-::: {#daily}
-:::
-
-[All →](../daily){.about-links .subtitle}
-:::
-
-::: {#lately .g-col-3}
-#### Reading
+## Recent reading
 
 ::: {#reading}
 :::
 
-[All →](../reading){.about-links .subtitle}
-:::
-
-:::
-end grid -->
+<a href="../reading/index.html"><button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>
