@@ -1,0 +1,45 @@
+---
+title: "A History of Anthropology"
+author: "Guozheng Huang"
+date: "2024-02-14"
+categories: [A History of Anthropology]
+image: "image.jpg"
+---
+
+## 2024-02-14
+
+Even though a preface in this book also cost my half an hour.
+
+In preface, the author proposed niche of the book:
+
+> "This is an ambitious book, but not a **pretentious** ones. **It is ambitious in that it tries, within the space of relatively few pages, to make sense of the diverse history of anthropology**."
+
+It is a little hard to say, while I must admit that what encouraged me to write down above sentence was the seemingly uncomplicated, but actually easily understood meaning. The reason why I recorded it was I would like to get the hang of the framework of the sentence. As what you can see, "……in that it tries, within the space of……, to make sense of……"
+
+The author was prudential[^note1].
+
+[^note1]: cautious
+
+> "Our priorities, **omissions** and interpretations are bound to be **contested**, since there can be no single authoritative history of anything, least of all a **sprawling**, dynamic and **disputed** like anthropology. Sill, the book is **unpretentious**, since our aim throughout has been to offer a **sober** and balanced account of the historical growth of anthropology as a discipline, not to propose a **radical** re-interpretation of it."
+
+Uh, a shameful news: the bolded words are all my unfamiliar[^note2] and unspelled words.
+
+[^note2]: It occurred to me "strange" at first.
+
+I haven't read any scholarly literature and textbook on the history of anthropology. According to the author, "The scholarly literature is often specialised, and existing textbooks on anthropological history are either more **theoretically** **oriented** or more committed to one or a few professional traditions."
+
+> "Although we may not always have succeeded, we have **strived to** **give an impression** of the **parallel**, **convergent** and **interdependent** developments of all major traditions in social and cultural anthropology."
+
+How can we translate above sentence? It seems that Deepl can't also work.
+
+> "尽管我们不一定总能成功，但我们一直在努力让人们了解社会和文化人类学所有主要传统的平行、趋同和相互依存的发展。"
+
+This Chinese translation is weird.
+
+> "The book is **chronologically** ordered. Beginning with the 'proto-anthropology' from ancient Greece to Enlightenment, it continues with the creation of academic anthropology and the growth of classic sociology during the nineteenth century. The third chapter concentrates on the four men who, by general **consensus**, are considered the founding fathers of twentieth-century anthropology, and the fourth chapter indicates how their work was continued, and diversified, by their students. The fifth and sixth chapters both deal with the same period-from 1946 to about 1968, but concentrate on different trends: Chapter 5 discusses the **theoretical** **controversies** surrounding concepts of society and social integration, while Chapter 6 covers concepts of culture and symbolic meaning. In Chapter 7, the **intellectual** and political **unheavals** of the 1960s and 1970s are presented, with emphasis on the impulses emanating from Marxism and feminism. Chapter 8 deals with the 1980s, concentrating on the postmodernist movement and its close cousin, postcolonialism, two critical trends, which seriously challenged the discipline's self-confidence; while the ninth and final chapter presents a few of the major post-postmodern trends that emerged during the 1990s"
+
+Okay, we can briefly summarize the timeline.
+
+Nineteenth century(from ancient Greece to Enlightenment):1,2--Twentieth century, four men:3, four men's students:4, 1946-1968:5,6, 1960s-1970s:7, 1980s:8, 1990s:9,10
+
+It's worth noting that the author didn't consider the history of anthropology to be a linear tale of progress. The reason is that some 'modern' **controversies**, for example, have occupied scholars since the Enlightenment and even earlier. And there has been a steady, cumulative growth in konwledge and understanding within the subject, not least with regard to method. Moreover, "as anthropology responds to changes in the outside world, its substantial focus changes accordingly".
