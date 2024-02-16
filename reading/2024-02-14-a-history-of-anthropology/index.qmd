@@ -6,7 +6,7 @@ categories: [A History of Anthropology]
 image: "image.jpg"
 ---
 
-## 2024-02-14
+## 02-14
 
 Even though a preface in this book also cost my half an hour.
 
@@ -44,7 +44,7 @@ Nineteenth century(from ancient Greece to Enlightenment):1,2--Twentieth century,
 
 It's worth noting that the author didn't consider the history of anthropology to be a linear tale of progress. The reason is that some 'modern' **controversies**, for example, have occupied scholars since the Enlightenment and even earlier. And there has been a steady, cumulative growth in konwledge and understanding within the subject, not least with regard to method. Moreover, "as anthropology responds to changes in the outside world, its substantial focus changes accordingly".
 
-## 2024-02-15
+## 02-15
 
 I come back to practice my English through reading and recording anthropological origin again. This is the first chapter, "Proto-Anthropology".
 
@@ -77,4 +77,40 @@ Yep, I just want to record  "radically" or "quite radically". "radically" means 
 > "……民主(也是希腊人“发明”的)可能更类似于夸库特尔人(Chapter 4)的竞争性夸富宴，而不是现代宪法中描述的制度(Finley 1973; P.Anderson 1974)。"
 
 okay, I would like to translate it in Chinese, because I can't still understand its meaning……
+
+## 02-16
+
+Encountering a challenge when I click into the next page.
+
+> "Going back to the Greeks is thus a long journey, and we **peer into** their world through cracked and smoky glass."
+
+The Chinese meaning of "peer", "cracked", "smoky" and "glass" is strange for me. "peer into" is similar to "stare".
+
+Okay, the next one is a long and difficult sentence.
+
+> "We **catch glimpses of** little city-states surrounded by traditional Iron Age **farmland** where family and **kinship** formed the main social units, connected to the outside world through a network of **maritime** trade relationships between urban settlements along the Mediterranean and Black Sea coasts. "
+
+In above sentence, "where" played an important role in my understanding. Deepls translated it as "在那里" in English.
+
+To my shame, I have no idea on an easy sentence because of some words.
+
+> "The trade in **luxury** goods and the free labour **entailed** by slavery brought considerable wealth to the cities."
+
+Damn it.
+
+> "……the citizens of polis, **with their distaste for** manual work, had at their **disposal** a large **surplus**, which they used, among other things, to wage war, and to build temples, stadiums, baths and other public buildings, where male citizens could meet and engage in philosophical **disputes** and speculations about how the world was put togrther."
+
+Herodotus(希罗多德) wrote some detailed travel **narratives**. All right, I just want to record the word "narrative", its meaning are <u>"a story or description of a series of events"(即中文中的故事或叙述)</u> and <u>"a particular way of explaining or understanding events"(中文中的陈述)</u>.
+
+> "In these narratives, **far removed as they are from our present world**[^note3], we recognise a problem that has **pursued** anthropology, in various **guises**, up to this day: how should we relate to 'the Others'? Are they basically like ourselves, or basically different?"
+
+[^note3]: "In these narratives, far removed as they are from our present world" can be translated as "在这些远离我们当今世界的叙事中"。
+
+The author think Herodotus and most, if not all, anthropological theory has tried to strike a balance between these positions. But Herodotus was sometimes a prejudiced and **ethnocentric** '**civilised** man', who **disdains** everything foreign. However, Herodotus didn't agree with some statements that different peoples have different values because they **are morally deficient**.
+
+> "Herodotus' descriptions of language, dress, political and **judicial** institutions, crafts and economics are highly readable today."
+
+Familiar "institution", it appeared in the end of [02-15](https://residualsun.blog/reading/2024-02-14-a-history-of-anthropology/#section-1), original sentence is "*……democracy(which was also ‘invented’ by the Greeks) was probably more similar to the the competitive potlatch feasts of the Kwakiutl(Chapter 4), than to the institutions described in modern constitutions(Finley 1973; P.Anderson 1974)*." Institution has at least two meanings, one of it is "<u>a custom or tradition that has existed for a long time and is accepted as an important part of a particular society(制度，习俗)</u>", and the other one is "<u>a large and important organization, such as a university or bank(机构)</u>". "Constitution" seems have similar structure with it, whcih means "宪法" in Chinese.
+
+> "Many Greeks tested their **wits** against a philosophical **paradox** that touches directly on the problem of how we should relate to 'the Others'."
 
