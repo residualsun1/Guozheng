@@ -52,7 +52,7 @@ I come back to practice my English through reading and recording anthropological
 
 The reason why I want to record this sentence is that I would like to use it in my writing.
 
-Some stories concerning some people who are around us or far away from us were written down, neverthless, they were **criticised** as **inaccurate** or **ethnocentric(or flatly racist)**
+Some stories concerning some people who are around us or far away from us were written down, nevertheless, they were **criticised** as **inaccurate** or **ethnocentric(or flatly racist)**
 
 > "In this broad sense, we start an anthropological **enquiry** the moment a foreigner moves into the neighbouring flat."
 
@@ -141,3 +141,47 @@ Keep in mind that "bear witness to the fact that".
 > "In anthropology and elsewhere, such a universalistic style of thought, which seeks to establish similarities rather than differences between groups of people, **play a prominent role** to this day. **Furthermore**, it seems clear that anthropology has **vacillated** up through history between a universalistic and a relativistic **stance**, and that central figures in the discipline are also often said to **lean** either towards one position or the other."
 
 From now then on, I can replace "play an important role" with "play a prominent role". Figures in this sentence means "protagonist".
+
+## 02-18
+
+> "Conditions were perhaps particularly favourable for the development of systematic science."
+
+Remember a concrete useful method from a sentence. Sth. be adj for sth.
+
+> "But **in the ensuing** centuries well, 'civilised' activities, science and philosophy were **cultivated** all around the Mediterranran."
+
+"in the ensuing" could be used to connect the structure between word and word. "civilised" appear many times, while I still haven't remembered it. The last word, "cultivate" seems to be similar to "form"/"development".
+
+> "……and impressed on <u>its population</u> <u>a culture</u> **deriving** from Greek ideals"
+
+impress on sb./sth. sb./sth. A fantastic framework. 
+
+> "In this complex, multinational society, it is not surprising to find that the Greek interest in 'the Other' **was also carried on**"
+
+What attract me is "be carried on".
+
+> "Thus, the geographer Strabo(*c*.63-64BCE-*c*.CE21) wrote several **voluminous** **tomes** about strange peoples and distant places, which sparkle with curiosity and the joy of discovery. "
+
+"voluminous tomes" can be a wonderful together.
+
+> "Gone were the **affluent** citizens of the cities of **Antiquity**, who could **indulge** in science and philosophy, thanks to their income from trade and slave labour. Gone, indeed, was the entire city culture, the very **glue** that held the Roman Empire together as an(albeit loosely)" integrated state."
+
+We can peer into a structure through above sentence——Gone be sth./sb. That can mean something disappeared.
+
+> "In its palce, countless local European peoples **manifested** themselves, carriers of Germanic, Slavic, Finno-Ugric and Celtic traditions thar were as ancient as those of pre-urban Greece."
+
+Antiquity is a noun, and ancient is an adjective.
+
+> "Politically, Europe fell apart into hundreds of **chiefdoms**, cities and **autonomous** local **enclaves**, which were only integrated into large units with the growth of the modern state, from the sixteenth century **onwards**"
+
+> "Under the aegis of Church, international networks of monks and clergymen arose and flourished, connecting the pockets of learning **in which** the philosophy and scientific traditions of Antiquity survived.[^note4] "
+
+[^note4]: 在教会的支持下，由修道士和神职人员组成的国际网络兴起并蓬勃发展，将古代哲学和科学传统赖以生存的小块学术区域连接起来。
+
+"in which" in above sentence could be used to decorate "connecting the pockets of learning" with "the philosophy and scientific traditions of Antiquity survived"
+
+> "Europeans like to see themselves as **linear** **descendants** of Antiquity, but throughout the Middle Ages, Europe was economic, political and scientific **periphery**."
+
+> "Following the rise of **Islam** in the seventh century, the **Arabs** **conquered** **territories** from Spain to India and, for at least the next seven centuries, the economic, political and intellectual centres of the Mediterranean world lay in **sophisticated** *metropolises* such as Baghdad and Cordoba, not in the ruins of Rome or Athens, nor in **glorified** villages such as London or Paris."
+
+"intellectual" appears many times in this chapter, I remember. 
