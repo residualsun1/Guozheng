@@ -444,12 +444,57 @@ I agree with it. And I can conclude that the individual is the same.
 
 *controversial* means causing disagreement or discussion. *unduly* means more than is necessary, acceptable, or reasonable. *exoticism* means the quality of being unusual and exciting because of coming (or seeming to come) from far away, especially a tropical country.
 
----
 [^note6]: 利用
 
+---
 
+## 02-28
 
+> "Diderot's Encyclopedie was published in 1751-72, and included articles by **illustrious** intellectuals like Rousseau, Voltaire and Montesquieu."
 
+*illustrious* means famous, well respected, and admired.
+
+> "It was a **liberal** and wide-ranging, not to say a revolutionary work, which was **censored** in many parts of Europe for its criticism of Church."
+
+*liberal* is not similar to free at all. It means respecting and allowing many different types of beliefs or behaviour. We can say a liberal society/ attitude. *censor* means to remove anything offensive from books, films, etc., or to remove parts considered unsuitable from private letters, especially ones sent during war or from a prison.
+
+> "One of its youngest contributors, Marquis de Condorcet (1743-1794), who was to die prematurely in a Jacobin jail, wrote systematic comparisons between different social systems, and tried to development a **synthesis** of mathematics and social science that would allow him to **formulate[^note7]** objective laws of social development."
+
+*synthesis* means the mixing of different ideas, influences, or things to make a whole that is different, or new. 
+
+[^note7]: 制定、规划、构想
+
+> "Rousseau argued that development was not **progressive**, but **degenerative**, and that the source of **decline** was society itself."
+
+Ok, I ignored that *progress* has two meanings, one of it is developing and happening gradually, and the other one is what I thought at first. *degeneration* has appeared ever before, it means the process by which something gets worse. When *decline* being a noun, it means when something becomes less in amount, importance, quality, or strength.
+
+> "Starting from an **initial**, innocent state of nature, where each individual lived by himself **in harmony with** his surroundings, people went on to found institutions of marriage and kinship, and settled in small, sedentary groups."
+
+I always find *initial* in CSS, it means "最初的". *in harmony with* means 
+
+> "Enentually, these groups grew in complexity, and invented **priests** and chiefs, kings, and princes, private property, police and **magistrates**, until the free and good soul of man was crushed under the weight of society."
+
+> "All human **vices** were the product of society's increasing demands on the individual, particularly the increasing social inequality that development **entailed**."
+
+*vice* means a moral fault or weakness in someone's character. *entail* means to make something necessary, or to involve something.
+
+> "'Man was born free, but is everywhere in chains', he declares in *Du contral social* (1762; *On the Social Contract*, 1978)"
+
+人生而自由，却处处身负枷锁。
+
+> "An individual, says Rousseau, is free if he follows a law he has set for himself, and society can freely follow a law that was **collectively** adopted."
+
+*collectively* means as a group。
+
+---
+
+## 02-29
+
+> "More generally, Rousseau's **elevation** of '**primitives**' at the expense of Europe's corrupted civilisation was an important **precursor** of anthropological cultural relativism, although for Rousseau, as for so many others, the 'primitives' were primarilya mirror image of his own society, a viewpoint that hardly stimulated empirical investigations of real (primitive or modern) societies."
+
+> "While Enlightenment thinkers saw society as a law-bound association of reasoning citizens, Romanticism cultivated the creative, emotional individual, and the warm-blooded community of feeling - the nation."
+
+> "Romanticism is often said to displace the Enlightenment during the years of reaction after the French Revolution. But it may be more accurate, as Gellner (1991) suggests, to see the two movements as **parallel** flows, at times **diverging** or competing, at times **intersecting** and **binding** together. This is especially ture of anthropology, which seeks not only to understand cultural wholes (a Romantic project), but also to **dissect**, analyse and compare them (an enterprise of the Enlightenment). "
 
 References
 
