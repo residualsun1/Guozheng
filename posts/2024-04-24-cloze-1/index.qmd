@@ -1,0 +1,9 @@
+---
+title: "Mental Clarity"
+author: "Guozheng Huang"
+date: "2024-02-03"
+categories: [cloze]
+image: "https://cdn.jsdelivr.net/gh/residualsun1/en-blog-static/cover/2024-02-03.jpeg"
+---
+
+Mental clarity refers to <u>the extent to which</u> we can understand or perceive something clearly.

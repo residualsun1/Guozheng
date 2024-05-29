@@ -38,7 +38,7 @@ h1, h2 {
 
 ### 01-01
 
-In 2024, I still like *散步之年* sung by my little airport. 
+I still like *散步之年* sung by my little airport in 2024. 
 
 <audio controls>
     <source src="https://cdn.jsdelivr.net/gh/residualsun1/blog-static/audio/散步之年-live.mp3" type="audio/mpeg">
@@ -65,3 +65,9 @@ The individual do not necessarily develop linearly towards constantly improved c
 It is a thought-provoking[^note1] sentence, isn't it?
 
 [^note1]: 发人深省
+
+### 05-29
+
+Apologizing for my lazy writing in English.
+
+I have never thought about this English blog would compose and comfort me one day.
